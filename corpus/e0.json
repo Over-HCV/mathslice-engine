@@ -1,0 +1,263 @@
+{
+  "stage": "E0",
+  "note": "Corpus dorado de E0. Cada caso es una consulta LaTeX con lo que el motor debe devolver: valor exacto, aproximación decimal, ids de las reglas que dejan paso en la traza, y el error cuando la respuesta correcta es un error. Los casos se ejecutan desde crates/ms-wasm/tests/corpus.rs. El primero es el criterio de salida de la etapa. El campo «capability» es opcional y dice a qué hoja de engine/docs/ responde el caso; ms-cli cruza esos ids con el inventario para calcular la cobertura, y un caso sin él no cuenta. Los casos que fijan un error o un límite no llevan ninguno: no responden a una capacidad, fijan un comportamiento.",
+  "deuda": "Un caso con campo «deuda» registra lo que el motor hace HOY, no lo que debería hacer: el valor es correcto pero la derivación está incompleta, o no hay derivación en absoluto. Están aquí para que la tarea de E1 que los arregla cambie este archivo de forma visible en vez de mejorar la traza sin que nadie lo note. **Los cuatro que E0 dejó anotados se cerraron en la fase 2 de E1**, y por eso ya no queda ninguno: cada uno perdió el campo y ganó sus pasos. El mecanismo se queda descrito aquí porque las etapas siguientes lo volverán a usar.",
+  "cases": [
+    {
+      "name": "criterio-de-salida",
+      "latex": "\\frac{2}{3}+\\frac{1}{6}",
+      "result_latex": "\\frac{5}{6}",
+      "kind": "number",
+      "approx": 0.8333333333333334,
+      "steps": [
+        "rational-common-denominator",
+        "rational-add-numerators"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Fractions > Addition & Subtraction > Add fractions"
+    },
+    {
+      "name": "mismo-denominador-y-reduccion",
+      "latex": "\\frac{1}{4}+\\frac{1}{4}",
+      "result_latex": "\\frac{1}{2}",
+      "kind": "number",
+      "approx": 0.5,
+      "steps": [
+        "rational-add-numerators",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Fractions > Addition & Subtraction > Add fractions"
+    },
+    {
+      "name": "suma-que-cancela-a-entero",
+      "latex": "\\frac{1}{3}+\\frac{2}{3}",
+      "result_latex": "1",
+      "kind": "number",
+      "approx": 1.0,
+      "steps": [
+        "rational-add-numerators",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Fractions > Addition & Subtraction > Add fractions"
+    },
+    {
+      "name": "tres-sumandos-con-denominadores-distintos",
+      "latex": "\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{6}",
+      "result_latex": "1",
+      "kind": "number",
+      "approx": 1.0,
+      "steps": [
+        "rational-common-denominator",
+        "rational-add-numerators",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Fractions > Multiple Operations > Do exact arithmetic with fractions"
+    },
+    {
+      "name": "aritmetica-entera-sin-pasos",
+      "latex": "2+3",
+      "result_latex": "5",
+      "kind": "number",
+      "approx": 5.0,
+      "steps": [],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Arithmetic > Addition & Subtraction > Add numbers"
+    },
+    {
+      "name": "resta-de-fracciones",
+      "latex": "\\frac{3}{4}-\\frac{1}{4}",
+      "result_latex": "\\frac{1}{2}",
+      "kind": "number",
+      "approx": 0.5,
+      "steps": [
+        "rational-add-numerators",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Fractions > Addition & Subtraction > Subtract fractions"
+    },
+    {
+      "name": "resta-con-resultado-negativo",
+      "latex": "\\frac{3}{4}-\\frac{5}{6}",
+      "result_latex": "\\frac{-1}{12}",
+      "kind": "number",
+      "approx": -0.08333333333333333,
+      "steps": [
+        "rational-common-denominator",
+        "rational-add-numerators"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Fractions > Addition & Subtraction > Subtract fractions"
+    },
+    {
+      "name": "suma-que-empieza-en-negativo",
+      "latex": "-\\frac{1}{2}+\\frac{1}{6}",
+      "result_latex": "\\frac{-1}{3}",
+      "kind": "number",
+      "approx": -0.3333333333333333,
+      "steps": [
+        "rational-common-denominator",
+        "rational-add-numerators",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Arithmetic > Addition & Subtraction > Combine addition and subtraction"
+    },
+    {
+      "name": "division-con-barra",
+      "latex": "5/6",
+      "result_latex": "\\frac{5}{6}",
+      "kind": "number",
+      "approx": 0.8333333333333334,
+      "steps": [],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Arithmetic > Multiplication & Division > Divide numbers"
+    },
+    {
+      "name": "multiplicacion-de-fracciones",
+      "latex": "\\frac{1}{2}\\cdot\\frac{2}{3}",
+      "result_latex": "\\frac{1}{3}",
+      "kind": "number",
+      "approx": 0.3333333333333333,
+      "steps": [
+        "rational-multiply",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Fractions > Multiplication & Division > Multiply fractions"
+    },
+    {
+      "name": "suma-parcial-de-racionales",
+      "latex": "\\frac{1}{2}+x+\\frac{1}{3}",
+      "result_latex": "x + \\frac{5}{6}",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "rational-common-denominator",
+        "rational-add-numerators"
+      ],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "potencia-entera-sobre-bignum",
+      "latex": "2^{100}",
+      "result_latex": "1267650600228229401496703205376",
+      "kind": "number",
+      "approx": 1.2676506002282294e+30,
+      "steps": [
+        "integer-power"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Numbers > Arbitrary Precision > Large Integer Arithmetic > Do exact arithmetic with large numbers"
+    },
+    {
+      "name": "cero-absorbe-el-producto",
+      "latex": "2\\cdot 0\\cdot x",
+      "result_latex": "0",
+      "kind": "number",
+      "approx": 0.0,
+      "steps": [
+        "product-with-zero"
+      ],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "simbolico-se-deja-en-paz",
+      "latex": "x + \\frac{1}{2}",
+      "result_latex": "x + \\frac{1}{2}",
+      "kind": "expression",
+      "approx": null,
+      "steps": [],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "division-entre-cero",
+      "latex": "\\frac{2}{0}",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "division-by-zero"
+    },
+    {
+      "name": "division-entre-cero-que-aparece-al-reescribir",
+      "latex": "\\frac{2}{1-1}",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "division-by-zero"
+    },
+    {
+      "name": "division-entre-cero-dentro-de-una-suma",
+      "latex": "\\frac{1}{2}+\\frac{3}{1-1}",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "division-by-zero"
+    },
+    {
+      "name": "cero-entre-cero",
+      "latex": "\\frac{0}{0}",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "division-by-zero"
+    },
+    {
+      "name": "unicode-rechazado",
+      "latex": "2 + √2",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "unicode-math"
+    },
+    {
+      "name": "comando-no-soportado",
+      "latex": "\\int x",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "unknown-command"
+    },
+    {
+      "name": "expresion-incompleta",
+      "latex": "\\frac{2}{3} +",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "unexpected-end"
+    },
+    {
+      "name": "entrada-vacia",
+      "latex": "   ",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "empty-input"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "covered": 0,
+  "leaves": 16,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Complex Analysis > Complex Numbers > Complex Numbers > Do basic arithmetic on complex numbers",
+              "title": "Do basic arithmetic on complex numbers"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Complex Analysis > Complex Numbers > Complex Numbers > Find roots of complex numbers",
+              "title": "Find roots of complex numbers"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Complex Analysis > Complex Numbers > Complex Numbers > Find all complex nth roots of a number",
+              "title": "Find all complex nth roots of a number"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Complex Analysis > Complex Numbers > Complex Numbers > Apply functions to complex numbers",
+              "title": "Apply functions to complex numbers"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Complex Analysis > Complex Numbers > Complex Numbers > Do computations that give complex numbers as a result",
+              "title": "Do computations that give complex numbers as a result"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Complex Analysis > Complex Numbers > Complex Numbers > Convert complex numbers to and from different representational forms",
+              "title": "Convert complex numbers to and from different representational forms"
+            }
+          ],
+          "covered": 0,
+          "leaves": 6,
+          "title": "Complex Numbers"
+        }
+      ],
+      "covered": 0,
+      "leaves": 6,
+      "title": "Complex Numbers"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Complex Analysis > Complex Functions > Compute properties of a function of a complex variable (use the variable z)",
+          "title": "Compute properties of a function of a complex variable (use the variable z)"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Complex Analysis > Complex Functions > Plot a complex function",
+          "title": "Plot a complex function"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Complex Analysis > Complex Functions > Construct an analytic function",
+          "title": "Construct an analytic function"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Complex Analysis > Complex Functions > Determine the harmonic conjugate",
+          "title": "Determine the harmonic conjugate"
+        }
+      ],
+      "covered": 0,
+      "leaves": 4,
+      "title": "Complex Functions"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Complex Analysis > Poles > Locate poles of a complex function",
+          "title": "Locate poles of a complex function"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Complex Analysis > Poles > Locate poles in a specified domain",
+          "title": "Locate poles in a specified domain"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "Poles"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Complex Analysis > Residues > Compute the residue of a function at a point",
+          "title": "Compute the residue of a function at a point"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Complex Analysis > Residues > Compute residues at the poles of a function",
+          "title": "Compute residues at the poles of a function"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Complex Analysis > Residues > Compute residues at poles in a specified domain",
+          "title": "Compute residues at poles in a specified domain"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Residues"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Complex Analysis > Riemann Surfaces > Visualize a Riemann surface",
+          "title": "Visualize a Riemann surface"
+        }
+      ],
+      "covered": 0,
+      "leaves": 1,
+      "title": "Riemann Surfaces"
+    }
+  ],
+  "percent": 0.0,
+  "reindexed": false,
+  "slug": "complex-analysis",
+  "title": "Complex Analysis"
+}

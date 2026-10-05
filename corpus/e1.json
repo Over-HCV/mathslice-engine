@@ -1,0 +1,1530 @@
+{
+  "stage": "E1",
+  "note": "Corpus dorado de E1: el núcleo aritmético. Mismo formato que e0.json y mismos ejecutores: crates/ms-wasm/tests/corpus.rs para el kernel y engine/scripts/browser-check.mjs para el WASM real en el navegador. El primer caso es el criterio de salida de la etapa. El campo «verification» fija lo que ms-verify debe poder afirmar de cada caso; un caso que lo omite no afirma nada. El campo «facts» fija los hechos del resultado en orden; un caso que lo omite no afirma nada sobre ellos. El campo «capability» es opcional y dice a qué hoja de engine/docs/ responde el caso; ms-cli cruza esos ids con el inventario para calcular la cobertura, y un caso sin él no cuenta. Los casos que fijan un error o un límite no llevan ninguno: no responden a una capacidad, fijan un comportamiento.",
+  "cases": [
+    {
+      "name": "criterio-de-salida",
+      "latex": "\\frac{7}{12}\\div\\frac{14}{9}+2^{40}",
+      "result_latex": "\\frac{8796093022211}{8}",
+      "kind": "number",
+      "approx": 1099511627776.375,
+      "steps": [
+        "rational-reciprocal",
+        "rational-multiply",
+        "rational-reduce",
+        "integer-power",
+        "rational-common-denominator",
+        "rational-add-numerators"
+      ],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "mixed",
+          "denominator": "8",
+          "latex": "1099511627776\\frac{3}{8}",
+          "negative": false,
+          "numerator": "3",
+          "whole": "1099511627776"
+        },
+        {
+          "class": "decimal",
+          "value": "1099511627776.375"
+        }
+      ],
+      "capability": "Elementary Math > Fractions > Multiple Operations > Do exact arithmetic with fractions"
+    },
+    {
+      "name": "division-de-fracciones",
+      "latex": "\\frac{7}{12}\\div\\frac{14}{9}",
+      "result_latex": "\\frac{3}{8}",
+      "kind": "number",
+      "approx": 0.375,
+      "steps": [
+        "rational-reciprocal",
+        "rational-multiply",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Fractions > Multiplication & Division > Divide fractions"
+    },
+    {
+      "name": "division-con-barra-entre-fracciones",
+      "latex": "\\frac{1}{2}/\\frac{1}{4}",
+      "result_latex": "2",
+      "kind": "number",
+      "approx": 2.0,
+      "steps": [
+        "rational-reciprocal",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Fractions > Multiplication & Division > Divide fractions"
+    },
+    {
+      "name": "producto-de-tres-fracciones",
+      "latex": "\\frac{1}{2}\\cdot\\frac{3}{4}\\cdot\\frac{5}{6}",
+      "result_latex": "\\frac{5}{16}",
+      "kind": "number",
+      "approx": 0.3125,
+      "steps": [
+        "rational-multiply",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Fractions > Multiplication & Division > Multiply fractions"
+    },
+    {
+      "name": "producto-que-da-entero",
+      "latex": "\\frac{2}{3}\\cdot\\frac{3}{2}",
+      "result_latex": "1",
+      "kind": "number",
+      "approx": 1.0,
+      "steps": [
+        "rational-multiply",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Fractions > Multiplication & Division > Multiply fractions"
+    },
+    {
+      "name": "producto-con-signo-negativo",
+      "latex": "\\frac{-1}{2}\\cdot\\frac{3}{5}",
+      "result_latex": "\\frac{-3}{10}",
+      "kind": "number",
+      "approx": -0.3,
+      "steps": [
+        "rational-multiply"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Arithmetic > Multiplication & Division > Multiply numbers"
+    },
+    {
+      "name": "dividir-entre-cero-con-glifo",
+      "latex": "\\frac{1}{2}\\div 0",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "division-by-zero",
+      "verification": null
+    },
+    {
+      "name": "dividir-entre-una-fraccion-nula",
+      "latex": "\\frac{1}{2}\\div\\frac{0}{9}",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "division-by-zero",
+      "verification": null
+    },
+    {
+      "name": "potencia-de-una-fraccion",
+      "latex": "\\left(\\frac{2}{3}\\right)^{3}",
+      "result_latex": "\\frac{8}{27}",
+      "kind": "number",
+      "approx": 0.2962962962962963,
+      "steps": [
+        "integer-power"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Arithmetic > Powers & Roots > Compute powers"
+    },
+    {
+      "name": "potencia-de-exponente-negativo",
+      "latex": "2^{-3}",
+      "result_latex": "\\frac{1}{8}",
+      "kind": "number",
+      "approx": 0.125,
+      "steps": [
+        "integer-power"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Arithmetic > Powers & Roots > Compute powers"
+    },
+    {
+      "name": "potencia-absurda-se-niega-en-vez-de-colgar",
+      "latex": "2^{10000000000}",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "magnitude-limit",
+      "verification": null
+    },
+    {
+      "name": "pemdas-sobre-expresion-compuesta",
+      "latex": "\\frac{1}{2}+\\frac{1}{3}\\cdot\\frac{3}{4}",
+      "result_latex": "\\frac{3}{4}",
+      "kind": "number",
+      "approx": 0.75,
+      "steps": [
+        "rational-multiply",
+        "rational-common-denominator",
+        "rational-add-numerators",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Arithmetic > Multiple Operations > Combine several arithmetic operations"
+    },
+    {
+      "name": "pemdas-con-parentesis-potencia-y-porcentaje",
+      "latex": "2\\cdot(3+4)^{2}-\\frac{50\\%}{2}",
+      "result_latex": "\\frac{391}{4}",
+      "kind": "number",
+      "approx": 97.75,
+      "steps": [
+        "rational-multiply",
+        "rational-reduce",
+        "integer-power",
+        "rational-common-denominator",
+        "rational-add-numerators"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Arithmetic > Multiple Operations > Combine several arithmetic operations"
+    },
+    {
+      "name": "pemdas-con-resta-potencia-y-division",
+      "latex": "\\frac{1}{2}+\\frac{1}{3}\\cdot\\frac{3}{4}-2^{3}\\div 4",
+      "result_latex": "\\frac{-5}{4}",
+      "kind": "number",
+      "approx": -1.25,
+      "steps": [
+        "integer-power",
+        "rational-common-denominator",
+        "rational-add-numerators",
+        "rational-reduce",
+        "rational-multiply",
+        "rational-common-denominator",
+        "rational-add-numerators",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Arithmetic > Multiple Operations > Combine several arithmetic operations"
+    },
+    {
+      "approx": 12.0,
+      "error": null,
+      "facts": [
+        {
+          "class": "sign",
+          "value": "positive"
+        },
+        {
+          "class": "parity",
+          "value": "even"
+        },
+        {
+          "class": "place-value",
+          "digits": [
+            {
+              "digit": 1,
+              "exponent": 1
+            },
+            {
+              "digit": 2,
+              "exponent": 0
+            }
+          ],
+          "negative": false
+        },
+        {
+          "class": "primality",
+          "value": "composite"
+        },
+        {
+          "class": "factorization",
+          "factors": [
+            {
+              "exponent": 2,
+              "prime": "2"
+            },
+            {
+              "exponent": 1,
+              "prime": "3"
+            }
+          ],
+          "latex": "2^{2} \\cdot 3",
+          "remaining": null
+        },
+        {
+          "class": "divisors",
+          "count": 6,
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "6",
+            "12"
+          ]
+        }
+      ],
+      "kind": "number",
+      "latex": "12",
+      "name": "hechos-de-un-entero-compuesto",
+      "result_latex": "12",
+      "steps": [],
+      "verification": "verified",
+      "capability": "Numbers > Integers > Integers > Compute properties of an integer"
+    },
+    {
+      "approx": 97.0,
+      "error": null,
+      "facts": [
+        {
+          "class": "sign",
+          "value": "positive"
+        },
+        {
+          "class": "parity",
+          "value": "odd"
+        },
+        {
+          "class": "place-value",
+          "digits": [
+            {
+              "digit": 9,
+              "exponent": 1
+            },
+            {
+              "digit": 7,
+              "exponent": 0
+            }
+          ],
+          "negative": false
+        },
+        {
+          "class": "primality",
+          "value": "prime"
+        },
+        {
+          "class": "factorization",
+          "factors": [
+            {
+              "exponent": 1,
+              "prime": "97"
+            }
+          ],
+          "latex": "97",
+          "remaining": null
+        },
+        {
+          "class": "divisors",
+          "count": 2,
+          "values": [
+            "1",
+            "97"
+          ]
+        }
+      ],
+      "kind": "number",
+      "latex": "97",
+      "name": "hechos-de-un-primo",
+      "result_latex": "97",
+      "steps": [],
+      "verification": "verified",
+      "capability": "Number Theory > Prime Numbers > Prime Numbers > Determine whether a number is prime"
+    },
+    {
+      "approx": 1.0,
+      "error": null,
+      "facts": [
+        {
+          "class": "sign",
+          "value": "positive"
+        },
+        {
+          "class": "parity",
+          "value": "odd"
+        },
+        {
+          "class": "primality",
+          "value": "unit"
+        }
+      ],
+      "kind": "number",
+      "latex": "1",
+      "name": "hechos-de-la-unidad",
+      "result_latex": "1",
+      "steps": [],
+      "verification": "verified"
+    },
+    {
+      "approx": 0.0,
+      "error": null,
+      "facts": [
+        {
+          "class": "sign",
+          "value": "zero"
+        },
+        {
+          "class": "parity",
+          "value": "even"
+        }
+      ],
+      "kind": "number",
+      "latex": "0",
+      "name": "hechos-del-cero",
+      "result_latex": "0",
+      "steps": [],
+      "verification": "verified"
+    },
+    {
+      "approx": -12.0,
+      "error": null,
+      "facts": [
+        {
+          "class": "sign",
+          "value": "negative"
+        },
+        {
+          "class": "parity",
+          "value": "even"
+        },
+        {
+          "class": "place-value",
+          "digits": [
+            {
+              "digit": 1,
+              "exponent": 1
+            },
+            {
+              "digit": 2,
+              "exponent": 0
+            }
+          ],
+          "negative": true
+        },
+        {
+          "class": "primality",
+          "value": "composite"
+        },
+        {
+          "class": "factorization",
+          "factors": [
+            {
+              "exponent": 2,
+              "prime": "2"
+            },
+            {
+              "exponent": 1,
+              "prime": "3"
+            }
+          ],
+          "latex": "-2^{2} \\cdot 3",
+          "remaining": null
+        },
+        {
+          "class": "divisors",
+          "count": 6,
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "6",
+            "12"
+          ]
+        }
+      ],
+      "kind": "number",
+      "latex": "-12",
+      "name": "hechos-de-un-entero-negativo",
+      "result_latex": "-12",
+      "steps": [],
+      "verification": "verified",
+      "capability": "Numbers > Integers > Integers > Compute properties of an integer"
+    },
+    {
+      "approx": 1099511627776.0,
+      "error": null,
+      "facts": [
+        {
+          "class": "sign",
+          "value": "positive"
+        },
+        {
+          "class": "parity",
+          "value": "even"
+        },
+        {
+          "class": "primality",
+          "value": "composite"
+        },
+        {
+          "class": "factorization",
+          "factors": [
+            {
+              "exponent": 40,
+              "prime": "2"
+            }
+          ],
+          "latex": "2^{40}",
+          "remaining": null
+        },
+        {
+          "class": "divisors",
+          "count": 41,
+          "values": [
+            "1",
+            "2",
+            "4",
+            "8",
+            "16",
+            "32",
+            "64",
+            "128",
+            "256",
+            "512",
+            "1024",
+            "2048",
+            "4096",
+            "8192",
+            "16384",
+            "32768",
+            "65536",
+            "131072",
+            "262144",
+            "524288",
+            "1048576",
+            "2097152",
+            "4194304",
+            "8388608",
+            "16777216",
+            "33554432",
+            "67108864",
+            "134217728",
+            "268435456",
+            "536870912",
+            "1073741824",
+            "2147483648",
+            "4294967296",
+            "8589934592",
+            "17179869184",
+            "34359738368",
+            "68719476736",
+            "137438953472",
+            "274877906944",
+            "549755813888",
+            "1099511627776"
+          ]
+        }
+      ],
+      "kind": "number",
+      "latex": "2^{40}",
+      "name": "hechos-de-una-potencia",
+      "result_latex": "1099511627776",
+      "steps": [
+        "integer-power"
+      ],
+      "verification": "verified",
+      "capability": "Number Theory > Prime Numbers > Prime Factorization > Compute a prime factorization"
+    },
+    {
+      "approx": 1000036000099.0,
+      "error": null,
+      "facts": [
+        {
+          "class": "sign",
+          "value": "positive"
+        },
+        {
+          "class": "parity",
+          "value": "odd"
+        },
+        {
+          "class": "primality",
+          "value": "composite"
+        },
+        {
+          "class": "factorization",
+          "factors": [],
+          "latex": "1000036000099",
+          "remaining": "1000036000099"
+        }
+      ],
+      "kind": "number",
+      "latex": "1000003 \\cdot 1000033",
+      "name": "factorizacion-incompleta-se-marca",
+      "result_latex": "1000036000099",
+      "steps": [],
+      "verification": "verified"
+    },
+    {
+      "approx": 1.2676506002282294e+30,
+      "error": null,
+      "facts": [
+        {
+          "class": "sign",
+          "value": "positive"
+        },
+        {
+          "class": "parity",
+          "value": "even"
+        }
+      ],
+      "kind": "number",
+      "latex": "2^{100}",
+      "name": "entero-fuera-del-tope-no-factoriza",
+      "result_latex": "1267650600228229401496703205376",
+      "steps": [
+        "integer-power"
+      ],
+      "verification": "verified"
+    },
+    {
+      "name": "suma-de-enteros-escritos-como-fraccion",
+      "latex": "\\frac{4}{1}+\\frac{2}{1}",
+      "result_latex": "6",
+      "kind": "number",
+      "approx": 6.0,
+      "steps": [],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "sign",
+          "value": "positive"
+        },
+        {
+          "class": "parity",
+          "value": "even"
+        },
+        {
+          "class": "primality",
+          "value": "composite"
+        },
+        {
+          "class": "factorization",
+          "factors": [
+            {
+              "exponent": 1,
+              "prime": "2"
+            },
+            {
+              "exponent": 1,
+              "prime": "3"
+            }
+          ],
+          "latex": "2 \\cdot 3",
+          "remaining": null
+        },
+        {
+          "class": "divisors",
+          "count": 4,
+          "values": [
+            "1",
+            "2",
+            "3",
+            "6"
+          ]
+        }
+      ],
+      "capability": "Numbers > Integers > Integer Arithmetic > Do exact arithmetic with integers"
+    },
+    {
+      "name": "fracciones-de-denominador-uno-que-se-cancelan",
+      "latex": "\\frac{1}{1}+\\frac{-1}{1}",
+      "result_latex": "0",
+      "kind": "number",
+      "approx": 0.0,
+      "steps": [],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "sign",
+          "value": "zero"
+        },
+        {
+          "class": "parity",
+          "value": "even"
+        }
+      ]
+    },
+    {
+      "name": "un-decimal-es-una-fraccion",
+      "latex": "0.75",
+      "result_latex": "\\frac{3}{4}",
+      "kind": "number",
+      "approx": 0.75,
+      "steps": [
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "place-value",
+          "digits": [
+            {
+              "digit": 7,
+              "exponent": -1
+            },
+            {
+              "digit": 5,
+              "exponent": -2
+            }
+          ],
+          "negative": false
+        },
+        {
+          "class": "decimal",
+          "value": "0.75"
+        },
+        {
+          "class": "percent",
+          "latex": "75\\%",
+          "value": "75"
+        }
+      ],
+      "capability": "Numbers > Rational Numbers > Rational Numbers > Do exact arithmetic on rational numbers"
+    },
+    {
+      "name": "decimal-mas-fraccion",
+      "latex": "0.75+\\frac{1}{4}",
+      "result_latex": "1",
+      "kind": "number",
+      "approx": 1.0,
+      "steps": [
+        "rational-common-denominator",
+        "rational-add-numerators",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "sign",
+          "value": "positive"
+        },
+        {
+          "class": "parity",
+          "value": "odd"
+        },
+        {
+          "class": "primality",
+          "value": "unit"
+        }
+      ],
+      "capability": "Numbers > Rational Numbers > Rational Numbers > Do exact arithmetic on rational numbers"
+    },
+    {
+      "name": "decimales-que-un-float-no-suma-bien",
+      "latex": "0.1+0.2",
+      "result_latex": "\\frac{3}{10}",
+      "kind": "number",
+      "approx": 0.3,
+      "steps": [
+        "rational-add-numerators"
+      ],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "place-value",
+          "digits": [
+            {
+              "digit": 3,
+              "exponent": -1
+            }
+          ],
+          "negative": false
+        },
+        {
+          "class": "decimal",
+          "value": "0.3"
+        },
+        {
+          "class": "percent",
+          "latex": "30\\%",
+          "value": "30"
+        }
+      ],
+      "capability": "Numbers > Rational Numbers > Rational Numbers > Compute properties of a rational number"
+    },
+    {
+      "name": "un-porcentaje-es-una-centesima",
+      "latex": "50\\%",
+      "result_latex": "\\frac{1}{2}",
+      "kind": "number",
+      "approx": 0.5,
+      "steps": [
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "place-value",
+          "digits": [
+            {
+              "digit": 5,
+              "exponent": -1
+            }
+          ],
+          "negative": false
+        },
+        {
+          "class": "decimal",
+          "value": "0.5"
+        },
+        {
+          "class": "percent",
+          "latex": "50\\%",
+          "value": "50"
+        }
+      ],
+      "capability": "Elementary Math > Percentages > Percentages > Convert a percentage to an equivalent fraction"
+    },
+    {
+      "name": "porcentaje-de-una-cantidad",
+      "latex": "20\\%\\cdot 150",
+      "result_latex": "30",
+      "kind": "number",
+      "approx": 30.0,
+      "steps": [
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "sign",
+          "value": "positive"
+        },
+        {
+          "class": "parity",
+          "value": "even"
+        },
+        {
+          "class": "place-value",
+          "digits": [
+            {
+              "digit": 3,
+              "exponent": 1
+            },
+            {
+              "digit": 0,
+              "exponent": 0
+            }
+          ],
+          "negative": false
+        },
+        {
+          "class": "primality",
+          "value": "composite"
+        },
+        {
+          "class": "factorization",
+          "factors": [
+            {
+              "exponent": 1,
+              "prime": "2"
+            },
+            {
+              "exponent": 1,
+              "prime": "3"
+            },
+            {
+              "exponent": 1,
+              "prime": "5"
+            }
+          ],
+          "latex": "2 \\cdot 3 \\cdot 5",
+          "remaining": null
+        },
+        {
+          "class": "divisors",
+          "count": 8,
+          "values": [
+            "1",
+            "2",
+            "3",
+            "5",
+            "6",
+            "10",
+            "15",
+            "30"
+          ]
+        }
+      ],
+      "capability": "Elementary Math > Percentages > Percentages > Calculate a percentage of a number"
+    },
+    {
+      "name": "entero-pegado-a-una-fraccion-es-un-producto",
+      "latex": "2\\frac{1}{3}",
+      "result_latex": "\\frac{2}{3}",
+      "kind": "number",
+      "approx": 0.6666666666666666,
+      "steps": [],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "periodic",
+          "latex": "0.\\overline{6}",
+          "negative": false,
+          "nonrepeating": "",
+          "repeating": "6",
+          "whole": "0"
+        }
+      ]
+    },
+    {
+      "name": "aumento-porcentual",
+      "latex": "150\\cdot\\left(1+20\\%\\right)",
+      "result_latex": "180",
+      "kind": "number",
+      "approx": 180.0,
+      "steps": [
+        "rational-common-denominator",
+        "rational-add-numerators",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Percentages > Percent Increase & Decrease > Increase a quantity by a percentage"
+    },
+    {
+      "name": "descuentos-sucesivos",
+      "latex": "150\\left(1-20\\%\\right)\\left(1-10\\%\\right)",
+      "result_latex": "108",
+      "kind": "number",
+      "approx": 108.0,
+      "steps": [
+        "rational-common-denominator",
+        "rational-common-denominator",
+        "rational-add-numerators",
+        "rational-add-numerators",
+        "rational-multiply",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Percentages > Percent Increase & Decrease > Compute successive increases or decreases"
+    },
+    {
+      "name": "fraccion-que-se-lee-de-las-dos-formas",
+      "latex": "\\frac{5}{2}",
+      "result_latex": "\\frac{5}{2}",
+      "kind": "number",
+      "approx": 2.5,
+      "steps": [],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "mixed",
+          "denominator": "2",
+          "latex": "2\\frac{1}{2}",
+          "negative": false,
+          "numerator": "1",
+          "whole": "2"
+        },
+        {
+          "class": "place-value",
+          "digits": [
+            {
+              "digit": 2,
+              "exponent": 0
+            },
+            {
+              "digit": 5,
+              "exponent": -1
+            }
+          ],
+          "negative": false
+        },
+        {
+          "class": "decimal",
+          "value": "2.5"
+        },
+        {
+          "class": "percent",
+          "latex": "250\\%",
+          "value": "250"
+        }
+      ],
+      "capability": "Elementary Math > Percentages > Percentages > Convert a fraction to a percentage"
+    },
+    {
+      "name": "sin-porcentaje-exacto-no-se-afirma-ninguno",
+      "latex": "\\frac{1}{3}",
+      "result_latex": "\\frac{1}{3}",
+      "kind": "number",
+      "approx": 0.3333333333333333,
+      "steps": [],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "periodic",
+          "latex": "0.\\overline{3}",
+          "negative": false,
+          "nonrepeating": "",
+          "repeating": "3",
+          "whole": "0"
+        }
+      ]
+    },
+    {
+      "name": "impropia-trae-su-vista-mixta",
+      "latex": "\\frac{7}{3}",
+      "result_latex": "\\frac{7}{3}",
+      "kind": "number",
+      "approx": 2.3333333333333335,
+      "steps": [],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "mixed",
+          "denominator": "3",
+          "latex": "2\\frac{1}{3}",
+          "negative": false,
+          "numerator": "1",
+          "whole": "2"
+        },
+        {
+          "class": "periodic",
+          "latex": "2.\\overline{3}",
+          "negative": false,
+          "nonrepeating": "",
+          "repeating": "3",
+          "whole": "2"
+        }
+      ],
+      "capability": "Elementary Math > Fractions > Mixed & Improper Fractions > Convert an improper fraction to a mixed number"
+    },
+    {
+      "name": "impropia-negativa-lleva-el-signo-delante-del-conjunto",
+      "latex": "-\\frac{7}{3}",
+      "result_latex": "\\frac{-7}{3}",
+      "kind": "number",
+      "approx": -2.3333333333333335,
+      "steps": [],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "mixed",
+          "denominator": "3",
+          "latex": "-2\\frac{1}{3}",
+          "negative": true,
+          "numerator": "1",
+          "whole": "2"
+        },
+        {
+          "class": "periodic",
+          "latex": "-2.\\overline{3}",
+          "negative": true,
+          "nonrepeating": "",
+          "repeating": "3",
+          "whole": "2"
+        }
+      ],
+      "capability": "Elementary Math > Fractions > Mixed & Improper Fractions > Convert an improper fraction to a mixed number"
+    },
+    {
+      "name": "propia-no-tiene-parte-entera-que-sacar",
+      "latex": "\\frac{3}{8}",
+      "result_latex": "\\frac{3}{8}",
+      "kind": "number",
+      "approx": 0.375,
+      "steps": [],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "place-value",
+          "digits": [
+            {
+              "digit": 3,
+              "exponent": -1
+            },
+            {
+              "digit": 7,
+              "exponent": -2
+            },
+            {
+              "digit": 5,
+              "exponent": -3
+            }
+          ],
+          "negative": false
+        },
+        {
+          "class": "decimal",
+          "value": "0.375"
+        }
+      ]
+    },
+    {
+      "name": "redondeo-a-dos-cifras",
+      "latex": "\\operatorname{redondear}\\left(3.456, 2\\right)",
+      "result_latex": "\\frac{173}{50}",
+      "kind": "number",
+      "approx": 3.46,
+      "steps": [
+        "round-to-digits"
+      ],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "mixed",
+          "denominator": "50",
+          "latex": "3\\frac{23}{50}",
+          "negative": false,
+          "numerator": "23",
+          "whole": "3"
+        },
+        {
+          "class": "place-value",
+          "digits": [
+            {
+              "digit": 3,
+              "exponent": 0
+            },
+            {
+              "digit": 4,
+              "exponent": -1
+            },
+            {
+              "digit": 6,
+              "exponent": -2
+            }
+          ],
+          "negative": false
+        },
+        {
+          "class": "decimal",
+          "value": "3.46"
+        },
+        {
+          "class": "percent",
+          "latex": "346\\%",
+          "value": "346"
+        }
+      ],
+      "capability": "Elementary Math > Place Value > Rounding > Discover the results of rounding a number to any place value"
+    },
+    {
+      "name": "el-medio-se-va-lejos-del-cero",
+      "latex": "\\operatorname{redondear}\\left(2.5, 0\\right)",
+      "result_latex": "3",
+      "kind": "number",
+      "approx": 3.0,
+      "steps": [
+        "round-to-digits"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Place Value > Rounding > Examine half rounding methods"
+    },
+    {
+      "name": "el-medio-se-va-a-la-cifra-par",
+      "latex": "\\operatorname{redondearPar}\\left(2.5, 0\\right)",
+      "result_latex": "2",
+      "kind": "number",
+      "approx": 2.0,
+      "steps": [
+        "round-to-digits"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Place Value > Rounding > Examine half rounding methods"
+    },
+    {
+      "name": "el-redondeo-es-simetrico-en-los-negativos",
+      "latex": "\\operatorname{redondear}\\left(-2.5, 0\\right)",
+      "result_latex": "-3",
+      "kind": "number",
+      "approx": -3.0,
+      "steps": [
+        "round-to-digits"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Place Value > Rounding > Examine half rounding methods"
+    },
+    {
+      "name": "redondeo-a-la-izquierda-de-la-coma",
+      "latex": "\\operatorname{redondear}\\left(1234, -2\\right)",
+      "result_latex": "1200",
+      "kind": "number",
+      "approx": 1200.0,
+      "steps": [
+        "round-to-digits"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Elementary Math > Place Value > Rounding > Discover the results of rounding a number to any place value"
+    },
+    {
+      "name": "redondear-un-periodico-lo-vuelve-finito",
+      "latex": "\\operatorname{redondear}\\left(\\frac{1}{3}, 4\\right)",
+      "result_latex": "\\frac{3333}{10000}",
+      "kind": "number",
+      "approx": 0.3333,
+      "steps": [
+        "round-to-digits"
+      ],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "place-value",
+          "digits": [
+            {
+              "digit": 3,
+              "exponent": -1
+            },
+            {
+              "digit": 3,
+              "exponent": -2
+            },
+            {
+              "digit": 3,
+              "exponent": -3
+            },
+            {
+              "digit": 3,
+              "exponent": -4
+            }
+          ],
+          "negative": false
+        },
+        {
+          "class": "decimal",
+          "value": "0.3333"
+        }
+      ],
+      "capability": "Numbers > Rational Numbers > Repeating Decimals > Repeating Decimals > Do calculations with repeating decimals"
+    },
+    {
+      "name": "sin-precision-entera-el-redondeo-no-se-hace",
+      "latex": "\\operatorname{redondear}\\left(3.5, 0.5\\right)",
+      "result_latex": "\\operatorname{redondear}\\left(\\frac{7}{2}, \\frac{1}{2}\\right)",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "rational-reduce",
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "unverified"
+    },
+    {
+      "name": "redondear-un-simbolo-no-se-inventa-un-numero",
+      "latex": "\\operatorname{redondear}\\left(x, 2\\right)",
+      "result_latex": "\\operatorname{redondear}\\left(x, 2\\right)",
+      "kind": "expression",
+      "approx": null,
+      "steps": [],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "funcion-que-el-motor-no-conoce",
+      "latex": "\\operatorname{raiz}\\left(4\\right)",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "unknown-function",
+      "verification": null
+    },
+    {
+      "name": "llamada-con-la-aridad-equivocada",
+      "latex": "\\operatorname{redondear}\\left(3.5\\right)",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "wrong-arity",
+      "verification": null
+    },
+    {
+      "name": "un-periodico-es-el-periodo-sobre-nueves",
+      "latex": "0.\\overline{3}",
+      "result_latex": "\\frac{1}{3}",
+      "kind": "number",
+      "approx": 0.3333333333333333,
+      "steps": [
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "periodic",
+          "whole": "0",
+          "nonrepeating": "",
+          "repeating": "3",
+          "negative": false,
+          "latex": "0.\\overline{3}"
+        }
+      ],
+      "capability": "Numbers > Rational Numbers > Repeating Decimals > Repeating Decimals > Compute the exact value of a repeating decimal"
+    },
+    {
+      "name": "periodico-con-cifras-antes-del-periodo",
+      "latex": "0.1\\overline{6}",
+      "result_latex": "\\frac{1}{6}",
+      "kind": "number",
+      "approx": 0.16666666666666666,
+      "steps": [
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "periodic",
+          "whole": "0",
+          "nonrepeating": "1",
+          "repeating": "6",
+          "negative": false,
+          "latex": "0.1\\overline{6}"
+        }
+      ],
+      "capability": "Numbers > Rational Numbers > Repeating Decimals > Repeating Decimals > Specify the digits to repeat"
+    },
+    {
+      "name": "el-periodo-de-un-septimo-vuelve-a-su-fraccion",
+      "latex": "0.\\overline{142857}",
+      "result_latex": "\\frac{1}{7}",
+      "kind": "number",
+      "approx": 0.14285714285714285,
+      "steps": [
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "periodic",
+          "whole": "0",
+          "nonrepeating": "",
+          "repeating": "142857",
+          "negative": false,
+          "latex": "0.\\overline{142857}"
+        }
+      ],
+      "capability": "Numbers > Rational Numbers > Repeating Decimals > Repeating Decimals > Do calculations with repeating decimals"
+    },
+    {
+      "name": "periodico-con-parte-entera",
+      "latex": "3.1\\overline{6}",
+      "result_latex": "\\frac{19}{6}",
+      "kind": "number",
+      "approx": 3.1666666666666665,
+      "steps": [
+        "rational-reduce"
+      ],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "mixed",
+          "whole": "3",
+          "numerator": "1",
+          "denominator": "6",
+          "negative": false,
+          "latex": "3\\frac{1}{6}"
+        },
+        {
+          "class": "periodic",
+          "whole": "3",
+          "nonrepeating": "1",
+          "repeating": "6",
+          "negative": false,
+          "latex": "3.1\\overline{6}"
+        }
+      ]
+    },
+    {
+      "name": "una-fraccion-sale-con-su-desarrollo-periodico",
+      "latex": "\\frac{1}{7}",
+      "result_latex": "\\frac{1}{7}",
+      "kind": "number",
+      "approx": 0.14285714285714285,
+      "steps": [],
+      "error": null,
+      "verification": "verified",
+      "facts": [
+        {
+          "class": "periodic",
+          "whole": "0",
+          "nonrepeating": "",
+          "repeating": "142857",
+          "negative": false,
+          "latex": "0.\\overline{142857}"
+        }
+      ]
+    },
+    {
+      "name": "periodo-vacio-no-dice-que-se-repite",
+      "latex": "0.\\overline{}",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "empty-period",
+      "verification": null
+    },
+    {
+      "name": "numero-en-base-dos",
+      "latex": "1011_{2}",
+      "result_latex": "11",
+      "kind": "number",
+      "approx": 11.0,
+      "steps": [
+        "product-with-zero",
+        "integer-power",
+        "integer-power"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Numbers > Base Conversions > Base Conversions > Convert a number in a given base to decimal"
+    },
+    {
+      "name": "numero-en-hexadecimal",
+      "latex": "ff_{16}",
+      "result_latex": "255",
+      "kind": "number",
+      "approx": 255.0,
+      "steps": [
+        "integer-power"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Numbers > Base Conversions > Base Conversions > Convert a number in a given base to decimal"
+    },
+    {
+      "name": "una-cifra-sola-no-se-desarrolla",
+      "latex": "7_{8}",
+      "result_latex": "7",
+      "kind": "number",
+      "approx": 7.0,
+      "steps": [],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "suma-de-numeros-en-base-dos",
+      "latex": "1011_{2}+1_{2}",
+      "result_latex": "12",
+      "kind": "number",
+      "approx": 12.0,
+      "steps": [
+        "product-with-zero",
+        "integer-power",
+        "integer-power"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Numbers > Base Conversions > Base Conversions > Convert a number in a given base to decimal"
+    },
+    {
+      "name": "cifra-que-no-existe-en-la-base",
+      "latex": "2_{2}",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "digit-outside-base",
+      "verification": null
+    },
+    {
+      "name": "base-fuera-del-rango-que-se-puede-escribir",
+      "latex": "10_{1}",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "unsupported-base",
+      "verification": null
+    },
+    {
+      "name": "decimal-sin-cifras-detras-del-punto",
+      "latex": "0.",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "incomplete-decimal",
+      "verification": null
+    },
+    {
+      "name": "escribir-un-resultado-en-base-dos",
+      "latex": "\\operatorname{enBase}(2, 1011_{2}+1_{2})",
+      "result_latex": "12",
+      "kind": "number",
+      "approx": 12.0,
+      "steps": [
+        "product-with-zero",
+        "integer-power",
+        "integer-power"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Numbers > Base Conversions > Base Conversions > Convert a number from one base to another"
+    },
+    {
+      "name": "escribir-un-entero-en-hexadecimal",
+      "latex": "\\operatorname{enBase}(16, 255)",
+      "result_latex": "255",
+      "kind": "number",
+      "approx": 255.0,
+      "steps": [],
+      "error": null,
+      "verification": "verified",
+      "capability": "Numbers > Base Conversions > Base Conversions > Convert a decimal number to another base"
+    },
+    {
+      "name": "la-base-de-salida-se-pide-alrededor-de-toda-la-consulta",
+      "latex": "2+\\operatorname{enBase}(2, 11)",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "output-base",
+      "verification": null
+    },
+    {
+      "name": "base-de-salida-que-no-se-puede-escribir",
+      "latex": "\\operatorname{enBase}(37, 11)",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "output-base",
+      "verification": null
+    },
+    {
+      "name": "una-fraccion-todavia-no-se-escribe-en-otra-base",
+      "latex": "\\operatorname{enBase}(2, \\frac{1}{2})",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "output-base",
+      "verification": null
+    }
+  ]
+}

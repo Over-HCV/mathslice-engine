@@ -1,0 +1,644 @@
+{
+  "covered": 0,
+  "leaves": 63,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Vectors > Compute properties of a vector",
+              "title": "Compute properties of a vector"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Vectors > Specify a vector as a linear combination of unit vectors",
+              "title": "Specify a vector as a linear combination of unit vectors"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Vectors > Compute the norm of a vector",
+              "title": "Compute the norm of a vector"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Vectors"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Vector Algebra > Do vector computations",
+              "title": "Do vector computations"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Vector Algebra > Compute a dot product",
+              "title": "Compute a dot product"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Vector Algebra > Compute a cross product",
+              "title": "Compute a cross product"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Vector Algebra > Compute a (scalar) cross product in two dimensions",
+              "title": "Compute a (scalar) cross product in two dimensions"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Vector Algebra > Normalize a vector",
+              "title": "Normalize a vector"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Vector Algebra > Convert to another coordinate system",
+              "title": "Convert to another coordinate system"
+            }
+          ],
+          "covered": 0,
+          "leaves": 6,
+          "title": "Vector Algebra"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Orthogonality > Check if the set of vectors is orthogonal",
+              "title": "Check if the set of vectors is orthogonal"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Orthogonality > Find conditions for orthogonality between vectors with symbolic components",
+              "title": "Find conditions for orthogonality between vectors with symbolic components"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Orthogonality"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Vector Projections > Compute the projection of one vector onto another",
+              "title": "Compute the projection of one vector onto another"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Vector Projections > Project a vector onto an axis",
+              "title": "Project a vector onto an axis"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Vector Projections > Project a vector onto a plane",
+              "title": "Project a vector onto a plane"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Vectors > Vector Projections > Explore vector projections in higher dimensions",
+              "title": "Explore vector projections in higher dimensions"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Vector Projections"
+        }
+      ],
+      "covered": 0,
+      "leaves": 15,
+      "title": "Vectors"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Matrix Properties > Calculate properties of a matrix",
+              "title": "Calculate properties of a matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Matrix Properties"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Matrix Arithmetic > Add matrices",
+              "title": "Add matrices"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Matrix Arithmetic > Multiply matrices",
+              "title": "Multiply matrices"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Matrix Arithmetic > Matrix vector product",
+              "title": "Matrix vector product"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Matrix Arithmetic"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Trace > Compute the trace of a matrix",
+              "title": "Compute the trace of a matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Trace"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Determinant > Compute the determinant of a matrix",
+              "title": "Compute the determinant of a matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Determinant"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Minors > Calculate a minor of a matrix",
+              "title": "Calculate a minor of a matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Minors"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Inverse > Compute the inverse of a matrix",
+              "title": "Compute the inverse of a matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Inverse > Find a pseudoinverse",
+              "title": "Find a pseudoinverse"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Inverse"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Row Reduction > Row reduce a matrix",
+              "title": "Row reduce a matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Row Reduction"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Eigenvalues & Eigenvectors > Compute the eigenvalues of a matrix",
+              "title": "Compute the eigenvalues of a matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Eigenvalues & Eigenvectors > Compute the eigenvectors of a matrix",
+              "title": "Compute the eigenvectors of a matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Eigenvalues & Eigenvectors > Compute the characteristic polynomial of a matrix",
+              "title": "Compute the characteristic polynomial of a matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Eigenvalues & Eigenvectors"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Other Matrix Operations > Compute the transpose of a matrix",
+              "title": "Compute the transpose of a matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Other Matrix Operations > Compute the rank of a matrix",
+              "title": "Compute the rank of a matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Other Matrix Operations > Compute the nullity of a matrix",
+              "title": "Compute the nullity of a matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Other Matrix Operations > Compute the adjugate of a matrix",
+              "title": "Compute the adjugate of a matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Other Matrix Operations > Compute the minors of a matrix",
+              "title": "Compute the minors of a matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Other Matrix Operations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Matrix Decompositions > Diagonalization > Diagonalize a matrix",
+                  "title": "Diagonalize a matrix"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Matrix Decompositions > Diagonalization > Compute an orthogonal diagonalization of a real symmetric matrix",
+                  "title": "Compute an orthogonal diagonalization of a real symmetric matrix"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Matrix Decompositions > Diagonalization > Calculate a unitary diagonalization of a normal matrix",
+                  "title": "Calculate a unitary diagonalization of a normal matrix"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Diagonalization"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Matrix Decompositions > Jordan Decomposition > Compute a Jordan decomposition",
+                  "title": "Compute a Jordan decomposition"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Jordan Decomposition"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Matrix Decompositions > LU Decomposition > Compute the LU decomposition of a matrix",
+                  "title": "Compute the LU decomposition of a matrix"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "LU Decomposition"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Matrix Decompositions > QR Decomposition > Compute the QR decomposition of a matrix",
+                  "title": "Compute the QR decomposition of a matrix"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "QR Decomposition"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Matrix Decompositions > Singular Value Decomposition > Compute a singular value decomposition (SVD)",
+                  "title": "Compute a singular value decomposition (SVD)"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Singular Value Decomposition"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Matrix Decompositions > Cholesky Decomposition > Find the Cholesky decomposition of a matrix",
+                  "title": "Find the Cholesky decomposition of a matrix"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Cholesky Decomposition"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Matrix Decompositions > Hessenberg Decomposition > Compute a Hessenberg decomposition",
+                  "title": "Compute a Hessenberg decomposition"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Hessenberg Decomposition"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Matrix Decompositions > Schur Decomposition > Compute a Schur decomposition",
+                  "title": "Compute a Schur decomposition"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Schur Decomposition"
+            }
+          ],
+          "covered": 0,
+          "leaves": 10,
+          "title": "Matrix Decompositions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Geometric Transformations > Rotations > Visualize a rotation and compute its matrix",
+                  "title": "Visualize a rotation and compute its matrix"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Geometric Transformations > Rotations > Rotate a point",
+                  "title": "Rotate a point"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Geometric Transformations > Rotations > Rotate the graph of a function",
+                  "title": "Rotate the graph of a function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Geometric Transformations > Rotations > Visualize a rotation in 3D",
+                  "title": "Visualize a rotation in 3D"
+                }
+              ],
+              "covered": 0,
+              "leaves": 4,
+              "title": "Rotations"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Geometric Transformations > Euler Angles > Specify a rotation in 3D using the angles of rolls, pitches and yaws and visualize it",
+                  "title": "Specify a rotation in 3D using the angles of rolls, pitches and yaws and visualize it"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Geometric Transformations > Euler Angles > Specify a rotation in 3D using Euler angles",
+                  "title": "Specify a rotation in 3D using Euler angles"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Euler Angles"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Geometric Transformations > Reflections > Visualize a reflection and compute its matrix",
+                  "title": "Visualize a reflection and compute its matrix"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Geometric Transformations > Reflections > Reflect a point",
+                  "title": "Reflect a point"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Geometric Transformations > Reflections > Reflect the graph of an implicitly defined function through a line",
+                  "title": "Reflect the graph of an implicitly defined function through a line"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Geometric Transformations > Reflections > Visualize a reflection in 3D",
+                  "title": "Visualize a reflection in 3D"
+                }
+              ],
+              "covered": 0,
+              "leaves": 4,
+              "title": "Reflections"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Linear Algebra > Matrices > Geometric Transformations > Shears > Visualize a shear and compute its matrix",
+                  "title": "Visualize a shear and compute its matrix"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Shears"
+            }
+          ],
+          "covered": 0,
+          "leaves": 11,
+          "title": "Geometric Transformations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Types of Matrices > Determine whether a matrix has a specified property",
+              "title": "Determine whether a matrix has a specified property"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Types of Matrices > Get information about a type of matrix",
+              "title": "Get information about a type of matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Linear Algebra > Matrices > Types of Matrices > Specify a size",
+              "title": "Specify a size"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Types of Matrices"
+        }
+      ],
+      "covered": 0,
+      "leaves": 42,
+      "title": "Matrices"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Linear Algebra > Linear Independence > Determine whether a set of vectors is linearly independent",
+          "title": "Determine whether a set of vectors is linearly independent"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Linear Algebra > Linear Independence > Specify complex vectors",
+          "title": "Specify complex vectors"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Linear Algebra > Linear Independence > Specify vectors with one or more symbolic components",
+          "title": "Specify vectors with one or more symbolic components"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Linear Independence"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Linear Algebra > Vector Spaces > Compute the row space of a matrix",
+          "title": "Compute the row space of a matrix"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Linear Algebra > Vector Spaces > Compute the column space of a matrix",
+          "title": "Compute the column space of a matrix"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Linear Algebra > Vector Spaces > Compute the null space of a matrix",
+          "title": "Compute the null space of a matrix"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Vector Spaces"
+    }
+  ],
+  "percent": 0.0,
+  "reindexed": false,
+  "slug": "linear-algebra",
+  "title": "Linear Algebra"
+}

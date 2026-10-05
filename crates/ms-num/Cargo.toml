@@ -1,0 +1,24 @@
+[package]
+name = "ms-num"
+description = "Torre numérica: traits Coefficient/Field y sus impls exactas."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+# Cero dependencias del workspace, a propósito (02-architecture.md §2).
+[dependencies]
+num-bigint.workspace = true
+num-rational.workspace = true
+num-integer.workspace = true
+num-traits.workspace = true
+# Hash determinista y sin getrandom: la división larga de un periódico guarda
+# los restos ya vistos, y en wasm32 el RandomState de std no tiene entropía.
+rustc-hash.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
+
+[lints]
+workspace = true

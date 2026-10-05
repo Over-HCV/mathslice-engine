@@ -1,0 +1,644 @@
+{
+  "covered": 19,
+  "leaves": 36,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "2+3",
+                  "name": "aritmetica-entera-sin-pasos",
+                  "result_latex": "5",
+                  "stage": "E0"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Arithmetic > Addition & Subtraction > Add numbers",
+              "title": "Add numbers"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Arithmetic > Addition & Subtraction > Subtract numbers",
+              "title": "Subtract numbers"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "-\\frac{1}{2}+\\frac{1}{6}",
+                  "name": "suma-que-empieza-en-negativo",
+                  "result_latex": "\\frac{-1}{3}",
+                  "stage": "E0"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Arithmetic > Addition & Subtraction > Combine addition and subtraction",
+              "title": "Combine addition and subtraction"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Arithmetic > Addition & Subtraction > Generate an addition table",
+              "title": "Generate an addition table"
+            }
+          ],
+          "covered": 2,
+          "leaves": 4,
+          "title": "Addition & Subtraction"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\frac{-1}{2}\\cdot\\frac{3}{5}",
+                  "name": "producto-con-signo-negativo",
+                  "result_latex": "\\frac{-3}{10}",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Arithmetic > Multiplication & Division > Multiply numbers",
+              "title": "Multiply numbers"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "5/6",
+                  "name": "division-con-barra",
+                  "result_latex": "\\frac{5}{6}",
+                  "stage": "E0"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Arithmetic > Multiplication & Division > Divide numbers",
+              "title": "Divide numbers"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Arithmetic > Multiplication & Division > Generate a multiplication table",
+              "title": "Generate a multiplication table"
+            }
+          ],
+          "covered": 2,
+          "leaves": 3,
+          "title": "Multiplication & Division"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\left(\\frac{2}{3}\\right)^{3}",
+                  "name": "potencia-de-una-fraccion",
+                  "result_latex": "\\frac{8}{27}",
+                  "stage": "E1"
+                },
+                {
+                  "error": null,
+                  "latex": "2^{-3}",
+                  "name": "potencia-de-exponente-negativo",
+                  "result_latex": "\\frac{1}{8}",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Arithmetic > Powers & Roots > Compute powers",
+              "title": "Compute powers"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Arithmetic > Powers & Roots > Find square roots",
+              "title": "Find square roots"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Arithmetic > Powers & Roots > Find higher roots",
+              "title": "Find higher roots"
+            }
+          ],
+          "covered": 1,
+          "leaves": 3,
+          "title": "Powers & Roots"
+        },
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\frac{1}{2}+\\frac{1}{3}\\cdot\\frac{3}{4}",
+                  "name": "pemdas-sobre-expresion-compuesta",
+                  "result_latex": "\\frac{3}{4}",
+                  "stage": "E1"
+                },
+                {
+                  "error": null,
+                  "latex": "2\\cdot(3+4)^{2}-\\frac{50\\%}{2}",
+                  "name": "pemdas-con-parentesis-potencia-y-porcentaje",
+                  "result_latex": "\\frac{391}{4}",
+                  "stage": "E1"
+                },
+                {
+                  "error": null,
+                  "latex": "\\frac{1}{2}+\\frac{1}{3}\\cdot\\frac{3}{4}-2^{3}\\div 4",
+                  "name": "pemdas-con-resta-potencia-y-division",
+                  "result_latex": "\\frac{-5}{4}",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Arithmetic > Multiple Operations > Combine several arithmetic operations",
+              "title": "Combine several arithmetic operations"
+            }
+          ],
+          "covered": 1,
+          "leaves": 1,
+          "title": "Multiple Operations"
+        }
+      ],
+      "covered": 6,
+      "leaves": 11,
+      "title": "Arithmetic"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\frac{2}{3}+\\frac{1}{6}",
+                  "name": "criterio-de-salida",
+                  "result_latex": "\\frac{5}{6}",
+                  "stage": "E0"
+                },
+                {
+                  "error": null,
+                  "latex": "\\frac{1}{4}+\\frac{1}{4}",
+                  "name": "mismo-denominador-y-reduccion",
+                  "result_latex": "\\frac{1}{2}",
+                  "stage": "E0"
+                },
+                {
+                  "error": null,
+                  "latex": "\\frac{1}{3}+\\frac{2}{3}",
+                  "name": "suma-que-cancela-a-entero",
+                  "result_latex": "1",
+                  "stage": "E0"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Fractions > Addition & Subtraction > Add fractions",
+              "title": "Add fractions"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\frac{3}{4}-\\frac{1}{4}",
+                  "name": "resta-de-fracciones",
+                  "result_latex": "\\frac{1}{2}",
+                  "stage": "E0"
+                },
+                {
+                  "error": null,
+                  "latex": "\\frac{3}{4}-\\frac{5}{6}",
+                  "name": "resta-con-resultado-negativo",
+                  "result_latex": "\\frac{-1}{12}",
+                  "stage": "E0"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Fractions > Addition & Subtraction > Subtract fractions",
+              "title": "Subtract fractions"
+            }
+          ],
+          "covered": 2,
+          "leaves": 2,
+          "title": "Addition & Subtraction"
+        },
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\frac{1}{2}\\cdot\\frac{2}{3}",
+                  "name": "multiplicacion-de-fracciones",
+                  "result_latex": "\\frac{1}{3}",
+                  "stage": "E0"
+                },
+                {
+                  "error": null,
+                  "latex": "\\frac{1}{2}\\cdot\\frac{3}{4}\\cdot\\frac{5}{6}",
+                  "name": "producto-de-tres-fracciones",
+                  "result_latex": "\\frac{5}{16}",
+                  "stage": "E1"
+                },
+                {
+                  "error": null,
+                  "latex": "\\frac{2}{3}\\cdot\\frac{3}{2}",
+                  "name": "producto-que-da-entero",
+                  "result_latex": "1",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Fractions > Multiplication & Division > Multiply fractions",
+              "title": "Multiply fractions"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\frac{7}{12}\\div\\frac{14}{9}",
+                  "name": "division-de-fracciones",
+                  "result_latex": "\\frac{3}{8}",
+                  "stage": "E1"
+                },
+                {
+                  "error": null,
+                  "latex": "\\frac{1}{2}/\\frac{1}{4}",
+                  "name": "division-con-barra-entre-fracciones",
+                  "result_latex": "2",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Fractions > Multiplication & Division > Divide fractions",
+              "title": "Divide fractions"
+            }
+          ],
+          "covered": 2,
+          "leaves": 2,
+          "title": "Multiplication & Division"
+        },
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{6}",
+                  "name": "tres-sumandos-con-denominadores-distintos",
+                  "result_latex": "1",
+                  "stage": "E0"
+                },
+                {
+                  "error": null,
+                  "latex": "\\frac{7}{12}\\div\\frac{14}{9}+2^{40}",
+                  "name": "criterio-de-salida",
+                  "result_latex": "\\frac{8796093022211}{8}",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Fractions > Multiple Operations > Do exact arithmetic with fractions",
+              "title": "Do exact arithmetic with fractions"
+            }
+          ],
+          "covered": 1,
+          "leaves": 1,
+          "title": "Multiple Operations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Fractions > Pie Charts & Tape Diagrams > Visualize fractions with pie charts or tape diagrams",
+              "title": "Visualize fractions with pie charts or tape diagrams"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Fractions > Pie Charts & Tape Diagrams > See pie charts for fraction arithmetic",
+              "title": "See pie charts for fraction arithmetic"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Pie Charts & Tape Diagrams"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Fractions > Mixed & Improper Fractions > Convert a mixed number to an improper fraction",
+              "title": "Convert a mixed number to an improper fraction"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\frac{7}{3}",
+                  "name": "impropia-trae-su-vista-mixta",
+                  "result_latex": "\\frac{7}{3}",
+                  "stage": "E1"
+                },
+                {
+                  "error": null,
+                  "latex": "-\\frac{7}{3}",
+                  "name": "impropia-negativa-lleva-el-signo-delante-del-conjunto",
+                  "result_latex": "\\frac{-7}{3}",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Fractions > Mixed & Improper Fractions > Convert an improper fraction to a mixed number",
+              "title": "Convert an improper fraction to a mixed number"
+            }
+          ],
+          "covered": 1,
+          "leaves": 2,
+          "title": "Mixed & Improper Fractions"
+        }
+      ],
+      "covered": 6,
+      "leaves": 9,
+      "title": "Fractions"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Percentages > Percentages > Find information about a percentage",
+              "title": "Find information about a percentage"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\frac{5}{2}",
+                  "name": "fraccion-que-se-lee-de-las-dos-formas",
+                  "result_latex": "\\frac{5}{2}",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Percentages > Percentages > Convert a fraction to a percentage",
+              "title": "Convert a fraction to a percentage"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "20\\%\\cdot 150",
+                  "name": "porcentaje-de-una-cantidad",
+                  "result_latex": "30",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Percentages > Percentages > Calculate a percentage of a number",
+              "title": "Calculate a percentage of a number"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Percentages > Percentages > Calculate a percentage of a quantity",
+              "title": "Calculate a percentage of a quantity"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "50\\%",
+                  "name": "un-porcentaje-es-una-centesima",
+                  "result_latex": "\\frac{1}{2}",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Percentages > Percentages > Convert a percentage to an equivalent fraction",
+              "title": "Convert a percentage to an equivalent fraction"
+            }
+          ],
+          "covered": 3,
+          "leaves": 5,
+          "title": "Percentages"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "150\\cdot\\left(1+20\\%\\right)",
+                  "name": "aumento-porcentual",
+                  "result_latex": "180",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Percentages > Percent Increase & Decrease > Increase a quantity by a percentage",
+              "title": "Increase a quantity by a percentage"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Percentages > Percent Increase & Decrease > Compute a discounted price",
+              "title": "Compute a discounted price"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "150\\left(1-20\\%\\right)\\left(1-10\\%\\right)",
+                  "name": "descuentos-sucesivos",
+                  "result_latex": "108",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Percentages > Percent Increase & Decrease > Compute successive increases or decreases",
+              "title": "Compute successive increases or decreases"
+            }
+          ],
+          "covered": 2,
+          "leaves": 3,
+          "title": "Percent Increase & Decrease"
+        }
+      ],
+      "covered": 5,
+      "leaves": 8,
+      "title": "Percentages"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Place Value > Place Value > Show place values for a number",
+              "title": "Show place values for a number"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Place Value > Place Value > Find the value of a particular digit of a number",
+              "title": "Find the value of a particular digit of a number"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Place Value"
+        },
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\operatorname{redondear}\\left(3.456, 2\\right)",
+                  "name": "redondeo-a-dos-cifras",
+                  "result_latex": "\\frac{173}{50}",
+                  "stage": "E1"
+                },
+                {
+                  "error": null,
+                  "latex": "\\operatorname{redondear}\\left(1234, -2\\right)",
+                  "name": "redondeo-a-la-izquierda-de-la-coma",
+                  "result_latex": "1200",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Place Value > Rounding > Discover the results of rounding a number to any place value",
+              "title": "Discover the results of rounding a number to any place value"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\operatorname{redondear}\\left(2.5, 0\\right)",
+                  "name": "el-medio-se-va-lejos-del-cero",
+                  "result_latex": "3",
+                  "stage": "E1"
+                },
+                {
+                  "error": null,
+                  "latex": "\\operatorname{redondearPar}\\left(2.5, 0\\right)",
+                  "name": "el-medio-se-va-a-la-cifra-par",
+                  "result_latex": "2",
+                  "stage": "E1"
+                },
+                {
+                  "error": null,
+                  "latex": "\\operatorname{redondear}\\left(-2.5, 0\\right)",
+                  "name": "el-redondeo-es-simetrico-en-los-negativos",
+                  "result_latex": "-3",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Elementary Math > Place Value > Rounding > Examine half rounding methods",
+              "title": "Examine half rounding methods"
+            }
+          ],
+          "covered": 2,
+          "leaves": 2,
+          "title": "Rounding"
+        }
+      ],
+      "covered": 2,
+      "leaves": 4,
+      "title": "Place Value"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Number Type Arithmetic > Number Type Arithmetic > Determine parity",
+              "title": "Determine parity"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Number Type Arithmetic > Number Type Arithmetic > Determine sign",
+              "title": "Determine sign"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Number Type Arithmetic > Number Type Arithmetic > Determine number type",
+              "title": "Determine number type"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Number Type Arithmetic"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Number Type Arithmetic"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Elementary Math > Mathematical Word Problems > Word Problems > Solve a word problem",
+              "title": "Solve a word problem"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Word Problems"
+        }
+      ],
+      "covered": 0,
+      "leaves": 1,
+      "title": "Mathematical Word Problems"
+    }
+  ],
+  "percent": 52.78,
+  "reindexed": false,
+  "slug": "elementary-math",
+  "title": "Elementary Math"
+}

@@ -1,0 +1,648 @@
+{
+  "covered": 0,
+  "leaves": 65,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Factorials & Combinations > Do computations with factorials",
+              "title": "Do computations with factorials"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Factorials & Combinations > Compute binomial coefficients (combinations)",
+              "title": "Compute binomial coefficients (combinations)"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Factorials & Combinations > Compute a multinomial coefficient",
+              "title": "Compute a multinomial coefficient"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Factorials & Combinations > Evaluate a double factorial binomial coefficient",
+              "title": "Evaluate a double factorial binomial coefficient"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Factorials & Combinations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Combinatorics > Permutations > Algebra of Permutations > Describe a permutation",
+                  "title": "Describe a permutation"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Combinatorics > Permutations > Algebra of Permutations > Do algebra with permutations",
+                  "title": "Do algebra with permutations"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Combinatorics > Permutations > Algebra of Permutations > Compute properties of a permutation",
+                  "title": "Compute properties of a permutation"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Algebra of Permutations"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Combinatorics > Permutations > Random Permutations > Generate a random permutation",
+                  "title": "Generate a random permutation"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Random Permutations"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Combinatorics > Permutations > Permutations of a Set > Compute permutations of a set",
+                  "title": "Compute permutations of a set"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Combinatorics > Permutations > Permutations of a Set > Compute distinct permutations of a list",
+                  "title": "Compute distinct permutations of a list"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Permutations of a Set"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Combinatorics > Permutations > Counting Permutations > Count permutations",
+                  "title": "Count permutations"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Combinatorics > Permutations > Counting Permutations > Specify a permutation size",
+                  "title": "Specify a permutation size"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Combinatorics > Permutations > Counting Permutations > Count derangements",
+                  "title": "Count derangements"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Counting Permutations"
+            }
+          ],
+          "covered": 0,
+          "leaves": 9,
+          "title": "Permutations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Integer Partitions > Compute the partitions of an integer",
+              "title": "Compute the partitions of an integer"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Integer Partitions > Specify a constraint on the number of parts",
+              "title": "Specify a constraint on the number of parts"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Integer Partitions > Restrict to partitions into distinct parts",
+              "title": "Restrict to partitions into distinct parts"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Integer Partitions > Compute the number of partitions",
+              "title": "Compute the number of partitions"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Integer Partitions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Integer Compositions > Compute the compositions of an integer",
+              "title": "Compute the compositions of an integer"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Integer Compositions > Specify a constraint on the parts",
+              "title": "Specify a constraint on the parts"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Integer Compositions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Enumeration Problems > Count the number of possible colored bracelets",
+              "title": "Count the number of possible colored bracelets"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Enumeration Problems > Count the number of possible fixed necklaces",
+              "title": "Count the number of possible fixed necklaces"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Enumeration Problems > Count Lyndon words",
+              "title": "Count Lyndon words"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Enumeration Problems"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Combinatorial Functions > Compute a Bernoulli number",
+              "title": "Compute a Bernoulli number"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Combinatorial Functions > Compute a Stirling number",
+              "title": "Compute a Stirling number"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Combinatorial Functions > Compute a Frobenius number",
+              "title": "Compute a Frobenius number"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Combinatorial Functions > Compute Catalan numbers",
+              "title": "Compute Catalan numbers"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Combinatorial Functions > Compute Clebsch–Gordan coefficients",
+              "title": "Compute Clebsch–Gordan coefficients"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Combinatorial Functions > Compute Wigner coefficients",
+              "title": "Compute Wigner coefficients"
+            }
+          ],
+          "covered": 0,
+          "leaves": 6,
+          "title": "Combinatorial Functions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Latin Squares > Get information about Latin squares",
+              "title": "Get information about Latin squares"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Latin Squares > Compute the number of Latin squares of a specified size",
+              "title": "Compute the number of Latin squares of a specified size"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Latin Squares > Count normalized Latin squares",
+              "title": "Count normalized Latin squares"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Combinatorics > Latin Squares > Compute bounds on the number of large-size Latin squares",
+              "title": "Compute bounds on the number of large-size Latin squares"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Latin Squares"
+        }
+      ],
+      "covered": 0,
+      "leaves": 32,
+      "title": "Combinatorics"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Graph Theory > Named Graphs > Compute properties of a named graph",
+              "title": "Compute properties of a named graph"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Graph Theory > Named Graphs > Specify graphs with symbolic parameters",
+              "title": "Specify graphs with symbolic parameters"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Graph Theory > Named Graphs > Compare several graphs",
+              "title": "Compare several graphs"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Graph Theory > Named Graphs > Get a graph polynomial",
+              "title": "Get a graph polynomial"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Named Graphs"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Graph Theory > Adjacency Rules > Analyze a graph specified by adjacency rules",
+              "title": "Analyze a graph specified by adjacency rules"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Graph Theory > Adjacency Rules > Compute an Eulerian cycle",
+              "title": "Compute an Eulerian cycle"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Adjacency Rules"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Graph Theory > Random Graphs > Create a random graph with a fixed number of vertices",
+              "title": "Create a random graph with a fixed number of vertices"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Graph Theory > Random Graphs > Specify the number of vertices and edges",
+              "title": "Specify the number of vertices and edges"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Random Graphs"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Graph Theory > Regular Trees > Regular k-ary Trees > Compute properties of a regular k-ary tree",
+                  "title": "Compute properties of a regular k-ary tree"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Graph Theory > Regular Trees > Regular k-ary Trees > Specify the number of levels",
+                  "title": "Specify the number of levels"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Regular k-ary Trees"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Regular Trees"
+        }
+      ],
+      "covered": 0,
+      "leaves": 10,
+      "title": "Graph Theory"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Point Lattices > Lattices > Compute properties of a lattice",
+              "title": "Compute properties of a lattice"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Point Lattices > Lattices > Compute properties of a root lattice",
+              "title": "Compute properties of a root lattice"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Point Lattices > Lattices > Compute properties of a non-lattice packing structure",
+              "title": "Compute properties of a non-lattice packing structure"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Point Lattices > Lattices > Compare lattices",
+              "title": "Compare lattices"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Lattices"
+        }
+      ],
+      "covered": 0,
+      "leaves": 4,
+      "title": "Point Lattices"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Sequences > Sequences > Analyze a sequence",
+              "title": "Analyze a sequence"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Sequences > Sequences > Compute the limit of a sequence",
+              "title": "Compute the limit of a sequence"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Sequences"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Sequences > Integer Sequences > Integer Sequences > Analyze a named integer sequence",
+                  "title": "Analyze a named integer sequence"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Sequences > Integer Sequences > Integer Sequences > Specify a sequence by OEIS number",
+                  "title": "Specify a sequence by OEIS number"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Sequences > Integer Sequences > Integer Sequences > Find the generating function of a sequence",
+                  "title": "Find the generating function of a sequence"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Integer Sequences"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Discrete Mathematics > Sequences > Integer Sequences > Sequence Recognition > Compute a possible formula and continuation for a sequence",
+                  "title": "Compute a possible formula and continuation for a sequence"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Sequence Recognition"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Integer Sequences"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Sequences > Sequence Recognition > Compute a possible formula and continuation for a sequence",
+              "title": "Compute a possible formula and continuation for a sequence"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Sequences > Sequence Recognition > Sum an incompletely specified sequence of terms",
+              "title": "Sum an incompletely specified sequence of terms"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Sequences > Sequence Recognition > Sum an incompletely specified infinite series",
+              "title": "Sum an incompletely specified infinite series"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Sequences > Sequence Recognition > Multiply an incompletely specified sequence of terms",
+              "title": "Multiply an incompletely specified sequence of terms"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Sequence Recognition"
+        }
+      ],
+      "covered": 0,
+      "leaves": 10,
+      "title": "Sequences"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Recurrences > Solving Recurrences > Solve a recurrence",
+              "title": "Solve a recurrence"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Recurrences > Solving Recurrences > Specify initial values",
+              "title": "Specify initial values"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Recurrences > Solving Recurrences > Solve a q-difference equation",
+              "title": "Solve a q-difference equation"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Solving Recurrences"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Recurrences > Asymptotic Bounds > Find an asymptotic bound for a recurrence equation",
+              "title": "Find an asymptotic bound for a recurrence equation"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Recurrences > Asymptotic Bounds > Use floor and ceiling to round the index",
+              "title": "Use floor and ceiling to round the index"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Recurrences > Asymptotic Bounds > Compute asymptotic bounds even when a recurrence cannot be solved exactly",
+              "title": "Compute asymptotic bounds even when a recurrence cannot be solved exactly"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Asymptotic Bounds"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Recurrences > Finding Recurrences > Find a recurrence satisfied by a given sequence",
+              "title": "Find a recurrence satisfied by a given sequence"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Discrete Mathematics > Recurrences > Finding Recurrences > Find a recurrence satisfied by a sequence of functions",
+              "title": "Find a recurrence satisfied by a sequence of functions"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Finding Recurrences"
+        }
+      ],
+      "covered": 0,
+      "leaves": 8,
+      "title": "Recurrences"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Discrete Mathematics > Ackermann Function > Evaluate the Ackermann function",
+          "title": "Evaluate the Ackermann function"
+        }
+      ],
+      "covered": 0,
+      "leaves": 1,
+      "title": "Ackermann Function"
+    }
+  ],
+  "percent": 0.0,
+  "reindexed": false,
+  "slug": "discrete-mathematics",
+  "title": "Discrete Mathematics"
+}

@@ -1,0 +1,28 @@
+[package]
+name = "ms-diff"
+description = "Derivadas: una función por regla de derivación, sobre el árbol y sin decidir cuándo aplicarse."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+# Sólo la arena y los enteros. **No depende de `ms-alg`** a propósito: derivar es
+# estructural —se mira la cabeza y se recurre— y pasar por el polinomio obligaría
+# a que todo lo derivable fuera un polinomio. La derivada de `\frac{1}{x}` no lo
+# es, y la de `\left(x^{2}+1\right)^{3}` tampoco hasta que alguien la expanda.
+[dependencies]
+ms-core.workspace = true
+ms-num.workspace = true
+num-traits.workspace = true
+
+# El mismo trato que ms-alg y ms-solve tienen con ms-parse: las reglas se
+# comprueban entrando por LaTeX y saliendo por LaTeX, que es por donde pasa el
+# usuario. Escribir los árboles a mano probaría la regla contra un árbol que
+# nadie construye así.
+[dev-dependencies]
+ms-parse.workspace = true
+ms-serialize.workspace = true
+
+[lints]
+workspace = true

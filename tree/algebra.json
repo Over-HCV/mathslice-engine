@@ -1,0 +1,1314 @@
+{
+  "covered": 7,
+  "leaves": 120,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "3x + 1 = 7",
+                  "name": "una-ecuacion-lineal",
+                  "result_latex": "\\left\\{x = 2\\right\\}",
+                  "stage": "E2"
+                }
+              ],
+              "checked": true,
+              "id": "Algebra > Equation Solving > Equations > Solve a linear equation",
+              "title": "Solve a linear equation"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "x^{2}-5x+6 = 0",
+                  "name": "criterio-de-salida",
+                  "result_latex": "\\left\\{x = 2, x = 3\\right\\}",
+                  "stage": "E2"
+                }
+              ],
+              "checked": true,
+              "id": "Algebra > Equation Solving > Equations > Solve a polynomial equation",
+              "title": "Solve a polynomial equation"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Equation Solving > Equations > Solve over a specified domain",
+              "title": "Solve over a specified domain"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Equation Solving > Equations > Solve an equation with parameters",
+              "title": "Solve an equation with parameters"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Equation Solving > Equations > Solve a trigonometric equation",
+              "title": "Solve a trigonometric equation"
+            }
+          ],
+          "covered": 2,
+          "leaves": 5,
+          "title": "Equations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Equation Solving > Systems of Equations > Solve a system of linear equations",
+              "title": "Solve a system of linear equations"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Equation Solving > Systems of Equations > Solve a system of polynomial equations",
+              "title": "Solve a system of polynomial equations"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Systems of Equations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Equation Solving > Systems of Congruences > Solve a single congruence equation",
+              "title": "Solve a single congruence equation"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Equation Solving > Systems of Congruences > Solve systems of congruences",
+              "title": "Solve systems of congruences"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Equation Solving > Systems of Congruences > Check if values are equivalent under a given modulus",
+              "title": "Check if values are equivalent under a given modulus"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Equation Solving > Systems of Congruences > Solve a congruence involving variables in the modulus",
+              "title": "Solve a congruence involving variables in the modulus"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Equation Solving > Systems of Congruences > Solve systems with each equation under a different modulus",
+              "title": "Solve systems with each equation under a different modulus"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Equation Solving > Systems of Congruences > Solve multivariate systems of congruences",
+              "title": "Solve multivariate systems of congruences"
+            }
+          ],
+          "covered": 0,
+          "leaves": 6,
+          "title": "Systems of Congruences"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Equation Solving > Numerical Root Finding > Newton's Method > Find a root of an equation using Newton's method",
+                  "title": "Find a root of an equation using Newton's method"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Equation Solving > Numerical Root Finding > Newton's Method > Specify a starting point",
+                  "title": "Specify a starting point"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Equation Solving > Numerical Root Finding > Newton's Method > Specify precision",
+                  "title": "Specify precision"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Equation Solving > Numerical Root Finding > Newton's Method > Find a complex root with Newton's method",
+                  "title": "Find a complex root with Newton's method"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Equation Solving > Numerical Root Finding > Newton's Method > Compute the nth root of a number using Newton's method",
+                  "title": "Compute the nth root of a number using Newton's method"
+                }
+              ],
+              "covered": 0,
+              "leaves": 5,
+              "title": "Newton's Method"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Equation Solving > Numerical Root Finding > Secant Method > Find a root of an equation using the secant method",
+                  "title": "Find a root of an equation using the secant method"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Equation Solving > Numerical Root Finding > Secant Method > Compute the nth root of a number using the secant method",
+                  "title": "Compute the nth root of a number using the secant method"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Secant Method"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Equation Solving > Numerical Root Finding > Bisection Method > Find a root of an equation using the bisection method",
+                  "title": "Find a root of an equation using the bisection method"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Equation Solving > Numerical Root Finding > Bisection Method > Compute the nth root of a number using the bisection method",
+                  "title": "Compute the nth root of a number using the bisection method"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Bisection Method"
+            }
+          ],
+          "covered": 0,
+          "leaves": 9,
+          "title": "Numerical Root Finding"
+        }
+      ],
+      "covered": 2,
+      "leaves": 22,
+      "title": "Equation Solving"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Polynomials > Polynomials > Compute properties of a polynomial",
+              "title": "Compute properties of a polynomial"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Polynomials > Polynomials > Compute properties of a polynomial in several variables",
+              "title": "Compute properties of a polynomial in several variables"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Polynomials > Polynomials > Find the degree of a polynomial",
+              "title": "Find the degree of a polynomial"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Polynomials > Polynomials > Compute the greatest common divisor of polynomials",
+              "title": "Compute the greatest common divisor of polynomials"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Polynomials > Polynomials > Compute a polynomial from zeros",
+              "title": "Compute a polynomial from zeros"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Polynomials"
+        },
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\operatorname{factorizar}(x^{2}-5x+6)",
+                  "name": "factorizar-una-cuadratica",
+                  "result_latex": "\\left(x - 3\\right)\\left(x - 2\\right)",
+                  "stage": "E2"
+                }
+              ],
+              "checked": true,
+              "id": "Algebra > Polynomials > Factorization > Factor a polynomial",
+              "title": "Factor a polynomial"
+            }
+          ],
+          "covered": 1,
+          "leaves": 1,
+          "title": "Factorization"
+        },
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\operatorname{expandir}(\\left(x-2\\right)\\left(x-3\\right))",
+                  "name": "expandir-un-producto-de-binomios",
+                  "result_latex": "x^{2} - 5x + 6",
+                  "stage": "E2"
+                }
+              ],
+              "checked": true,
+              "id": "Algebra > Polynomials > Expansion > Expand a polynomial",
+              "title": "Expand a polynomial"
+            }
+          ],
+          "covered": 1,
+          "leaves": 1,
+          "title": "Expansion"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Polynomials > Long Division > Perform polynomial long division",
+              "title": "Perform polynomial long division"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Long Division"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Polynomials > Completing the Square > Complete a square",
+              "title": "Complete a square"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Completing the Square"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "x^{2} = 4",
+                  "name": "pasar-todo-al-mismo-lado",
+                  "result_latex": "\\left\\{x = -2, x = 2\\right\\}",
+                  "stage": "E2"
+                }
+              ],
+              "checked": true,
+              "id": "Algebra > Polynomials > Solving Polynomial Equations > Solve a polynomial equation",
+              "title": "Solve a polynomial equation"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Polynomials > Solving Polynomial Equations > Solve a system of polynomial equations",
+              "title": "Solve a system of polynomial equations"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Polynomials > Solving Polynomial Equations > Find candidate rational roots of a polynomial",
+              "title": "Find candidate rational roots of a polynomial"
+            }
+          ],
+          "covered": 1,
+          "leaves": 3,
+          "title": "Solving Polynomial Equations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Polynomials > Polynomial Interpolation > Interpolate a dataset with a polynomial",
+              "title": "Interpolate a dataset with a polynomial"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Polynomial Interpolation"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Polynomials > Sums & Products of Roots > Find the sum of the roots of a polynomial",
+              "title": "Find the sum of the roots of a polynomial"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Polynomials > Sums & Products of Roots > Compute the product of the roots of a polynomial",
+              "title": "Compute the product of the roots of a polynomial"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Polynomials > Sums & Products of Roots > Compute both the sum and product of the roots",
+              "title": "Compute both the sum and product of the roots"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Sums & Products of Roots"
+        }
+      ],
+      "covered": 3,
+      "leaves": 16,
+      "title": "Polynomials"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Rational Functions > Rational Functions > Compute properties of a rational function",
+              "title": "Compute properties of a rational function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Rational Functions > Rational Functions > Find the degree of a rational function",
+              "title": "Find the degree of a rational function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Rational Functions > Rational Functions > Plot a rational function",
+              "title": "Plot a rational function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Rational Functions > Rational Functions > Simplify a rational expression",
+              "title": "Simplify a rational expression"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Rational Functions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Rational Functions > Partial Fractions > Compute a partial fraction decomposition",
+              "title": "Compute a partial fraction decomposition"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Partial Fractions"
+        }
+      ],
+      "covered": 0,
+      "leaves": 5,
+      "title": "Rational Functions"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Simplification > Simplification > Simplify an expression",
+              "title": "Simplify an expression"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Simplification > Simplification > Simplify a polynomial expression",
+              "title": "Simplify a polynomial expression"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Simplification > Simplification > Simplify a rational expression",
+              "title": "Simplify a rational expression"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Simplification > Simplification > Simplify a trigonometric expression",
+              "title": "Simplify a trigonometric expression"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Simplification"
+        },
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\operatorname{factorizar}(2x^{2}-3x+1)",
+                  "name": "factorizar-con-raiz-fraccionaria",
+                  "result_latex": "\\left(x - 1\\right)\\left(2x - 1\\right)",
+                  "stage": "E2"
+                }
+              ],
+              "checked": true,
+              "id": "Algebra > Simplification > Factorization > Factor a polynomial",
+              "title": "Factor a polynomial"
+            }
+          ],
+          "covered": 1,
+          "leaves": 1,
+          "title": "Factorization"
+        },
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\operatorname{expandir}(\\left(x+1\\right)^{3})",
+                  "name": "expandir-un-cubo",
+                  "result_latex": "x^{3} + 3x^{2} + 3x + 1",
+                  "stage": "E2"
+                }
+              ],
+              "checked": true,
+              "id": "Algebra > Simplification > Expansion > Expand a polynomial",
+              "title": "Expand a polynomial"
+            }
+          ],
+          "covered": 1,
+          "leaves": 1,
+          "title": "Expansion"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Simplification > Completing the Square > Complete a square",
+              "title": "Complete a square"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Completing the Square"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Simplification > Partial Fractions > Compute a partial fraction decomposition",
+              "title": "Compute a partial fraction decomposition"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Partial Fractions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Simplification > Boolean Simplification > Perform Boolean algebra simplification",
+              "title": "Perform Boolean algebra simplification"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Boolean Simplification"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Simplification > Algebraic Form Conversion > Convert an equation to exponential form",
+              "title": "Convert an equation to exponential form"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Simplification > Algebraic Form Conversion > Convert an equation to logarithmic form",
+              "title": "Convert an equation to logarithmic form"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Algebraic Form Conversion"
+        }
+      ],
+      "covered": 2,
+      "leaves": 11,
+      "title": "Simplification"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Matrix Properties > Calculate properties of a matrix",
+              "title": "Calculate properties of a matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Matrix Properties"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Matrix Arithmetic > Add matrices",
+              "title": "Add matrices"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Matrix Arithmetic > Multiply matrices",
+              "title": "Multiply matrices"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Matrix Arithmetic > Matrix vector product",
+              "title": "Matrix vector product"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Matrix Arithmetic"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Trace > Compute the trace of a matrix",
+              "title": "Compute the trace of a matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Trace"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Determinant > Compute the determinant of a matrix",
+              "title": "Compute the determinant of a matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Determinant"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Minors > Calculate a minor of a matrix",
+              "title": "Calculate a minor of a matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Minors"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Inverse > Compute the inverse of a matrix",
+              "title": "Compute the inverse of a matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Inverse > Find a pseudoinverse",
+              "title": "Find a pseudoinverse"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Inverse"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Row Reduction > Row reduce a matrix",
+              "title": "Row reduce a matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Row Reduction"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Eigenvalues & Eigenvectors > Compute the eigenvalues of a matrix",
+              "title": "Compute the eigenvalues of a matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Eigenvalues & Eigenvectors > Compute the eigenvectors of a matrix",
+              "title": "Compute the eigenvectors of a matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Eigenvalues & Eigenvectors > Compute the characteristic polynomial of a matrix",
+              "title": "Compute the characteristic polynomial of a matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Eigenvalues & Eigenvectors"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Other Matrix Operations > Compute the transpose of a matrix",
+              "title": "Compute the transpose of a matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Other Matrix Operations > Compute the rank of a matrix",
+              "title": "Compute the rank of a matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Other Matrix Operations > Compute the nullity of a matrix",
+              "title": "Compute the nullity of a matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Other Matrix Operations > Compute the adjugate of a matrix",
+              "title": "Compute the adjugate of a matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Other Matrix Operations > Compute the minors of a matrix",
+              "title": "Compute the minors of a matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Other Matrix Operations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Matrix Decompositions > Diagonalization > Diagonalize a matrix",
+                  "title": "Diagonalize a matrix"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Matrix Decompositions > Diagonalization > Compute an orthogonal diagonalization of a real symmetric matrix",
+                  "title": "Compute an orthogonal diagonalization of a real symmetric matrix"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Matrix Decompositions > Diagonalization > Calculate a unitary diagonalization of a normal matrix",
+                  "title": "Calculate a unitary diagonalization of a normal matrix"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Diagonalization"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Matrix Decompositions > Jordan Decomposition > Compute a Jordan decomposition",
+                  "title": "Compute a Jordan decomposition"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Jordan Decomposition"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Matrix Decompositions > LU Decomposition > Compute the LU decomposition of a matrix",
+                  "title": "Compute the LU decomposition of a matrix"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "LU Decomposition"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Matrix Decompositions > QR Decomposition > Compute the QR decomposition of a matrix",
+                  "title": "Compute the QR decomposition of a matrix"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "QR Decomposition"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Matrix Decompositions > Singular Value Decomposition > Compute a singular value decomposition (SVD)",
+                  "title": "Compute a singular value decomposition (SVD)"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Singular Value Decomposition"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Matrix Decompositions > Cholesky Decomposition > Find the Cholesky decomposition of a matrix",
+                  "title": "Find the Cholesky decomposition of a matrix"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Cholesky Decomposition"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Matrix Decompositions > Hessenberg Decomposition > Compute a Hessenberg decomposition",
+                  "title": "Compute a Hessenberg decomposition"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Hessenberg Decomposition"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Matrix Decompositions > Schur Decomposition > Compute a Schur decomposition",
+                  "title": "Compute a Schur decomposition"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Schur Decomposition"
+            }
+          ],
+          "covered": 0,
+          "leaves": 10,
+          "title": "Matrix Decompositions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Geometric Transformations > Rotations > Visualize a rotation and compute its matrix",
+                  "title": "Visualize a rotation and compute its matrix"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Geometric Transformations > Rotations > Rotate a point",
+                  "title": "Rotate a point"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Geometric Transformations > Rotations > Rotate the graph of a function",
+                  "title": "Rotate the graph of a function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Geometric Transformations > Rotations > Visualize a rotation in 3D",
+                  "title": "Visualize a rotation in 3D"
+                }
+              ],
+              "covered": 0,
+              "leaves": 4,
+              "title": "Rotations"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Geometric Transformations > Euler Angles > Specify a rotation in 3D using the angles of rolls, pitches and yaws and visualize it",
+                  "title": "Specify a rotation in 3D using the angles of rolls, pitches and yaws and visualize it"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Geometric Transformations > Euler Angles > Specify a rotation in 3D using Euler angles",
+                  "title": "Specify a rotation in 3D using Euler angles"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Euler Angles"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Geometric Transformations > Reflections > Visualize a reflection and compute its matrix",
+                  "title": "Visualize a reflection and compute its matrix"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Geometric Transformations > Reflections > Reflect a point",
+                  "title": "Reflect a point"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Geometric Transformations > Reflections > Reflect the graph of an implicitly defined function through a line",
+                  "title": "Reflect the graph of an implicitly defined function through a line"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Geometric Transformations > Reflections > Visualize a reflection in 3D",
+                  "title": "Visualize a reflection in 3D"
+                }
+              ],
+              "covered": 0,
+              "leaves": 4,
+              "title": "Reflections"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Matrices > Geometric Transformations > Shears > Visualize a shear and compute its matrix",
+                  "title": "Visualize a shear and compute its matrix"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Shears"
+            }
+          ],
+          "covered": 0,
+          "leaves": 11,
+          "title": "Geometric Transformations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Types of Matrices > Determine whether a matrix has a specified property",
+              "title": "Determine whether a matrix has a specified property"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Types of Matrices > Get information about a type of matrix",
+              "title": "Get information about a type of matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Matrices > Types of Matrices > Specify a size",
+              "title": "Specify a size"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Types of Matrices"
+        }
+      ],
+      "covered": 0,
+      "leaves": 42,
+      "title": "Matrices"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Quaternions > Quaternions > Get information about a quaternion",
+              "title": "Get information about a quaternion"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Quaternions > Quaternions > Compare quaternions",
+              "title": "Compare quaternions"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Quaternions > Quaternions > Do calculations with quaternions",
+              "title": "Do calculations with quaternions"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Quaternions > Quaternions > Visualize a quaternion",
+              "title": "Visualize a quaternion"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Quaternions"
+        }
+      ],
+      "covered": 0,
+      "leaves": 4,
+      "title": "Quaternions"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Finite Groups > Finite Groups > Get information about a finite group",
+              "title": "Get information about a finite group"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Finite Groups > Finite Groups > Ask about a property of a group",
+              "title": "Ask about a property of a group"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Finite Groups > Finite Groups > Find groups of a specified order",
+              "title": "Find groups of a specified order"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Finite Groups > Finite Groups > Find the number of groups of a given order",
+              "title": "Find the number of groups of a given order"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Finite Groups"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Finite Groups > Permutations > Algebra of Permutations > Describe a permutation",
+                  "title": "Describe a permutation"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Finite Groups > Permutations > Algebra of Permutations > Do algebra with permutations",
+                  "title": "Do algebra with permutations"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Finite Groups > Permutations > Algebra of Permutations > Compute properties of a permutation",
+                  "title": "Compute properties of a permutation"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Algebra of Permutations"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Finite Groups > Permutations > Random Permutations > Generate a random permutation",
+                  "title": "Generate a random permutation"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Random Permutations"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Finite Groups > Permutations > Permutations of a Set > Compute permutations of a set",
+                  "title": "Compute permutations of a set"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Finite Groups > Permutations > Permutations of a Set > Compute distinct permutations of a list",
+                  "title": "Compute distinct permutations of a list"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Permutations of a Set"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Finite Groups > Permutations > Counting Permutations > Count permutations",
+                  "title": "Count permutations"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Finite Groups > Permutations > Counting Permutations > Specify a permutation size",
+                  "title": "Specify a permutation size"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Algebra > Finite Groups > Permutations > Counting Permutations > Count derangements",
+                  "title": "Count derangements"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Counting Permutations"
+            }
+          ],
+          "covered": 0,
+          "leaves": 9,
+          "title": "Permutations"
+        }
+      ],
+      "covered": 0,
+      "leaves": 13,
+      "title": "Finite Groups"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Finite Fields > Finite Fields > Compute properties of a finite field",
+              "title": "Compute properties of a finite field"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Finite Fields > Finite Fields > Compute a specific property",
+              "title": "Compute a specific property"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Finite Fields"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "Finite Fields"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Domain & Range > Domain & Range > Compute the domain of a function",
+              "title": "Compute the domain of a function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Domain & Range > Domain & Range > Compute the range of a function",
+              "title": "Compute the range of a function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Domain & Range > Domain & Range > Specify a restriction on the independent variable",
+              "title": "Specify a restriction on the independent variable"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Domain & Range > Domain & Range > Compute both domain and range",
+              "title": "Compute both domain and range"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Algebra > Domain & Range > Domain & Range > Compute domain and range of a function of several variables",
+              "title": "Compute domain and range of a function of several variables"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Domain & Range"
+        }
+      ],
+      "covered": 0,
+      "leaves": 5,
+      "title": "Domain & Range"
+    }
+  ],
+  "percent": 5.83,
+  "reindexed": false,
+  "slug": "algebra",
+  "title": "Algebra"
+}

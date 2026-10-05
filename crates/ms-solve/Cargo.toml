@@ -1,0 +1,22 @@
+[package]
+name = "ms-solve"
+description = "Ecuaciones: pasar todo a un lado, anular el producto y despejar la incógnita."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+# El álgebra la pone ms-alg; aquí sólo está qué se hace con una ecuación.
+[dependencies]
+ms-alg.workspace = true
+ms-core.workspace = true
+ms-num.workspace = true
+num-traits.workspace = true
+
+[dev-dependencies]
+ms-parse.workspace = true
+ms-serialize.workspace = true
+
+[lints]
+workspace = true

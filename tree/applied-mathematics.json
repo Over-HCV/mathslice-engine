@@ -1,0 +1,642 @@
+{
+  "covered": 0,
+  "leaves": 56,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Optimization > Global Optimization > Find global extrema",
+              "title": "Find global extrema"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Optimization > Global Optimization > Minimize or maximize a function",
+              "title": "Minimize or maximize a function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Optimization > Global Optimization > Minimize or maximize a function of several variables",
+              "title": "Minimize or maximize a function of several variables"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Global Optimization"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Optimization > Constrained Optimization > Minimize or maximize a function subject to a constraint",
+              "title": "Minimize or maximize a function subject to a constraint"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Constrained Optimization"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Optimization > Local Extrema > Find local minima or maxima",
+              "title": "Find local minima or maxima"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Local Extrema"
+        }
+      ],
+      "covered": 0,
+      "leaves": 5,
+      "title": "Optimization"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Root Finding > Newton's Method > Find a root of an equation using Newton's method",
+                  "title": "Find a root of an equation using Newton's method"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Root Finding > Newton's Method > Specify a starting point",
+                  "title": "Specify a starting point"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Root Finding > Newton's Method > Specify precision",
+                  "title": "Specify precision"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Root Finding > Newton's Method > Find a complex root with Newton's method",
+                  "title": "Find a complex root with Newton's method"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Root Finding > Newton's Method > Compute the nth root of a number using Newton's method",
+                  "title": "Compute the nth root of a number using Newton's method"
+                }
+              ],
+              "covered": 0,
+              "leaves": 5,
+              "title": "Newton's Method"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Root Finding > Secant Method > Find a root of an equation using the secant method",
+                  "title": "Find a root of an equation using the secant method"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Root Finding > Secant Method > Compute the nth root of a number using the secant method",
+                  "title": "Compute the nth root of a number using the secant method"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Secant Method"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Root Finding > Bisection Method > Find a root of an equation using the bisection method",
+                  "title": "Find a root of an equation using the bisection method"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Root Finding > Bisection Method > Compute the nth root of a number using the bisection method",
+                  "title": "Compute the nth root of a number using the bisection method"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Bisection Method"
+            }
+          ],
+          "covered": 0,
+          "leaves": 9,
+          "title": "Numerical Root Finding"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Integration > Numerical Integration > Numerically integrate functions that cannot be integrated symbolically",
+                  "title": "Numerically integrate functions that cannot be integrated symbolically"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Numerical Integration"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Integration > Numerical Integration Methods > Approximate an integral using a specified numerical method",
+                  "title": "Approximate an integral using a specified numerical method"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Integration > Numerical Integration Methods > Compare the performance of different methods",
+                  "title": "Compare the performance of different methods"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Numerical Integration Methods"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Numerical Integration"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Differential Equation Solving > Numerical Differential Equation Solving > Solve an ODE using a specified numerical method",
+                  "title": "Solve an ODE using a specified numerical method"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Differential Equation Solving > Numerical Differential Equation Solving > Specify an adaptive method",
+                  "title": "Specify an adaptive method"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Numerical Analysis > Numerical Differential Equation Solving > Numerical Differential Equation Solving > Compare the performance of different methods",
+                  "title": "Compare the performance of different methods"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Numerical Differential Equation Solving"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Numerical Differential Equation Solving"
+        }
+      ],
+      "covered": 0,
+      "leaves": 15,
+      "title": "Numerical Analysis"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Dynamical Systems > Discrete-Time Dynamical Systems > Analyze the logistic map",
+              "title": "Analyze the logistic map"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Discrete-Time Dynamical Systems"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Dynamical Systems > Continuous-Time Dynamical Systems > Analyze the Van der Pol oscillator",
+              "title": "Analyze the Van der Pol oscillator"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Dynamical Systems > Continuous-Time Dynamical Systems > Analyze the Lotka–Volterra predator‐prey model",
+              "title": "Analyze the Lotka–Volterra predator‐prey model"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Continuous-Time Dynamical Systems"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Dynamical Systems > Control Systems > Control Systems > Analyze a transfer function model",
+                  "title": "Analyze a transfer function model"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Dynamical Systems > Control Systems > Control Systems > Analyze a state space model",
+                  "title": "Analyze a state space model"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Dynamical Systems > Control Systems > Control Systems > Specify a standard system",
+                  "title": "Specify a standard system"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Dynamical Systems > Control Systems > Control Systems > Compute a response",
+                  "title": "Compute a response"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Dynamical Systems > Control Systems > Control Systems > Calculate properties of a control system",
+                  "title": "Calculate properties of a control system"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Dynamical Systems > Control Systems > Control Systems > Generate frequency response plots",
+                  "title": "Generate frequency response plots"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Dynamical Systems > Control Systems > Control Systems > Generate a root locus plot",
+                  "title": "Generate a root locus plot"
+                }
+              ],
+              "covered": 0,
+              "leaves": 7,
+              "title": "Control Systems"
+            }
+          ],
+          "covered": 0,
+          "leaves": 7,
+          "title": "Control Systems"
+        }
+      ],
+      "covered": 0,
+      "leaves": 10,
+      "title": "Dynamical Systems"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Fractals > Line-Replacement Fractals > Draw a fractal based on iterated line replacement",
+              "title": "Draw a fractal based on iterated line replacement"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Line-Replacement Fractals"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Fractals > Shape-Replacement Fractals > Shape-Replacement Fractals > Draw fractals based on replacement of shapes",
+                  "title": "Draw fractals based on replacement of shapes"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Fractals > Shape-Replacement Fractals > Shape-Replacement Fractals > Draw fractals by repeatedly adding smaller figures",
+                  "title": "Draw fractals by repeatedly adding smaller figures"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Fractals > Shape-Replacement Fractals > Shape-Replacement Fractals > Plot a fractal based on removal from an original shape",
+                  "title": "Plot a fractal based on removal from an original shape"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Fractals > Shape-Replacement Fractals > Shape-Replacement Fractals > Plot a curlicue fractal",
+                  "title": "Plot a curlicue fractal"
+                }
+              ],
+              "covered": 0,
+              "leaves": 4,
+              "title": "Shape-Replacement Fractals"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Shape-Replacement Fractals"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Fractals > Nowhere-Differentiable Functions > Plot an approximation to a nowhere-differentiable function",
+              "title": "Plot an approximation to a nowhere-differentiable function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Fractals > Nowhere-Differentiable Functions > Evaluate a nowhere-differentiable function at a point",
+              "title": "Evaluate a nowhere-differentiable function at a point"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Nowhere-Differentiable Functions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Fractals > Space-Filling Curves > Plot an approximation to a space-filling curve",
+              "title": "Plot an approximation to a space-filling curve"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Fractals > Space-Filling Curves > Specify the number of iterations to use",
+              "title": "Specify the number of iterations to use"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Space-Filling Curves"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Fractals > Mandelbrot & Julia Sets > Julia Sets > Plot the Julia set of a quadratic polynomial",
+                  "title": "Plot the Julia set of a quadratic polynomial"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Fractals > Mandelbrot & Julia Sets > Julia Sets > Plot the Julia set of an arbitrary polynomial",
+                  "title": "Plot the Julia set of an arbitrary polynomial"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Fractals > Mandelbrot & Julia Sets > Julia Sets > Plot the Julia set of a rational function",
+                  "title": "Plot the Julia set of a rational function"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Julia Sets"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Fractals > Mandelbrot & Julia Sets > Mandelbrot Set > Plot the Mandelbrot set",
+                  "title": "Plot the Mandelbrot set"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Fractals > Mandelbrot & Julia Sets > Mandelbrot Set > Plot the Mandelbrot set and an associated Julia set",
+                  "title": "Plot the Mandelbrot set and an associated Julia set"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Mandelbrot Set"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Fractals > Mandelbrot & Julia Sets > Mandelbar Set > Plot the Mandelbar (tricorn) fractal",
+                  "title": "Plot the Mandelbar (tricorn) fractal"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Mandelbar Set"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Applied Mathematics > Fractals > Mandelbrot & Julia Sets > Multibrot Sets > Plot the Multibrot set of exponent d",
+                  "title": "Plot the Multibrot set of exponent d"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Multibrot Sets"
+            }
+          ],
+          "covered": 0,
+          "leaves": 7,
+          "title": "Mandelbrot & Julia Sets"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Fractals > Fractals in 3D > Draw the Sierpinski tetrahedron",
+              "title": "Draw the Sierpinski tetrahedron"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Fractals > Fractals in 3D > Draw the Menger sponge",
+              "title": "Draw the Menger sponge"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Fractals in 3D"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Fractals > Other Fractals > Plot a curlicue fractal",
+              "title": "Plot a curlicue fractal"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Other Fractals"
+        }
+      ],
+      "covered": 0,
+      "leaves": 19,
+      "title": "Fractals"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Packing & Covering of Objects > Packing Problems > Estimate the number of objects required to fill a container",
+              "title": "Estimate the number of objects required to fill a container"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Packing & Covering of Objects > Packing Problems > Estimate the number of objects required to fill a specified volume",
+              "title": "Estimate the number of objects required to fill a specified volume"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Packing Problems"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Packing & Covering of Objects > Covering Problems > Estimate the number of objects required to cover another object",
+              "title": "Estimate the number of objects required to cover another object"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Packing & Covering of Objects > Covering Problems > Estimate the number of objects required to cover a specified area",
+              "title": "Estimate the number of objects required to cover a specified area"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Covering Problems"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Packing & Covering of Objects > Stringing Problems > Estimate the number of objects required to circle another object",
+              "title": "Estimate the number of objects required to circle another object"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Applied Mathematics > Packing & Covering of Objects > Stringing Problems > Estimate the number of objects required to stretch a specified length",
+              "title": "Estimate the number of objects required to stretch a specified length"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Stringing Problems"
+        }
+      ],
+      "covered": 0,
+      "leaves": 6,
+      "title": "Packing & Covering of Objects"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Applied Mathematics > Game Theory > Get information about a mathematical game",
+          "title": "Get information about a mathematical game"
+        }
+      ],
+      "covered": 0,
+      "leaves": 1,
+      "title": "Game Theory"
+    }
+  ],
+  "percent": 0.0,
+  "reindexed": false,
+  "slug": "applied-mathematics",
+  "title": "Applied Mathematics"
+}

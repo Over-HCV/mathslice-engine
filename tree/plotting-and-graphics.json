@@ -1,0 +1,212 @@
+{
+  "covered": 0,
+  "leaves": 23,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Functions > Plot a function of one variable",
+          "title": "Plot a function of one variable"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Functions > Specify an explicit range for the variable",
+          "title": "Specify an explicit range for the variable"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Functions > Plot a real‐valued function",
+          "title": "Plot a real‐valued function"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Functions > Plot a special function",
+          "title": "Plot a special function"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Functions > Plot several functions",
+          "title": "Plot several functions"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Functions > Plot a function on a logarithmic scale",
+          "title": "Plot a function on a logarithmic scale"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Functions > Plot on a log-linear scale",
+          "title": "Plot on a log-linear scale"
+        }
+      ],
+      "covered": 0,
+      "leaves": 7,
+      "title": "Functions"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > 3D Plots > Plot a function in two variables",
+          "title": "Plot a function in two variables"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > 3D Plots > Specify explicit ranges for the variables",
+          "title": "Specify explicit ranges for the variables"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "3D Plots"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Equations > Plot the solution to an equation in two variables",
+          "title": "Plot the solution to an equation in two variables"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Equations > Plot a quadric surface",
+          "title": "Plot a quadric surface"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "Equations"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Inequalities > Plot the region satisfying an inequality in two variables",
+          "title": "Plot the region satisfying an inequality in two variables"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Inequalities > Plot a region satisfying multiple inequalities",
+          "title": "Plot a region satisfying multiple inequalities"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "Inequalities"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Polar Plots > Draw a polar plot",
+          "title": "Draw a polar plot"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Polar Plots > Specify a range for the variable theta",
+          "title": "Specify a range for the variable theta"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "Polar Plots"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Parametric Plots > Draw a parametric plot",
+          "title": "Draw a parametric plot"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Parametric Plots > Specify a range for the parameter",
+          "title": "Specify a range for the parameter"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Parametric Plots > Draw a parametric curve in three dimensions",
+          "title": "Draw a parametric curve in three dimensions"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Plotting & Graphics > Parametric Plots > Draw a parametric surface in three dimensions",
+          "title": "Draw a parametric surface in three dimensions"
+        }
+      ],
+      "covered": 0,
+      "leaves": 4,
+      "title": "Parametric Plots"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Plotting & Graphics > Number Lines > Number Lines > Plot a real number on a number line",
+              "title": "Plot a real number on a number line"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Plotting & Graphics > Number Lines > Number Lines > Visualize a set of real numbers on a number line",
+              "title": "Visualize a set of real numbers on a number line"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Plotting & Graphics > Number Lines > Number Lines > Show multiple sets on a number line",
+              "title": "Show multiple sets on a number line"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Plotting & Graphics > Number Lines > Number Lines > Create a dot plot of univariate data",
+              "title": "Create a dot plot of univariate data"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Number Lines"
+        }
+      ],
+      "covered": 0,
+      "leaves": 4,
+      "title": "Number Lines"
+    }
+  ],
+  "percent": 0.0,
+  "reindexed": false,
+  "slug": "plotting-and-graphics",
+  "title": "Plotting & Graphics"
+}

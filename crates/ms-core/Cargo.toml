@@ -1,0 +1,20 @@
+[package]
+name = "ms-core"
+description = "IR de expresiones: arena, hash-consing, orden canónico. El contrato que nunca debe cambiar."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+# Cero dependencias del workspace, a propósito (02-architecture.md §2).
+# num-bigint es externo: Node::Int necesita un entero exacto, y hacer que ms-core
+# dependa de ms-num para eso invertiría la regla de dependencias.
+[dependencies]
+num-bigint.workspace = true
+num-rational.workspace = true
+num-traits.workspace = true
+rustc-hash.workspace = true
+
+[lints]
+workspace = true

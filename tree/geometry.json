@@ -1,0 +1,1190 @@
+{
+  "covered": 0,
+  "leaves": 114,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Plane Geometry > Plane Figures > Compute properties of a plane figure",
+              "title": "Compute properties of a plane figure"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Plane Geometry > Plane Figures > Specify parameters for a figure",
+              "title": "Specify parameters for a figure"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Plane Figures"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Plane Geometry > Angles > Compute the complement of an angle",
+              "title": "Compute the complement of an angle"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Plane Geometry > Angles > Compute the supplement of an angle",
+              "title": "Compute the supplement of an angle"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Plane Geometry > Angles > Do computations with complementary angles",
+              "title": "Do computations with complementary angles"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Plane Geometry > Angles > Compute a reference angle",
+              "title": "Compute a reference angle"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Angles"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Plane Geometry > Polygons > Triangles > Compute properties of a triangle",
+                  "title": "Compute properties of a triangle"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Plane Geometry > Polygons > Triangles > Specify side-angle-side",
+                  "title": "Specify side-angle-side"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Plane Geometry > Polygons > Triangles > Compute the area of a triangle",
+                  "title": "Compute the area of a triangle"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Plane Geometry > Polygons > Triangles > Find the nine-point circle for a given triangle",
+                  "title": "Find the nine-point circle for a given triangle"
+                }
+              ],
+              "covered": 0,
+              "leaves": 4,
+              "title": "Triangles"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Plane Geometry > Polygons > Quadrilaterals > Compute properties of a quadrilateral",
+                  "title": "Compute properties of a quadrilateral"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Quadrilaterals"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Plane Geometry > Polygons > Regular Polygons > Compute properties of a regular polygon",
+                  "title": "Compute properties of a regular polygon"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Plane Geometry > Polygons > Regular Polygons > Specify parameters for a polygon",
+                  "title": "Specify parameters for a polygon"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Plane Geometry > Polygons > Regular Polygons > Compute the diameter of a polygon",
+                  "title": "Compute the diameter of a polygon"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Plane Geometry > Polygons > Regular Polygons > Find the incircle of a regular polygon",
+                  "title": "Find the incircle of a regular polygon"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Plane Geometry > Polygons > Regular Polygons > Count the intersections of diagonals",
+                  "title": "Count the intersections of diagonals"
+                }
+              ],
+              "covered": 0,
+              "leaves": 5,
+              "title": "Regular Polygons"
+            }
+          ],
+          "covered": 0,
+          "leaves": 10,
+          "title": "Polygons"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Plane Geometry > Planar Laminae > Planar Laminae > Get information about a planar lamina",
+                  "title": "Get information about a planar lamina"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Plane Geometry > Planar Laminae > Planar Laminae > Find the area of a lamina",
+                  "title": "Find the area of a lamina"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Plane Geometry > Planar Laminae > Planar Laminae > Find a moment of inertia for a lamina",
+                  "title": "Find a moment of inertia for a lamina"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Planar Laminae"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Planar Laminae"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Plane Geometry > Golden Ratio Formula > Determine golden ratio numbers and lengths",
+              "title": "Determine golden ratio numbers and lengths"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Golden Ratio Formula"
+        }
+      ],
+      "covered": 0,
+      "leaves": 20,
+      "title": "Plane Geometry"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Solid Geometry > Geometric Solids > Compute properties of a geometric solid",
+              "title": "Compute properties of a geometric solid"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Solid Geometry > Geometric Solids > Specify parameters for a solid",
+              "title": "Specify parameters for a solid"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Solid Geometry > Geometric Solids > Specify a color to be used in the visual representation",
+              "title": "Specify a color to be used in the visual representation"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Solid Geometry > Geometric Solids > Compute a property of a solid",
+              "title": "Compute a property of a solid"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Geometric Solids"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Solid Geometry > Polyhedra > Polyhedra > Compute properties of a polyhedron",
+                  "title": "Compute properties of a polyhedron"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Solid Geometry > Polyhedra > Polyhedra > Specify a Johnson solid by number",
+                  "title": "Specify a Johnson solid by number"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Solid Geometry > Polyhedra > Polyhedra > Specify parameters for a polyhedron",
+                  "title": "Specify parameters for a polyhedron"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Solid Geometry > Polyhedra > Polyhedra > Compare several polyhedra",
+                  "title": "Compare several polyhedra"
+                }
+              ],
+              "covered": 0,
+              "leaves": 4,
+              "title": "Polyhedra"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Solid Geometry > Polyhedra > Classes of Polyhedra > Compare properties of a class of polyhedra",
+                  "title": "Compare properties of a class of polyhedra"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Solid Geometry > Polyhedra > Classes of Polyhedra > Find polyhedra with a specified number of faces",
+                  "title": "Find polyhedra with a specified number of faces"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Solid Geometry > Polyhedra > Classes of Polyhedra > Find polyhedra with a specified number of edges",
+                  "title": "Find polyhedra with a specified number of edges"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Solid Geometry > Polyhedra > Classes of Polyhedra > Find polyhedra with a specified number vertices",
+                  "title": "Find polyhedra with a specified number vertices"
+                }
+              ],
+              "covered": 0,
+              "leaves": 4,
+              "title": "Classes of Polyhedra"
+            }
+          ],
+          "covered": 0,
+          "leaves": 8,
+          "title": "Polyhedra"
+        }
+      ],
+      "covered": 0,
+      "leaves": 12,
+      "title": "Solid Geometry"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Coordinate Geometry > Lines > Specify a line through two points",
+              "title": "Specify a line through two points"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Coordinate Geometry > Lines > Specify a line by slope and intercept",
+              "title": "Specify a line by slope and intercept"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Lines"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Coordinate Geometry > Planes > Specify a plane through three points",
+              "title": "Specify a plane through three points"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Planes"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Coordinate Geometry > Quadrants > Identify the quadrant that contains a given point",
+              "title": "Identify the quadrant that contains a given point"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Quadrants"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Coordinate Geometry > Conic Sections > Conics > Plot a conic section and identify its type",
+                  "title": "Plot a conic section and identify its type"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Conics"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Coordinate Geometry > Conic Sections > Circles > Compute properties of a circle",
+                  "title": "Compute properties of a circle"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Coordinate Geometry > Conic Sections > Circles > Find a circle passing through three points",
+                  "title": "Find a circle passing through three points"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Coordinate Geometry > Conic Sections > Circles > Compute the circumference of a circle",
+                  "title": "Compute the circumference of a circle"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Circles"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Coordinate Geometry > Conic Sections > Ellipses > Compute properties of an ellipse",
+                  "title": "Compute properties of an ellipse"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Coordinate Geometry > Conic Sections > Ellipses > Specify an ellipse by its equation",
+                  "title": "Specify an ellipse by its equation"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Coordinate Geometry > Conic Sections > Ellipses > Compute the eccentricity of an ellipse",
+                  "title": "Compute the eccentricity of an ellipse"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Coordinate Geometry > Conic Sections > Ellipses > Compute the focal parameter of an ellipse",
+                  "title": "Compute the focal parameter of an ellipse"
+                }
+              ],
+              "covered": 0,
+              "leaves": 4,
+              "title": "Ellipses"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Coordinate Geometry > Conic Sections > Parabolas > Compute properties of a parabola",
+                  "title": "Compute properties of a parabola"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Coordinate Geometry > Conic Sections > Parabolas > Compute the directrix of a parabola",
+                  "title": "Compute the directrix of a parabola"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Parabolas"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Coordinate Geometry > Conic Sections > Hyperbolas > Compute properties of a hyperbola",
+                  "title": "Compute properties of a hyperbola"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Coordinate Geometry > Conic Sections > Hyperbolas > Locate the foci of a hyperbola",
+                  "title": "Locate the foci of a hyperbola"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Hyperbolas"
+            }
+          ],
+          "covered": 0,
+          "leaves": 12,
+          "title": "Conic Sections"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Coordinate Geometry > Intercepts > Intercepts > Locate the intercepts of a line or curve in the plane",
+                  "title": "Locate the intercepts of a line or curve in the plane"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Coordinate Geometry > Intercepts > Intercepts > Locate the intercepts of a plane or surface",
+                  "title": "Locate the intercepts of a plane or surface"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Intercepts"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Intercepts"
+        }
+      ],
+      "covered": 0,
+      "leaves": 18,
+      "title": "Coordinate Geometry"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Geometric Transformations > Rotations > Visualize a rotation and compute its matrix",
+              "title": "Visualize a rotation and compute its matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Geometric Transformations > Rotations > Rotate a point",
+              "title": "Rotate a point"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Geometric Transformations > Rotations > Rotate the graph of a function",
+              "title": "Rotate the graph of a function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Geometric Transformations > Rotations > Visualize a rotation in 3D",
+              "title": "Visualize a rotation in 3D"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Rotations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Geometric Transformations > Euler Angles > Specify a rotation in 3D using the angles of rolls, pitches and yaws and visualize it",
+              "title": "Specify a rotation in 3D using the angles of rolls, pitches and yaws and visualize it"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Geometric Transformations > Euler Angles > Specify a rotation in 3D using Euler angles",
+              "title": "Specify a rotation in 3D using Euler angles"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Euler Angles"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Geometric Transformations > Reflections > Visualize a reflection and compute its matrix",
+              "title": "Visualize a reflection and compute its matrix"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Geometric Transformations > Reflections > Reflect a point",
+              "title": "Reflect a point"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Geometric Transformations > Reflections > Reflect the graph of an implicitly defined function through a line",
+              "title": "Reflect the graph of an implicitly defined function through a line"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Geometric Transformations > Reflections > Visualize a reflection in 3D",
+              "title": "Visualize a reflection in 3D"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Reflections"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Geometric Transformations > Shears > Visualize a shear and compute its matrix",
+              "title": "Visualize a shear and compute its matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Shears"
+        }
+      ],
+      "covered": 0,
+      "leaves": 11,
+      "title": "Geometric Transformations"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Curves & Surfaces > Plane Curves > Compute properties of a named plane curve",
+              "title": "Compute properties of a named plane curve"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Curves & Surfaces > Plane Curves > Compare curves",
+              "title": "Compare curves"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Curves & Surfaces > Plane Curves > Find curves of a given type",
+              "title": "Find curves of a given type"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Curves & Surfaces > Plane Curves > Compute a particular property of a curve",
+              "title": "Compute a particular property of a curve"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Curves & Surfaces > Plane Curves > Compute derived curves",
+              "title": "Compute derived curves"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Plane Curves"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Curves & Surfaces > Popular Curves > Popular Curves > Learn about the math behind drawing a popular curve",
+                  "title": "Learn about the math behind drawing a popular curve"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Curves & Surfaces > Popular Curves > Popular Curves > Randomly select a popular curve from a class of curves",
+                  "title": "Randomly select a popular curve from a class of curves"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Curves & Surfaces > Popular Curves > Popular Curves > Get closed-form equations for filled curves",
+                  "title": "Get closed-form equations for filled curves"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Curves & Surfaces > Popular Curves > Popular Curves > Find internet meme popular curves",
+                  "title": "Find internet meme popular curves"
+                }
+              ],
+              "covered": 0,
+              "leaves": 4,
+              "title": "Popular Curves"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Curves & Surfaces > Popular Curves > Operations on Popular Curves > Carry out graphics operations on popular curves",
+                  "title": "Carry out graphics operations on popular curves"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Curves & Surfaces > Popular Curves > Operations on Popular Curves > Carry out image processing operations on popular curves",
+                  "title": "Carry out image processing operations on popular curves"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Operations on Popular Curves"
+            }
+          ],
+          "covered": 0,
+          "leaves": 6,
+          "title": "Popular Curves"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Curves & Surfaces > Space Curves > Compute properties of a named space curve",
+              "title": "Compute properties of a named space curve"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Curves & Surfaces > Space Curves > Compute a particular property of a curve",
+              "title": "Compute a particular property of a curve"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Space Curves"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Curves & Surfaces > Surfaces > Compute properties of a named surface",
+              "title": "Compute properties of a named surface"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Curves & Surfaces > Surfaces > Compute a particular property of a surface",
+              "title": "Compute a particular property of a surface"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Surfaces"
+        }
+      ],
+      "covered": 0,
+      "leaves": 15,
+      "title": "Curves & Surfaces"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Geometry > High-Dimensional Geometry > Compute properties of a high-dimensional geometric object",
+          "title": "Compute properties of a high-dimensional geometric object"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Geometry > High-Dimensional Geometry > Specify parameters for a high-dimensional object",
+          "title": "Specify parameters for a high-dimensional object"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "High-Dimensional Geometry"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Geometric Packing in 2D > Circle Packing > Compute properties of a circle packing",
+                  "title": "Compute properties of a circle packing"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Geometric Packing in 2D > Circle Packing > Specify the size of packed circles",
+                  "title": "Specify the size of packed circles"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Geometric Packing in 2D > Circle Packing > Specify the container size",
+                  "title": "Specify the container size"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Geometric Packing in 2D > Circle Packing > Specify the size of packed circles and the container",
+                  "title": "Specify the size of packed circles and the container"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Geometric Packing in 2D > Circle Packing > Pack circles into a square container",
+                  "title": "Pack circles into a square container"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Geometric Packing in 2D > Circle Packing > Pack circles into a triangular container",
+                  "title": "Pack circles into a triangular container"
+                }
+              ],
+              "covered": 0,
+              "leaves": 6,
+              "title": "Circle Packing"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Geometric Packing in 2D > Square Packing > Compute properties of a square packing",
+                  "title": "Compute properties of a square packing"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Geometric Packing in 2D > Square Packing > Pack squares into a circular container",
+                  "title": "Pack squares into a circular container"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Geometric Packing in 2D > Square Packing > Pack squares into a triangular container",
+                  "title": "Pack squares into a triangular container"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Square Packing"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Geometric Packing in 2D > Triangle Packing > Compute properties of a triangle packing",
+                  "title": "Compute properties of a triangle packing"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Geometric Packing in 2D > Triangle Packing > Pack triangles into a circular container",
+                  "title": "Pack triangles into a circular container"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Geometric Packing in 2D > Triangle Packing > Pack triangles into a square container",
+                  "title": "Pack triangles into a square container"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Triangle Packing"
+            }
+          ],
+          "covered": 0,
+          "leaves": 12,
+          "title": "Geometric Packing in 2D"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Packing & Covering of Objects > Packing Problems > Estimate the number of objects required to fill a container",
+                  "title": "Estimate the number of objects required to fill a container"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Packing & Covering of Objects > Packing Problems > Estimate the number of objects required to fill a specified volume",
+                  "title": "Estimate the number of objects required to fill a specified volume"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Packing Problems"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Packing & Covering of Objects > Covering Problems > Estimate the number of objects required to cover another object",
+                  "title": "Estimate the number of objects required to cover another object"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Packing & Covering of Objects > Covering Problems > Estimate the number of objects required to cover a specified area",
+                  "title": "Estimate the number of objects required to cover a specified area"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Covering Problems"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Packing & Covering of Objects > Stringing Problems > Estimate the number of objects required to circle another object",
+                  "title": "Estimate the number of objects required to circle another object"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Packing & Covering Problems > Packing & Covering of Objects > Stringing Problems > Estimate the number of objects required to stretch a specified length",
+                  "title": "Estimate the number of objects required to stretch a specified length"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Stringing Problems"
+            }
+          ],
+          "covered": 0,
+          "leaves": 6,
+          "title": "Packing & Covering of Objects"
+        }
+      ],
+      "covered": 0,
+      "leaves": 18,
+      "title": "Packing & Covering Problems"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Tilings > Periodic Tilings > Get information about a periodic plane tiling",
+              "title": "Get information about a periodic plane tiling"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Periodic Tilings"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Tilings > Nonperiodic Tilings > Get information about a nonperiodic tiling",
+              "title": "Get information about a nonperiodic tiling"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Tilings > Nonperiodic Tilings > Specify the number of substitution steps",
+              "title": "Specify the number of substitution steps"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Nonperiodic Tilings"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Tilings"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Moiré Patterns > Moiré Patterns > Explore moiré patterns",
+              "title": "Explore moiré patterns"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Moiré Patterns > Moiré Patterns > Investigate interference patterns with offsets or angles",
+              "title": "Investigate interference patterns with offsets or angles"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Moiré Patterns > Moiré Patterns > Examine interference in hexagonal grids",
+              "title": "Examine interference in hexagonal grids"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Moiré Patterns"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Moiré Patterns"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Polyforms > Polyforms > Get information about a class of polyforms",
+              "title": "Get information about a class of polyforms"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Polyforms > Polyforms > Specify the order of the polyforms",
+              "title": "Specify the order of the polyforms"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Polyforms"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "Polyforms"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Topology > Real Intervals > Real Intervals > Compute properties of an interval of real numbers",
+                  "title": "Compute properties of an interval of real numbers"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Topology > Real Intervals > Real Intervals > Compare intervals",
+                  "title": "Compare intervals"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Real Intervals"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Real Intervals"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Topology > Knot Theory > Knots > Compute properties of a knot",
+                  "title": "Compute properties of a knot"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Topology > Knot Theory > Knots > Specify a knot using Alexander–Briggs notation",
+                  "title": "Specify a knot using Alexander–Briggs notation"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Topology > Knot Theory > Knots > Specify a knot using Conway notation",
+                  "title": "Specify a knot using Conway notation"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Topology > Knot Theory > Knots > Compute properties of a torus knot",
+                  "title": "Compute properties of a torus knot"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Topology > Knot Theory > Knots > Compare several knots",
+                  "title": "Compare several knots"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Geometry > Topology > Knot Theory > Knots > Compute a specific property of a knot",
+                  "title": "Compute a specific property of a knot"
+                }
+              ],
+              "covered": 0,
+              "leaves": 6,
+              "title": "Knots"
+            }
+          ],
+          "covered": 0,
+          "leaves": 6,
+          "title": "Knot Theory"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Topology > Homotopy Groups of Spheres > Compute homotopy groups of a sphere",
+              "title": "Compute homotopy groups of a sphere"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Geometry > Topology > Homotopy Groups of Spheres > Compute a specified homotopy group",
+              "title": "Compute a specified homotopy group"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Homotopy Groups of Spheres"
+        }
+      ],
+      "covered": 0,
+      "leaves": 10,
+      "title": "Topology"
+    }
+  ],
+  "percent": 0.0,
+  "reindexed": false,
+  "slug": "geometry",
+  "title": "Geometry"
+}

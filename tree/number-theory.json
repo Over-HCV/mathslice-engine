@@ -1,0 +1,460 @@
+{
+  "covered": 3,
+  "leaves": 39,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "97",
+                  "name": "hechos-de-un-primo",
+                  "result_latex": "97",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Number Theory > Prime Numbers > Prime Numbers > Determine whether a number is prime",
+              "title": "Determine whether a number is prime"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Prime Numbers > Prime Numbers > Specify a prime by its position in the sequence 2, 3, 5, ...",
+              "title": "Specify a prime by its position in the sequence 2, 3, 5, ..."
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Prime Numbers > Prime Numbers > Generate a list of primes",
+              "title": "Generate a list of primes"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Prime Numbers > Prime Numbers > Find the nearest prime to a given number",
+              "title": "Find the nearest prime to a given number"
+            }
+          ],
+          "covered": 1,
+          "leaves": 4,
+          "title": "Prime Numbers"
+        },
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "2^{40}",
+                  "name": "hechos-de-una-potencia",
+                  "result_latex": "1099511627776",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Number Theory > Prime Numbers > Prime Factorization > Compute a prime factorization",
+              "title": "Compute a prime factorization"
+            }
+          ],
+          "covered": 1,
+          "leaves": 1,
+          "title": "Prime Factorization"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Prime Numbers > Classes of Primes > Find a twin prime pair",
+              "title": "Find a twin prime pair"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Prime Numbers > Classes of Primes > Find a Mersenne prime",
+              "title": "Find a Mersenne prime"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Prime Numbers > Classes of Primes > Find one of the few known Fermat primes",
+              "title": "Find one of the few known Fermat primes"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Classes of Primes"
+        }
+      ],
+      "covered": 2,
+      "leaves": 8,
+      "title": "Prime Numbers"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Divisors > Divisors > Compute the divisors of an integer",
+              "title": "Compute the divisors of an integer"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Divisors > Divisors > Test for divisibility",
+              "title": "Test for divisibility"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Divisors"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Divisors > Common Divisors & Multiples > Find common divisors",
+              "title": "Find common divisors"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\operatorname{mcd}(12, 18)",
+                  "name": "el-maximo-comun-divisor-consultable",
+                  "result_latex": "6",
+                  "stage": "E2"
+                }
+              ],
+              "checked": true,
+              "id": "Number Theory > Divisors > Common Divisors & Multiples > Compute a greatest common divisor",
+              "title": "Compute a greatest common divisor"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Divisors > Common Divisors & Multiples > Find common multiples",
+              "title": "Find common multiples"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Divisors > Common Divisors & Multiples > Compute a least common multiple",
+              "title": "Compute a least common multiple"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Divisors > Common Divisors & Multiples > Do computations with the GCD and LCM",
+              "title": "Do computations with the GCD and LCM"
+            }
+          ],
+          "covered": 1,
+          "leaves": 5,
+          "title": "Common Divisors & Multiples"
+        }
+      ],
+      "covered": 1,
+      "leaves": 7,
+      "title": "Divisors"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Number Theory > Diophantine Equations > Solve a Diophantine equation",
+          "title": "Solve a Diophantine equation"
+        }
+      ],
+      "covered": 0,
+      "leaves": 1,
+      "title": "Diophantine Equations"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Number Theory > Digit Sums > Sum the digits of an integer",
+          "title": "Sum the digits of an integer"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Number Theory > Digit Sums > Compute the digit sum in another base",
+          "title": "Compute the digit sum in another base"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "Digit Sums"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Special Numbers > Figurate Numbers > Compute a polygonal number",
+              "title": "Compute a polygonal number"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Special Numbers > Figurate Numbers > Determine whether a number belongs to a given class",
+              "title": "Determine whether a number belongs to a given class"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Figurate Numbers"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Special Numbers > Perfect Numbers > Determine whether a number belongs to a given class",
+              "title": "Determine whether a number belongs to a given class"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Perfect Numbers"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Special Numbers > Sets of Integers > Find a number matching specified criteria",
+              "title": "Find a number matching specified criteria"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Special Numbers > Sets of Integers > Find numbers matching specified criteria",
+              "title": "Find numbers matching specified criteria"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Sets of Integers"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Special Numbers > Sums & Products of Number Sets > Take the sum or product of a sequence of numbers of a given type",
+              "title": "Take the sum or product of a sequence of numbers of a given type"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Sums & Products of Number Sets"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Special Numbers > Pascal's Triangle > Generate Pascal's triangle",
+              "title": "Generate Pascal's triangle"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Special Numbers > Pascal's Triangle > Compute Pascal's triangle modulo an integer",
+              "title": "Compute Pascal's triangle modulo an integer"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Pascal's Triangle"
+        }
+      ],
+      "covered": 0,
+      "leaves": 8,
+      "title": "Special Numbers"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Number Type Arithmetic > Number Type Arithmetic > Determine parity",
+              "title": "Determine parity"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Number Type Arithmetic > Number Type Arithmetic > Determine sign",
+              "title": "Determine sign"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Number Type Arithmetic > Number Type Arithmetic > Determine number type",
+              "title": "Determine number type"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Number Type Arithmetic"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Number Type Arithmetic"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Continued Fractions > Numbers > Find the continued fraction representation of a number",
+              "title": "Find the continued fraction representation of a number"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Numbers"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Continued Fractions > Functions > Find continued fraction representations for a function",
+              "title": "Find continued fraction representations for a function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Functions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Continued Fractions > Definitions of Terms > Find definitions for continued fraction terminology",
+              "title": "Find definitions for continued fraction terminology"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Definitions of Terms"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Continued Fractions > Theorems > Get information about a continued fraction theorem",
+              "title": "Get information about a continued fraction theorem"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Continued Fractions > Theorems > Find theorems that apply to a specified expression",
+              "title": "Find theorems that apply to a specified expression"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Continued Fractions > Theorems > Find theorems by application",
+              "title": "Find theorems by application"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Continued Fractions > Theorems > Find theorems by prover",
+              "title": "Find theorems by prover"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Theorems"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Continued Fractions > Algorithms > Get information about a continued fraction algorithm",
+              "title": "Get information about a continued fraction algorithm"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Algorithms"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Continued Fractions > Literature > Find continued fraction papers by author",
+              "title": "Find continued fraction papers by author"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Number Theory > Continued Fractions > Literature > Find continued fraction papers by publication",
+              "title": "Find continued fraction papers by publication"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Literature"
+        }
+      ],
+      "covered": 0,
+      "leaves": 10,
+      "title": "Continued Fractions"
+    }
+  ],
+  "percent": 7.69,
+  "reindexed": false,
+  "slug": "number-theory",
+  "title": "Number Theory"
+}

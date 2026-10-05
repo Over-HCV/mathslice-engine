@@ -1,0 +1,178 @@
+{
+  "categories": [
+    {
+      "covered": 19,
+      "leaves": 36,
+      "percent": 52.78,
+      "reindexed": false,
+      "slug": "elementary-math",
+      "title": "Elementary Math"
+    },
+    {
+      "covered": 7,
+      "leaves": 120,
+      "percent": 5.83,
+      "reindexed": false,
+      "slug": "algebra",
+      "title": "Algebra"
+    },
+    {
+      "covered": 2,
+      "leaves": 149,
+      "percent": 1.34,
+      "reindexed": false,
+      "slug": "calculus-and-analysis",
+      "title": "Calculus & Analysis"
+    },
+    {
+      "covered": 0,
+      "leaves": 114,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "geometry",
+      "title": "Geometry"
+    },
+    {
+      "covered": 0,
+      "leaves": 9,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "differential-equations",
+      "title": "Differential Equations"
+    },
+    {
+      "covered": 0,
+      "leaves": 23,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "plotting-and-graphics",
+      "title": "Plotting & Graphics"
+    },
+    {
+      "covered": 11,
+      "leaves": 58,
+      "percent": 18.97,
+      "reindexed": false,
+      "slug": "numbers",
+      "title": "Numbers"
+    },
+    {
+      "covered": 0,
+      "leaves": 16,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "trigonometry",
+      "title": "Trigonometry"
+    },
+    {
+      "covered": 0,
+      "leaves": 63,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "linear-algebra",
+      "title": "Linear Algebra"
+    },
+    {
+      "covered": 3,
+      "leaves": 39,
+      "percent": 7.69,
+      "reindexed": false,
+      "slug": "number-theory",
+      "title": "Number Theory"
+    },
+    {
+      "covered": 0,
+      "leaves": 65,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "discrete-mathematics",
+      "title": "Discrete Mathematics"
+    },
+    {
+      "covered": 0,
+      "leaves": 16,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "complex-analysis",
+      "title": "Complex Analysis"
+    },
+    {
+      "covered": 0,
+      "leaves": 56,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "applied-mathematics",
+      "title": "Applied Mathematics"
+    },
+    {
+      "covered": 0,
+      "leaves": 16,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "logic-and-set-theory",
+      "title": "Logic & Set Theory"
+    },
+    {
+      "covered": 0,
+      "leaves": 82,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "mathematical-functions",
+      "title": "Mathematical Functions"
+    },
+    {
+      "covered": 0,
+      "leaves": 5,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "mathematical-definitions",
+      "title": "Mathematical Definitions"
+    },
+    {
+      "covered": 0,
+      "leaves": 6,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "famous-math-problems",
+      "title": "Famous Math Problems"
+    },
+    {
+      "covered": 0,
+      "leaves": 10,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "continued-fractions",
+      "title": "Continued Fractions"
+    },
+    {
+      "covered": 0,
+      "leaves": 30,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "statistics",
+      "title": "Statistics"
+    },
+    {
+      "covered": 0,
+      "leaves": 45,
+      "percent": 0.0,
+      "reindexed": false,
+      "slug": "probability",
+      "title": "Probability"
+    },
+    {
+      "covered": 0,
+      "leaves": 751,
+      "percent": 0.0,
+      "reindexed": true,
+      "slug": "common-core-math",
+      "title": "Common Core Math"
+    }
+  ],
+  "note": "Generado por `ms-cli tree` cruzando engine/docs/ con engine/corpus/. No se edita a mano: `pnpm engine:tree` lo reescribe.",
+  "totals": {
+    "covered": 42,
+    "leaves": 958,
+    "percent": 4.38
+  }
+}

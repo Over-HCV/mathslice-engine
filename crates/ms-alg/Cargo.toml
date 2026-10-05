@@ -1,0 +1,30 @@
+[package]
+name = "ms-alg"
+description = "Polinomios y álgebra exacta, genéricos en el anillo de coeficientes."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+# ms-num trae los traits; ms-core, la arena que el puente traduce.
+#
+# El polinomio en sí NO conoce ninguno de los dos: `poly.rs` es genérico en C y
+# `bridge.rs` es el único módulo que ve un ExprId. Si `Integer` o `Rational`
+# aparecen dentro de `poly.rs`, es un bug (01-rust-principles.md §4).
+[dependencies]
+ms-core.workspace = true
+ms-num.workspace = true
+num-traits.workspace = true
+
+# Sólo para los tests: el puente se comprueba entrando por donde entra el
+# usuario —LaTeX— y saliendo por donde sale. Escribir los árboles a mano
+# probaría el puente contra un árbol que nadie construye así. Es el mismo trato
+# que ms-serialize tiene con ms-parse, y por la misma razón.
+[dev-dependencies]
+ms-parse.workspace = true
+ms-serialize.workspace = true
+proptest.workspace = true
+
+[lints]
+workspace = true

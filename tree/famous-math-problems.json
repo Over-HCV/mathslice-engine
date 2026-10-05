@@ -1,0 +1,62 @@
+{
+  "covered": 0,
+  "leaves": 6,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Famous Math Problems > Open Conjectures > Get information about a mathematical conjecture",
+          "title": "Get information about a mathematical conjecture"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Famous Math Problems > Open Conjectures > Learn about one of the Smale problems",
+          "title": "Learn about one of the Smale problems"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Famous Math Problems > Open Conjectures > Ask a question about a conjecture",
+          "title": "Ask a question about a conjecture"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Open Conjectures"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Famous Math Problems > Solved Problems > Find out about a solved problem",
+          "title": "Find out about a solved problem"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Famous Math Problems > Solved Problems > Learn about a mathematical paradox",
+          "title": "Learn about a mathematical paradox"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Famous Math Problems > Solved Problems > Get historical information about a theorem",
+          "title": "Get historical information about a theorem"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Solved Problems"
+    }
+  ],
+  "percent": 0.0,
+  "reindexed": false,
+  "slug": "famous-math-problems",
+  "title": "Famous Math Problems"
+}

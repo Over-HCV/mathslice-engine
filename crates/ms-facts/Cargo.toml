@@ -1,0 +1,20 @@
+[package]
+name = "ms-facts"
+description = "Los hechos matemáticos de un resultado: signo, paridad, primalidad, factorización y divisores."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+# Sólo ms-num: un hecho sobre un entero no necesita ver el árbol de expresión.
+# Cuando E3 traiga hechos sobre expresiones, ms-core entrará aquí.
+[dependencies]
+ms-num.workspace = true
+num-traits.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
+
+[lints]
+workspace = true

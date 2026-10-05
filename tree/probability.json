@@ -1,0 +1,448 @@
+{
+  "covered": 0,
+  "leaves": 45,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Dice > Dice Probabilities > Compute dice probabilities",
+                  "title": "Compute dice probabilities"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Dice > Dice Probabilities > Compute probabilities for non-cubical dice",
+                  "title": "Compute probabilities for non-cubical dice"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Dice > Dice Probabilities > Compute the probability of a specified outcome",
+                  "title": "Compute the probability of a specified outcome"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Dice > Dice Probabilities > Compute a waiting-time probability",
+                  "title": "Compute a waiting-time probability"
+                }
+              ],
+              "covered": 0,
+              "leaves": 4,
+              "title": "Dice Probabilities"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Dice > Craps > Compute probabilities related to the game of craps",
+                  "title": "Compute probabilities related to the game of craps"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Craps"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Dice"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Card Games > Cards > Compute card probabilities",
+                  "title": "Compute card probabilities"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Cards"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Card Games > Poker > Compute odds for a poker hand",
+                  "title": "Compute odds for a poker hand"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Card Games > Poker > Compute odds for the worst possible poker hand",
+                  "title": "Compute odds for the worst possible poker hand"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Card Games > Poker > Compute odds for all poker hands",
+                  "title": "Compute odds for all poker hands"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Poker"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Card Games"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Roulette > Roulette > Get data on various roulette bets",
+                  "title": "Get data on various roulette bets"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Roulette > Roulette > Specify a particular bet",
+                  "title": "Specify a particular bet"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Roulette > Roulette > Specify a wager amount",
+                  "title": "Specify a wager amount"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Roulette > Roulette > Specify the type of roulette",
+                  "title": "Specify the type of roulette"
+                }
+              ],
+              "covered": 0,
+              "leaves": 4,
+              "title": "Roulette"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Roulette"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Gambling > Gambling > Analyze a bet at specified odds",
+                  "title": "Analyze a bet at specified odds"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Gambling > Gambling > Specify the amount of the wager",
+                  "title": "Specify the amount of the wager"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Gambling > Gambling > Specify a house advantage",
+                  "title": "Specify a house advantage"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Gambling"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Gambling"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Lotteries > Lotteries > Get lottery odds",
+                  "title": "Get lottery odds"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Lotteries > Lotteries > Get lottery odds for a specified location",
+                  "title": "Get lottery odds for a specified location"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Probability > Games of Chance > Lotteries > Lotteries > Get odds for a specified lottery game",
+                  "title": "Get odds for a specified lottery game"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Lotteries"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Lotteries"
+        }
+      ],
+      "covered": 0,
+      "leaves": 19,
+      "title": "Games of Chance"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Bernoulli Trials > Bernoulli Trials > Compute probabilities for a sequence of trials",
+              "title": "Compute probabilities for a sequence of trials"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Bernoulli Trials > Bernoulli Trials > Specify a success probability",
+              "title": "Specify a success probability"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Bernoulli Trials > Bernoulli Trials > Compute the probability of a specific outcome",
+              "title": "Compute the probability of a specific outcome"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Bernoulli Trials > Bernoulli Trials > Analyze waiting-time probabilities",
+              "title": "Analyze waiting-time probabilities"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Bernoulli Trials > Bernoulli Trials > Find the probability of a run",
+              "title": "Find the probability of a run"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Bernoulli Trials"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Bernoulli Trials > Coin Tosses > Compute coin-toss probabilities",
+              "title": "Compute coin-toss probabilities"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Bernoulli Trials > Coin Tosses > Compute the probability of a specific outcome",
+              "title": "Compute the probability of a specific outcome"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Bernoulli Trials > Coin Tosses > Compute a waiting-time probability",
+              "title": "Compute a waiting-time probability"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Bernoulli Trials > Coin Tosses > Compute the probability of a run",
+              "title": "Compute the probability of a run"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Coin Tosses"
+        }
+      ],
+      "covered": 0,
+      "leaves": 9,
+      "title": "Bernoulli Trials"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Probability > Birthday Probabilities > Compute the probability of shared birthdays in a group of people",
+          "title": "Compute the probability of shared birthdays in a group of people"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Probability > Birthday Probabilities > Specify the number of possible birthdays",
+          "title": "Specify the number of possible birthdays"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Probability > Birthday Probabilities > Compute the probability of shared birthdays for a given interval",
+          "title": "Compute the probability of shared birthdays for a given interval"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Birthday Probabilities"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Probability > Probability Formulas > Compute the probability of a union of events",
+          "title": "Compute the probability of a union of events"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Probability > Probability Formulas > Compute a conditional probability",
+          "title": "Compute a conditional probability"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Probability > Probability Formulas > Compute the probability of a complement",
+          "title": "Compute the probability of a complement"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Probability Formulas"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Probability Distributions > Continuous Distributions > Compute properties of a continuous distribution",
+              "title": "Compute properties of a continuous distribution"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Probability Distributions > Continuous Distributions > Specify parameters for a distribution",
+              "title": "Specify parameters for a distribution"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Probability Distributions > Continuous Distributions > Compute a particular property",
+              "title": "Compute a particular property"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Probability Distributions > Continuous Distributions > Compute a moment of a distribution",
+              "title": "Compute a moment of a distribution"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Probability Distributions > Continuous Distributions > Compute a central moment",
+              "title": "Compute a central moment"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Probability Distributions > Continuous Distributions > Compute a cumulant",
+              "title": "Compute a cumulant"
+            }
+          ],
+          "covered": 0,
+          "leaves": 6,
+          "title": "Continuous Distributions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Probability Distributions > Discrete Distributions > Compute properties of a discrete distribution",
+              "title": "Compute properties of a discrete distribution"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Probability Distributions > Discrete Distributions > Specify parameters for a distribution",
+              "title": "Specify parameters for a distribution"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Probability Distributions > Discrete Distributions > Compute a particular property",
+              "title": "Compute a particular property"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Probability Distributions > Discrete Distributions > Compute a moment of a distribution",
+              "title": "Compute a moment of a distribution"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Probability > Probability Distributions > Discrete Distributions > Approximate a distribution with a normal distribution",
+              "title": "Approximate a distribution with a normal distribution"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Discrete Distributions"
+        }
+      ],
+      "covered": 0,
+      "leaves": 11,
+      "title": "Probability Distributions"
+    }
+  ],
+  "percent": 0.0,
+  "reindexed": false,
+  "slug": "probability",
+  "title": "Probability"
+}

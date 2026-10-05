@@ -1,0 +1,19 @@
+[package]
+name = "ms-rules-macro"
+description = "El macro `rules!`. Existe aparte porque un crate proc-macro no puede exportar items normales."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2.workspace = true
+quote.workspace = true
+syn.workspace = true
+
+[lints]
+workspace = true

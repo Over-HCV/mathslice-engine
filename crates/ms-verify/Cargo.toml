@@ -1,0 +1,18 @@
+[package]
+name = "ms-verify"
+description = "Verificación del resultado por un camino independiente del que lo produjo. Nivel 0: evaluación exacta en ℚ."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+# ms-rules NO aparece, y es el punto entero del crate: comprobar un resultado con
+# el mismo código que lo produjo no comprueba nada. deny.toml lo hace cumplir.
+[dependencies]
+ms-core.workspace = true
+ms-num.workspace = true
+num-traits.workspace = true
+
+[lints]
+workspace = true

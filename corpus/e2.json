@@ -1,0 +1,180 @@
+{
+  "stage": "E2",
+  "note": "Polinomios y álgebra base. Expandir y factorizar son consultas con nombre —\\operatorname{expandir}, \\operatorname{factorizar}— y no reglas automáticas: como reglas serían inversas y el reescritor ciclaría. La factorización llega hasta los factores lineales con raíz racional; lo que no factoriza sale a la vista.",
+  "cases": [
+    {
+      "name": "expandir-un-producto-de-binomios",
+      "latex": "\\operatorname{expandir}(\\left(x-2\\right)\\left(x-3\\right))",
+      "result_latex": "x^{2} - 5x + 6",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "polynomial-expand"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Algebra > Polynomials > Expansion > Expand a polynomial"
+    },
+    {
+      "name": "expandir-un-cubo",
+      "latex": "\\operatorname{expandir}(\\left(x+1\\right)^{3})",
+      "result_latex": "x^{3} + 3x^{2} + 3x + 1",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "polynomial-expand"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Algebra > Simplification > Expansion > Expand a polynomial"
+    },
+    {
+      "name": "factorizar-una-cuadratica",
+      "latex": "\\operatorname{factorizar}(x^{2}-5x+6)",
+      "result_latex": "\\left(x - 3\\right)\\left(x - 2\\right)",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "polynomial-factor"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Algebra > Polynomials > Factorization > Factor a polynomial"
+    },
+    {
+      "name": "factorizar-con-raiz-fraccionaria",
+      "latex": "\\operatorname{factorizar}(2x^{2}-3x+1)",
+      "result_latex": "\\left(x - 1\\right)\\left(2x - 1\\right)",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "polynomial-factor"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Algebra > Simplification > Factorization > Factor a polynomial"
+    },
+    {
+      "name": "una-raiz-doble-aparece-dos-veces",
+      "latex": "\\operatorname{factorizar}(x^{2}-4x+4)",
+      "result_latex": "\\left(x - 2\\right)\\left(x - 2\\right)",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "polynomial-factor"
+      ],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "el-factor-comun-se-saca",
+      "latex": "\\operatorname{factorizar}(x^{2}-2x)",
+      "result_latex": "x\\left(x - 2\\right)",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "polynomial-factor"
+      ],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "lo-que-no-factoriza-sobre-los-racionales-lo-dice",
+      "latex": "\\operatorname{factorizar}(x^{2}+1)",
+      "result_latex": "x^{2} + 1",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "polynomial-irreducible"
+      ],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "el-maximo-comun-divisor-consultable",
+      "latex": "\\operatorname{mcd}(12, 18)",
+      "result_latex": "6",
+      "kind": "number",
+      "approx": 6.0,
+      "steps": [
+        "integer-gcd"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Number Theory > Divisors > Common Divisors & Multiples > Compute a greatest common divisor"
+    },
+    {
+      "name": "criterio-de-salida",
+      "latex": "x^{2}-5x+6 = 0",
+      "result_latex": "\\left\\{x = 2, x = 3\\right\\}",
+      "kind": "solutions",
+      "approx": null,
+      "steps": [
+        "equation-factor",
+        "equation-zero-product",
+        "equation-isolate-linear",
+        "equation-isolate-linear"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Algebra > Equation Solving > Equations > Solve a polynomial equation"
+    },
+    {
+      "name": "una-ecuacion-lineal",
+      "latex": "3x + 1 = 7",
+      "result_latex": "\\left\\{x = 2\\right\\}",
+      "kind": "solutions",
+      "approx": null,
+      "steps": [
+        "equation-move-to-one-side",
+        "equation-factor",
+        "equation-zero-product",
+        "equation-isolate-linear"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Algebra > Equation Solving > Equations > Solve a linear equation"
+    },
+    {
+      "name": "pasar-todo-al-mismo-lado",
+      "latex": "x^{2} = 4",
+      "result_latex": "\\left\\{x = -2, x = 2\\right\\}",
+      "kind": "solutions",
+      "approx": null,
+      "steps": [
+        "equation-move-to-one-side",
+        "equation-factor",
+        "equation-zero-product",
+        "equation-isolate-linear",
+        "equation-isolate-linear"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Algebra > Polynomials > Solving Polynomial Equations > Solve a polynomial equation"
+    },
+    {
+      "name": "una-raiz-doble-es-una-sola-solucion",
+      "latex": "x^{2}-4x+4 = 0",
+      "result_latex": "\\left\\{x = 2\\right\\}",
+      "kind": "solutions",
+      "approx": null,
+      "steps": [
+        "equation-factor",
+        "equation-zero-product",
+        "equation-isolate-linear"
+      ],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "raices-que-no-son-racionales-se-dicen",
+      "latex": "x^{2}-2 = 0",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "irrational-solutions",
+      "verification": "unverified"
+    }
+  ]
+}

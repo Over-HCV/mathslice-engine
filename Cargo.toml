@@ -1,0 +1,91 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.0.0"
+edition = "2024"
+rust-version = "1.92"
+publish = false
+license = "MIT"
+
+[workspace.dependencies]
+# Crates del workspace. La dirección de dependencias la verifica cargo-deny
+# (ver deny.toml y 02-architecture.md §2): ms-core y ms-num no dependen de nada
+# del workspace; el resto depende hacia abajo, nunca lateral.
+ms-core = { path = "crates/ms-core" }
+ms-num = { path = "crates/ms-num" }
+ms-assume = { path = "crates/ms-assume" }
+ms-verify = { path = "crates/ms-verify" }
+ms-facts = { path = "crates/ms-facts" }
+ms-alg = { path = "crates/ms-alg" }
+ms-diff = { path = "crates/ms-diff" }
+ms-solve = { path = "crates/ms-solve" }
+ms-rules = { path = "crates/ms-rules" }
+ms-rules-macro = { path = "crates/ms-rules-macro" }
+ms-parse = { path = "crates/ms-parse" }
+ms-serialize = { path = "crates/ms-serialize" }
+
+# Torre numérica: num-* es MIT/Apache y Rust puro, así que compila a wasm32 sin
+# dependencias de C y sin problemas de licencia al enlazarse estáticamente en el
+# blob que se envía al navegador (§4 permite cambiarla: todo es genérico en C).
+num-bigint = { version = "0.4", default-features = false }
+num-rational = { version = "0.4", default-features = false, features = ["num-bigint"] }
+num-integer = { version = "0.1", default-features = false }
+num-traits = { version = "0.2", default-features = false }
+
+# Hash determinista y sin getrandom: importa en wasm32-unknown-unknown, donde el
+# RandomState de std necesita una fuente de entropía que no existe.
+rustc-hash = "2"
+
+serde = { version = "1", default-features = false, features = ["derive", "alloc"] }
+serde_json = "1"
+
+proc-macro2 = "1"
+quote = "1"
+syn = { version = "2", features = ["full"] }
+
+wasm-bindgen = "0.2"
+
+criterion = { version = "0.5", default-features = false }
+proptest = "1"
+
+# Estos lints son la mitad de 01-rust-principles.md convertida en errores de
+# compilación. Se configuran en el PRIMER commit: añadirlos más tarde significa
+# arreglar cientos de sitios de golpe (05-testing.md §8).
+[workspace.lints.rust]
+unsafe_code = "forbid"                  # §9 — sin excepción, en todos los crates
+
+[workspace.lints.clippy]
+# §1 — el compilador debe enumerar cada sitio que falta manejar cuando el IR crece.
+wildcard_enum_match_arm = "deny"
+# §6 — un panic en WASM mata el Worker y se lleva la sesión del usuario.
+# Permitidos en tests vía clippy.toml.
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+indexing_slicing = "deny"
+todo = "deny"
+unimplemented = "deny"
+# §9 — el peor fallo de un CAS no es el crash, es la respuesta incorrecta. Los
+# tipos exactos son bignum y no desbordan; el riesgo vive en los u32/usize
+# (grados, aridades, precisión), y ahí un cast silencioso es la vía de entrada.
+# El desbordamiento aritmético lo cubre overflow-checks, activo también en release.
+cast_possible_truncation = "deny"
+cast_possible_wrap = "deny"
+cast_sign_loss = "deny"
+
+[profile.release]
+opt-level = "z"       # §8 — presupuesto de < 3 MB comprimido en E0–E3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+overflow-checks = true # §9 — también en release, a propósito
+
+# Los benches miden con las optimizaciones de release. `panic` no se declara:
+# cargo lo ignora en este perfil (siempre unwind, que es lo que el harness de
+# criterion necesita) y declararlo sólo produce un aviso en cada build.
+[profile.bench]
+inherits = "release"
+debug = true          # símbolos para twiggy y para los perfiles del matcher

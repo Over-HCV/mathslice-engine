@@ -1,0 +1,186 @@
+{
+  "covered": 0,
+  "leaves": 16,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Boolean Algebra > Boolean Algebra > Analyze a Boolean expression",
+              "title": "Analyze a Boolean expression"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Boolean Algebra"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Boolean Algebra > Truth Tables > Compute a truth table for a Boolean function",
+              "title": "Compute a truth table for a Boolean function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Truth Tables"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Boolean Algebra > Logic Circuits > Compute a logic circuit for a Boolean function",
+              "title": "Compute a logic circuit for a Boolean function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Logic Circuits"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Boolean Algebra > Normal Forms > Convert a Boolean expression to disjunctive normal form",
+              "title": "Convert a Boolean expression to disjunctive normal form"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Boolean Algebra > Normal Forms > Convert a Boolean expression to conjunctive normal form",
+              "title": "Convert a Boolean expression to conjunctive normal form"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Boolean Algebra > Normal Forms > Convert a Boolean expression to algebraic normal form",
+              "title": "Convert a Boolean expression to algebraic normal form"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Normal Forms"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Boolean Algebra > General Boolean Functions > Specify a Boolean function by number",
+              "title": "Specify a Boolean function by number"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Boolean Algebra > General Boolean Functions > Specify a minterm or maxterm by number",
+              "title": "Specify a minterm or maxterm by number"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "General Boolean Functions"
+        }
+      ],
+      "covered": 0,
+      "leaves": 8,
+      "title": "Boolean Algebra"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Set Theory > Set Theory > Generate a Venn diagram",
+              "title": "Generate a Venn diagram"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Set Theory > Set Theory > Test whether a given equation of sets is true",
+              "title": "Test whether a given equation of sets is true"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Set Theory > Set Theory > Determine whether one set is a subset of another",
+              "title": "Determine whether one set is a subset of another"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Set Theory > Set Theory > Compute the Cartesian product of two sets",
+              "title": "Compute the Cartesian product of two sets"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Set Theory"
+        }
+      ],
+      "covered": 0,
+      "leaves": 4,
+      "title": "Set Theory"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Transfinite Numbers > Cardinals > Get information about a transfinite cardinal",
+              "title": "Get information about a transfinite cardinal"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Transfinite Numbers > Cardinals > Simplify an expression involving cardinals",
+              "title": "Simplify an expression involving cardinals"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Transfinite Numbers > Cardinals > Test an equation of cardinals",
+              "title": "Test an equation of cardinals"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Logic & Set Theory > Transfinite Numbers > Cardinals > Test an inequality of cardinals",
+              "title": "Test an inequality of cardinals"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Cardinals"
+        }
+      ],
+      "covered": 0,
+      "leaves": 4,
+      "title": "Transfinite Numbers"
+    }
+  ],
+  "percent": 0.0,
+  "reindexed": false,
+  "slug": "logic-and-set-theory",
+  "title": "Logic & Set Theory"
+}

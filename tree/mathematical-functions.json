@@ -1,0 +1,870 @@
+{
+  "covered": 0,
+  "leaves": 82,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Domain & Range > Domain & Range > Compute the domain of a function",
+              "title": "Compute the domain of a function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Domain & Range > Domain & Range > Compute the range of a function",
+              "title": "Compute the range of a function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Domain & Range > Domain & Range > Specify a restriction on the independent variable",
+              "title": "Specify a restriction on the independent variable"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Domain & Range > Domain & Range > Compute both domain and range",
+              "title": "Compute both domain and range"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Domain & Range > Domain & Range > Compute domain and range of a function of several variables",
+              "title": "Compute domain and range of a function of several variables"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Domain & Range"
+        }
+      ],
+      "covered": 0,
+      "leaves": 5,
+      "title": "Domain & Range"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Injectivity & Surjectivity > Injectivity > Determine whether a given function is injective",
+              "title": "Determine whether a given function is injective"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Injectivity & Surjectivity > Injectivity > Determine injectivity on a specified domain",
+              "title": "Determine injectivity on a specified domain"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Injectivity"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Injectivity & Surjectivity > Surjectivity > Determine whether a given function is surjective",
+              "title": "Determine whether a given function is surjective"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Injectivity & Surjectivity > Surjectivity > Determine surjectivity on a specified domain",
+              "title": "Determine surjectivity on a specified domain"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Surjectivity"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Injectivity & Surjectivity > Bijectivity > Determine whether a given function is bijective",
+              "title": "Determine whether a given function is bijective"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Injectivity & Surjectivity > Bijectivity > Determine bijectivity on a specified domain",
+              "title": "Determine bijectivity on a specified domain"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Bijectivity"
+        }
+      ],
+      "covered": 0,
+      "leaves": 6,
+      "title": "Injectivity & Surjectivity"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Continuity > Continuity > Determine whether a function is continuous",
+              "title": "Determine whether a function is continuous"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Continuity > Continuity > Determine continuity at a given point",
+              "title": "Determine continuity at a given point"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Continuity"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Continuity > Discontinuities > Locate discontinuities of a function",
+              "title": "Locate discontinuities of a function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Discontinuities"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Continuity"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Periodic Functions > Period Computations > Compute the period of a periodic function",
+              "title": "Compute the period of a periodic function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Periodic Functions > Period Computations > Find periods of a function of several variables",
+              "title": "Find periods of a function of several variables"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Period Computations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Periodic Functions > Root Mean Square > Compute the root mean square of a periodic function",
+              "title": "Compute the root mean square of a periodic function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Root Mean Square"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Periodic Functions"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Mathematical Functions > Even & Odd Functions > Determine whether a function is even or odd",
+          "title": "Determine whether a function is even or odd"
+        }
+      ],
+      "covered": 0,
+      "leaves": 1,
+      "title": "Even & Odd Functions"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Bessel & Related Functions > Bessel Functions > Plot a Bessel function of the first kind",
+                  "title": "Plot a Bessel function of the first kind"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Bessel & Related Functions > Bessel Functions > Integrate a spherical Bessel function",
+                  "title": "Integrate a spherical Bessel function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Bessel & Related Functions > Bessel Functions > Find differential equations satisfied by a Bessel function of the second kind",
+                  "title": "Find differential equations satisfied by a Bessel function of the second kind"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Bessel Functions"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Bessel & Related Functions > Airy Functions > Compute a value of an Airy function to high precision",
+                  "title": "Compute a value of an Airy function to high precision"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Bessel & Related Functions > Airy Functions > Plot an Airy function",
+                  "title": "Plot an Airy function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Bessel & Related Functions > Airy Functions > Find relations between functions",
+                  "title": "Find relations between functions"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Bessel & Related Functions > Airy Functions > Find differential equations satisfied by an Airy function",
+                  "title": "Find differential equations satisfied by an Airy function"
+                }
+              ],
+              "covered": 0,
+              "leaves": 4,
+              "title": "Airy Functions"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Bessel & Related Functions > Struve Functions > Find information about the Struve functions",
+                  "title": "Find information about the Struve functions"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Struve Functions"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Bessel & Related Functions > Hankel Functions > Generate information about the Hankel functions",
+                  "title": "Generate information about the Hankel functions"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Bessel & Related Functions > Hankel Functions > Compute information about the spherical Hankel functions",
+                  "title": "Compute information about the spherical Hankel functions"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Hankel Functions"
+            }
+          ],
+          "covered": 0,
+          "leaves": 10,
+          "title": "Bessel & Related Functions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Beta Functions > Compute values of the Beta function",
+              "title": "Compute values of the Beta function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Beta Functions > Plot values of the incomplete Beta function",
+              "title": "Plot values of the incomplete Beta function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Beta Functions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Elliptic Functions > Elliptic Integrals > Plot an elliptic integral",
+                  "title": "Plot an elliptic integral"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Elliptic Functions > Elliptic Integrals > Compute the Taylor series of the elliptic nome",
+                  "title": "Compute the Taylor series of the elliptic nome"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Elliptic Integrals"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Elliptic Functions > Jacobi Elliptic Functions > Plot sn(z, m) for a fixed z",
+                  "title": "Plot sn(z, m) for a fixed z"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Elliptic Functions > Jacobi Elliptic Functions > Compute a series expansion for cn(z, m)",
+                  "title": "Compute a series expansion for cn(z, m)"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Elliptic Functions > Jacobi Elliptic Functions > Compute compositions of elliptic functions and integrals",
+                  "title": "Compute compositions of elliptic functions and integrals"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Jacobi Elliptic Functions"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Elliptic Functions > Theta Functions > Plot a Jacobi theta function",
+                  "title": "Plot a Jacobi theta function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Elliptic Functions > Theta Functions > Evaluate a Neville theta function numerically",
+                  "title": "Evaluate a Neville theta function numerically"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Elliptic Functions > Theta Functions > Plot a Neville theta function",
+                  "title": "Plot a Neville theta function"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Theta Functions"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Elliptic Functions > Carlson Functions > Evaluate the numerical values of a Carlson elliptic integral",
+                  "title": "Evaluate the numerical values of a Carlson elliptic integral"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Elliptic Functions > Carlson Functions > Compute properties of a Carlson elliptic integral function",
+                  "title": "Compute properties of a Carlson elliptic integral function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Elliptic Functions > Carlson Functions > Find a Taylor series for a Carlson elliptic integral function",
+                  "title": "Find a Taylor series for a Carlson elliptic integral function"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Carlson Functions"
+            }
+          ],
+          "covered": 0,
+          "leaves": 11,
+          "title": "Elliptic Functions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Error Functions > Compute values of the error function",
+              "title": "Compute values of the error function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Error Functions > Analyze the complementary error function",
+              "title": "Analyze the complementary error function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Error Functions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Gamma & Related Functions > Gamma Functions > Compute properties of the gamma function",
+                  "title": "Compute properties of the gamma function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Gamma & Related Functions > Gamma Functions > Compute exact values of gamma at half integers",
+                  "title": "Compute exact values of gamma at half integers"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Gamma & Related Functions > Gamma Functions > Simplify expressions involving gamma",
+                  "title": "Simplify expressions involving gamma"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Gamma & Related Functions > Gamma Functions > Numerically compute digamma and polygamma",
+                  "title": "Numerically compute digamma and polygamma"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Gamma & Related Functions > Gamma Functions > Numerically compute the incomplete gamma function",
+                  "title": "Numerically compute the incomplete gamma function"
+                }
+              ],
+              "covered": 0,
+              "leaves": 5,
+              "title": "Gamma Functions"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Gamma & Related Functions > Factorial-Type Operations > Analyze the factorial function",
+                  "title": "Analyze the factorial function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Gamma & Related Functions > Factorial-Type Operations > Compute values of the double factorial",
+                  "title": "Compute values of the double factorial"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Factorial-Type Operations"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Gamma & Related Functions > Pochhammer Symbols > Compute specific Pochhammer symbols",
+                  "title": "Compute specific Pochhammer symbols"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Pochhammer Symbols"
+            }
+          ],
+          "covered": 0,
+          "leaves": 8,
+          "title": "Gamma & Related Functions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Legendre Polynomials > Compute Legendre P polynomials",
+              "title": "Compute Legendre P polynomials"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Legendre Polynomials > Plot a Legendre Q polynomial",
+              "title": "Plot a Legendre Q polynomial"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Legendre Polynomials"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Spheroidal Functions > Evaluate S(1) numerically",
+              "title": "Evaluate S(1) numerically"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Spheroidal Functions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Zeta Functions > Riemann Zeta Function > Compute the exact values of the zeta function",
+                  "title": "Compute the exact values of the zeta function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Zeta Functions > Riemann Zeta Function > Numerically evaluate zeta near a nontrivial zero",
+                  "title": "Numerically evaluate zeta near a nontrivial zero"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Zeta Functions > Riemann Zeta Function > Plot the zeta function on the critical line",
+                  "title": "Plot the zeta function on the critical line"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Zeta Functions > Riemann Zeta Function > Find series representations of the zeta function",
+                  "title": "Find series representations of the zeta function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Zeta Functions > Riemann Zeta Function > Find a functional equation for the zeta function",
+                  "title": "Find a functional equation for the zeta function"
+                }
+              ],
+              "covered": 0,
+              "leaves": 5,
+              "title": "Riemann Zeta Function"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Zeta Functions > Hurwitz Functions > Analyze a series for the Hurwitz zeta function",
+                  "title": "Analyze a series for the Hurwitz zeta function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Zeta Functions > Hurwitz Functions > Plot the Hurwitz–Lerch transcendent",
+                  "title": "Plot the Hurwitz–Lerch transcendent"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Hurwitz Functions"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Zeta Functions > Riemann–Siegel Functions > Plot the Riemann–Siegel functions",
+                  "title": "Plot the Riemann–Siegel functions"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Riemann–Siegel Functions"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Zeta Functions > Other Zeta Functions > Evaluate the prime zeta function",
+                  "title": "Evaluate the prime zeta function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Mathematical Functions > Special Functions > Zeta Functions > Other Zeta Functions > Find the integral representations of the Dirichlet eta function",
+                  "title": "Find the integral representations of the Dirichlet eta function"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Other Zeta Functions"
+            }
+          ],
+          "covered": 0,
+          "leaves": 10,
+          "title": "Zeta Functions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Heun Functions > Evaluate the z-derivative of the double-confluent Heun function",
+              "title": "Evaluate the z-derivative of the double-confluent Heun function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Heun Functions > Plot values of the bi-confluent Heun function",
+              "title": "Plot values of the bi-confluent Heun function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Heun Functions > Plot a derivative of the general Heun function",
+              "title": "Plot a derivative of the general Heun function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Heun Functions > Discover properties of the z-derivative of the tri-confluent Heun function",
+              "title": "Discover properties of the z-derivative of the tri-confluent Heun function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Heun Functions > Compute the Taylor series for values of the confluent Heun function",
+              "title": "Compute the Taylor series for values of the confluent Heun function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Heun Functions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Coulomb Functions > Evaluate the incoming irregular Coulomb wave function at a point",
+              "title": "Evaluate the incoming irregular Coulomb wave function at a point"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Coulomb Functions > Plot values of the Coulomb wave",
+              "title": "Plot values of the Coulomb wave"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Special Functions > Coulomb Functions > Analyze the derivative of an irregular Coulomb wave",
+              "title": "Analyze the derivative of an irregular Coulomb wave"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Coulomb Functions"
+        }
+      ],
+      "covered": 0,
+      "leaves": 54,
+      "title": "Special Functions"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Number Theoretic Functions > Functions > Get information about a number theoretic function",
+              "title": "Get information about a number theoretic function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Number Theoretic Functions > Functions > Do computations with number theoretic functions",
+              "title": "Do computations with number theoretic functions"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Functions"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "Number Theoretic Functions"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Representation Formulas > Integral Representations > Find integral representations for a function",
+              "title": "Find integral representations for a function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Representation Formulas > Integral Representations > Find representations satisfying given conditions",
+              "title": "Find representations satisfying given conditions"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Integral Representations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Representation Formulas > Series Representations > Find series representations for a function",
+              "title": "Find series representations for a function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Representation Formulas > Series Representations > Find series representations for a number",
+              "title": "Find series representations for a number"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Series Representations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Representation Formulas > Product Representations > Find product representations for a function",
+              "title": "Find product representations for a function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Representation Formulas > Product Representations > Find product representations for a constant",
+              "title": "Find product representations for a constant"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Product Representations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Representation Formulas > Limit Representations > Find limit representations for a function",
+              "title": "Find limit representations for a function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Mathematical Functions > Representation Formulas > Limit Representations > Find limit representations for a constant",
+              "title": "Find limit representations for a constant"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Limit Representations"
+        }
+      ],
+      "covered": 0,
+      "leaves": 8,
+      "title": "Representation Formulas"
+    }
+  ],
+  "percent": 0.0,
+  "reindexed": false,
+  "slug": "mathematical-functions",
+  "title": "Mathematical Functions"
+}

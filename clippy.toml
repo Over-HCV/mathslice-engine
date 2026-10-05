@@ -1,0 +1,6 @@
+# Los lints de §6 (sin unwrap/expect/panic) prohíben esas construcciones en el
+# código del motor, no en las pruebas: en un test, un unwrap ES la aserción.
+allow-unwrap-in-tests = true
+allow-expect-in-tests = true
+allow-panic-in-tests = true
+allow-indexing-slicing-in-tests = true

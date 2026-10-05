@@ -1,0 +1,1704 @@
+{
+  "covered": 2,
+  "leaves": 149,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integrals > Indefinite Integrals > Compute an indefinite integral",
+              "title": "Compute an indefinite integral"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integrals > Indefinite Integrals > Compute an indefinite integral that cannot be expressed in elementary terms",
+              "title": "Compute an indefinite integral that cannot be expressed in elementary terms"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integrals > Indefinite Integrals > Generate a table of integrals that contain a given function",
+              "title": "Generate a table of integrals that contain a given function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Indefinite Integrals"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integrals > Definite Integrals > Compute a definite integral",
+              "title": "Compute a definite integral"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integrals > Definite Integrals > Compute an improper integral",
+              "title": "Compute an improper integral"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integrals > Definite Integrals > Generate a table of definite integral formulas",
+              "title": "Generate a table of definite integral formulas"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Definite Integrals"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integrals > Multiple Integrals > Compute a multiple integral",
+              "title": "Compute a multiple integral"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integrals > Multiple Integrals > Compute an integral over an unbounded region",
+              "title": "Compute an integral over an unbounded region"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Multiple Integrals"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Integrals > Numerical Integration > Numerical Integration > Numerically integrate functions that cannot be integrated symbolically",
+                  "title": "Numerically integrate functions that cannot be integrated symbolically"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Numerical Integration"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Integrals > Numerical Integration > Numerical Integration Methods > Approximate an integral using a specified numerical method",
+                  "title": "Approximate an integral using a specified numerical method"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Integrals > Numerical Integration > Numerical Integration Methods > Compare the performance of different methods",
+                  "title": "Compare the performance of different methods"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Numerical Integration Methods"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Numerical Integration"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integrals > Integral Representations > Find integral representations for a function",
+              "title": "Find integral representations for a function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Integral Representations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integrals > Integrals Related to Special Functions > Explore interesting indefinite integrals containing special functions",
+              "title": "Explore interesting indefinite integrals containing special functions"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integrals > Integrals Related to Special Functions > Explore interesting definite integrals containing special functions",
+              "title": "Explore interesting definite integrals containing special functions"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Integrals Related to Special Functions"
+        }
+      ],
+      "covered": 0,
+      "leaves": 14,
+      "title": "Integrals"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\frac{d}{dx}\\left(\\left(x^{2}+1\\right)^{3}\\right)",
+                  "name": "criterio-de-salida",
+                  "result_latex": "6x\\left(x^{2} + 1\\right)^{2}",
+                  "stage": "E3"
+                }
+              ],
+              "checked": true,
+              "id": "Calculus & Analysis > Derivatives > Derivatives > Calculate the derivative of a function",
+              "title": "Calculate the derivative of a function"
+            }
+          ],
+          "covered": 1,
+          "leaves": 1,
+          "title": "Derivatives"
+        },
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\frac{d}{dx}\\left(\\frac{d}{dx}\\left(x^{3}\\right)\\right)",
+                  "name": "la-segunda-derivada-es-la-derivada-de-la-derivada",
+                  "result_latex": "6x",
+                  "stage": "E3"
+                }
+              ],
+              "checked": true,
+              "id": "Calculus & Analysis > Derivatives > Higher-Order Derivatives > Compute higher-order derivatives",
+              "title": "Compute higher-order derivatives"
+            }
+          ],
+          "covered": 1,
+          "leaves": 1,
+          "title": "Higher-Order Derivatives"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Derivatives > Implicit Differentiation > Differentiate an equation",
+              "title": "Differentiate an equation"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Derivatives > Implicit Differentiation > Compute a derivative using implicit differentiation",
+              "title": "Compute a derivative using implicit differentiation"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Implicit Differentiation"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Derivatives > Partial Derivatives > Compute partial derivatives",
+              "title": "Compute partial derivatives"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Derivatives > Partial Derivatives > Compute higher-order partial derivatives",
+              "title": "Compute higher-order partial derivatives"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Partial Derivatives"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Derivatives > Directional Derivatives > Compute a directional derivative",
+              "title": "Compute a directional derivative"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Directional Derivatives"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Derivatives > Derivatives of Abstract Functions > Compute derivatives involving abstract functions",
+              "title": "Compute derivatives involving abstract functions"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Derivatives > Derivatives of Abstract Functions > Compute partial derivatives of abstract functions",
+              "title": "Compute partial derivatives of abstract functions"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Derivatives of Abstract Functions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Derivatives > Differentiability > Test differentiability of a function",
+              "title": "Test differentiability of a function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Differentiability"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Derivatives > Derivative Applications > Find intervals of monotonicity",
+              "title": "Find intervals of monotonicity"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Derivatives > Derivative Applications > Explore notable points of curves",
+              "title": "Explore notable points of curves"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Derivatives > Derivative Applications > Compute extreme values of univariate and multivariate functions",
+              "title": "Compute extreme values of univariate and multivariate functions"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Derivatives > Derivative Applications > Calculate the tangent line of an equation at a given point",
+              "title": "Calculate the tangent line of an equation at a given point"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Derivative Applications"
+        }
+      ],
+      "covered": 2,
+      "leaves": 14,
+      "title": "Derivatives"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Limits > Limits > Compute a limit",
+              "title": "Compute a limit"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Limits > Limits > Take the limit of a difference quotient",
+              "title": "Take the limit of a difference quotient"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Limits > Limits > Compute a limit involving abstract functions",
+              "title": "Compute a limit involving abstract functions"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Limits"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Limits > One-Sided Limits > Compute one-sided limits at a point of discontinuity",
+              "title": "Compute one-sided limits at a point of discontinuity"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Limits > One-Sided Limits > Specify the direction of approach",
+              "title": "Specify the direction of approach"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "One-Sided Limits"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Limits > Multivariable Limits > Compute a multidimensional limit",
+              "title": "Compute a multidimensional limit"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Limits > Multivariable Limits > Find the value of a nested limit",
+              "title": "Find the value of a nested limit"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Multivariable Limits"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Limits > Limit Representations > Find limit representations for a function",
+              "title": "Find limit representations for a function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Limit Representations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Limits > Supremum & Infimum Limits > Compute supremum limits",
+              "title": "Compute supremum limits"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Limits > Supremum & Infimum Limits > Compute infimum limits",
+              "title": "Compute infimum limits"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Supremum & Infimum Limits"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Limits > Discrete Limits > Compute discrete limits",
+              "title": "Compute discrete limits"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Limits > Discrete Limits > Compute discrete supremum or infimum limits",
+              "title": "Compute discrete supremum or infimum limits"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Discrete Limits"
+        }
+      ],
+      "covered": 0,
+      "leaves": 12,
+      "title": "Limits"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Sequences > Sequences > Analyze a sequence",
+              "title": "Analyze a sequence"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Sequences > Sequences > Compute the limit of a sequence",
+              "title": "Compute the limit of a sequence"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Sequences"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Sequences > Integer Sequences > Integer Sequences > Analyze a named integer sequence",
+                  "title": "Analyze a named integer sequence"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Sequences > Integer Sequences > Integer Sequences > Specify a sequence by OEIS number",
+                  "title": "Specify a sequence by OEIS number"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Sequences > Integer Sequences > Integer Sequences > Find the generating function of a sequence",
+                  "title": "Find the generating function of a sequence"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Integer Sequences"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Sequences > Integer Sequences > Sequence Recognition > Compute a possible formula and continuation for a sequence",
+                  "title": "Compute a possible formula and continuation for a sequence"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Sequence Recognition"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Integer Sequences"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Sequences > Sequence Recognition > Compute a possible formula and continuation for a sequence",
+              "title": "Compute a possible formula and continuation for a sequence"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Sequences > Sequence Recognition > Sum an incompletely specified sequence of terms",
+              "title": "Sum an incompletely specified sequence of terms"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Sequences > Sequence Recognition > Sum an incompletely specified infinite series",
+              "title": "Sum an incompletely specified infinite series"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Sequences > Sequence Recognition > Multiply an incompletely specified sequence of terms",
+              "title": "Multiply an incompletely specified sequence of terms"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Sequence Recognition"
+        }
+      ],
+      "covered": 0,
+      "leaves": 10,
+      "title": "Sequences"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Sums > Finite Sums > Compute an indexed sum",
+              "title": "Compute an indexed sum"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Sums > Finite Sums > Sum an incompletely specified sequence of terms",
+              "title": "Sum an incompletely specified sequence of terms"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Finite Sums"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Sums > Infinite Sums > Compute an infinite sum",
+              "title": "Compute an infinite sum"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Sums > Infinite Sums > Sum a geometric series",
+              "title": "Sum a geometric series"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Sums > Infinite Sums > Compute a sum over all integers",
+              "title": "Compute a sum over all integers"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Sums > Infinite Sums > Compute an infinite sum (limits unspecified)",
+              "title": "Compute an infinite sum (limits unspecified)"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Sums > Infinite Sums > Sum an incompletely specified infinite series",
+              "title": "Sum an incompletely specified infinite series"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Infinite Sums"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Sums > Sum Convergence > Determine if an infinite sum converges",
+              "title": "Determine if an infinite sum converges"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Sum Convergence"
+        }
+      ],
+      "covered": 0,
+      "leaves": 8,
+      "title": "Sums"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Products > Finite Products > Compute an indexed product",
+              "title": "Compute an indexed product"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Products > Finite Products > Multiply an incompletely specified sequence of terms",
+              "title": "Multiply an incompletely specified sequence of terms"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Finite Products"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Products > Infinite Products > Compute an infinite product",
+              "title": "Compute an infinite product"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Infinite Products"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Products > Product Representations > Find product representations for a function",
+              "title": "Find product representations for a function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Product Representations"
+        }
+      ],
+      "covered": 0,
+      "leaves": 4,
+      "title": "Products"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Series Expansions > Taylor Series > Find a Taylor series expansion",
+              "title": "Find a Taylor series expansion"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Series Expansions > Taylor Series > Expand around a specified point",
+              "title": "Expand around a specified point"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Series Expansions > Taylor Series > Specify the order of the expansion",
+              "title": "Specify the order of the expansion"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Series Expansions > Taylor Series > Specify the center point and the order of the expansion",
+              "title": "Specify the center point and the order of the expansion"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Taylor Series"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Series Expansions > Laurent Series > Find a Laurent series expansion",
+              "title": "Find a Laurent series expansion"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Laurent Series"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Series Expansions > Puiseux Series > Find a Puiseux series expansion",
+              "title": "Find a Puiseux series expansion"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Series Expansions > Puiseux Series > Find a generalized Puiseux series expansion",
+              "title": "Find a generalized Puiseux series expansion"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Puiseux Series"
+        }
+      ],
+      "covered": 0,
+      "leaves": 7,
+      "title": "Series Expansions"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Asymptotes > Asymptotes > Compute asymptotes of a function",
+                  "title": "Compute asymptotes of a function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Asymptotes > Asymptotes > Find asymptotes of a curve given by an equation",
+                  "title": "Find asymptotes of a curve given by an equation"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Asymptotes"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Asymptotes > Vertical Asymptotes > Compute vertical asymptotes",
+                  "title": "Compute vertical asymptotes"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Vertical Asymptotes"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Asymptotes > Horizontal Asymptotes > Compute horizontal asymptotes",
+                  "title": "Compute horizontal asymptotes"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Horizontal Asymptotes"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Asymptotes > Oblique Asymptotes > Compute oblique asymptotes",
+                  "title": "Compute oblique asymptotes"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Oblique Asymptotes"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Asymptotes > Curvilinear Asymptotes > Compute polynomial asymptotes of a rational function",
+                  "title": "Compute polynomial asymptotes of a rational function"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Curvilinear Asymptotes"
+            }
+          ],
+          "covered": 0,
+          "leaves": 6,
+          "title": "Asymptotes"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Tangents & Normals > Secant Lines > Find the secant to the graph of a function through two points",
+                  "title": "Find the secant to the graph of a function through two points"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Tangents & Normals > Secant Lines > Calculate the slope of a secant line of an equation through two given points",
+                  "title": "Calculate the slope of a secant line of an equation through two given points"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Secant Lines"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Tangents & Normals > Tangent Lines > Find the tangent to the graph of a function at a point",
+                  "title": "Find the tangent to the graph of a function at a point"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Tangents & Normals > Tangent Lines > Find the tangent to a curve specified by an equation",
+                  "title": "Find the tangent to a curve specified by an equation"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Tangent Lines"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Tangents & Normals > Tangent Planes > Find the tangent plane to a surface",
+                  "title": "Find the tangent plane to a surface"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Tangent Planes"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Tangents & Normals > Tangent Hyperplanes > Find a tangent hyperplane",
+                  "title": "Find a tangent hyperplane"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Tangent Hyperplanes"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Tangents & Normals > Normal Lines > Find the normal line to the graph of a function at a point",
+                  "title": "Find the normal line to the graph of a function at a point"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Tangents & Normals > Normal Lines > Find the normal to a curve specified by an equation",
+                  "title": "Find the normal to a curve specified by an equation"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Tangents & Normals > Normal Lines > Find the normal to a surface",
+                  "title": "Find the normal to a surface"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Normal Lines"
+            }
+          ],
+          "covered": 0,
+          "leaves": 9,
+          "title": "Tangents & Normals"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Cusps & Corners > Cusps > Find cusps on the graph of a function",
+                  "title": "Find cusps on the graph of a function"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Cusps"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Cusps & Corners > Corners > Find corners on the graph of a function",
+                  "title": "Find corners on the graph of a function"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Corners"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Cusps & Corners"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Stationary Points > Stationary Points > Locate the stationary points of a function",
+                  "title": "Locate the stationary points of a function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Stationary Points > Stationary Points > Find the stationary points of a function of several variables",
+                  "title": "Find the stationary points of a function of several variables"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Stationary Points > Stationary Points > Find the stationary points in a specified domain",
+                  "title": "Find the stationary points in a specified domain"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Stationary Points > Stationary Points > Find the stationary point nearest to a specified point",
+                  "title": "Find the stationary point nearest to a specified point"
+                }
+              ],
+              "covered": 0,
+              "leaves": 4,
+              "title": "Stationary Points"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Stationary Points"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Inflection Points > Inflection Points > Locate the inflection points of a function",
+                  "title": "Locate the inflection points of a function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Inflection Points > Inflection Points > Find the inflection points in a specified domain",
+                  "title": "Find the inflection points in a specified domain"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Inflection Points > Inflection Points > Find the inflection point nearest to a specified point",
+                  "title": "Find the inflection point nearest to a specified point"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Inflection Points"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Inflection Points"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Optimization > Global Optimization > Find global extrema",
+                  "title": "Find global extrema"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Optimization > Global Optimization > Minimize or maximize a function",
+                  "title": "Minimize or maximize a function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Optimization > Global Optimization > Minimize or maximize a function of several variables",
+                  "title": "Minimize or maximize a function of several variables"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Global Optimization"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Optimization > Constrained Optimization > Minimize or maximize a function subject to a constraint",
+                  "title": "Minimize or maximize a function subject to a constraint"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Constrained Optimization"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Optimization > Local Extrema > Find local minima or maxima",
+                  "title": "Find local minima or maxima"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Local Extrema"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Optimization"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Area between Curves > Area between Curves > Compute the area bounded by two curves",
+                  "title": "Compute the area bounded by two curves"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Area between Curves > Area between Curves > Specify limits on a variable",
+                  "title": "Specify limits on a variable"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Area between Curves > Area between Curves > Compute the area enclosed by a curve",
+                  "title": "Compute the area enclosed by a curve"
+                }
+              ],
+              "covered": 0,
+              "leaves": 3,
+              "title": "Area between Curves"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Area between Curves"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Arc Length > Arc Length > Compute the arc length of common curves",
+                  "title": "Compute the arc length of common curves"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Arc Length > Arc Length > Compute the arc length of a curve",
+                  "title": "Compute the arc length of a curve"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Arc Length > Arc Length > Specify a curve in polar coordinates",
+                  "title": "Specify a curve in polar coordinates"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Arc Length > Arc Length > Specify the curve parametrically",
+                  "title": "Specify the curve parametrically"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Arc Length > Arc Length > Compute arc length in arbitrarily many dimensions",
+                  "title": "Compute arc length in arbitrarily many dimensions"
+                }
+              ],
+              "covered": 0,
+              "leaves": 5,
+              "title": "Arc Length"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Arc Length"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Surfaces & Solids of Revolution > Surfaces of Revolution > Compute properties of a surface of revolution",
+                  "title": "Compute properties of a surface of revolution"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Surfaces of Revolution"
+            },
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Surfaces & Solids of Revolution > Solids of Revolution > Compute properties of a solid of revolution",
+                  "title": "Compute properties of a solid of revolution"
+                }
+              ],
+              "covered": 0,
+              "leaves": 1,
+              "title": "Solids of Revolution"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Surfaces & Solids of Revolution"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Curvature > Curvature > Compute the curvature of a plane curve at a point",
+                  "title": "Compute the curvature of a plane curve at a point"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Curvature > Curvature > Specify the curve in polar form",
+                  "title": "Specify the curve in polar form"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Curvature > Curvature > Compute the curvature of a space curve",
+                  "title": "Compute the curvature of a space curve"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Curvature > Curvature > Compute a curvature in higher dimensions",
+                  "title": "Compute a curvature in higher dimensions"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Curvature > Curvature > Compute the curvature at an arbitrary point",
+                  "title": "Compute the curvature at an arbitrary point"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Curvature > Curvature > Compute an osculating circle",
+                  "title": "Compute an osculating circle"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Curvature > Curvature > Compute a center of curvature",
+                  "title": "Compute a center of curvature"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Curvature > Curvature > Compute a radius of curvature",
+                  "title": "Compute a radius of curvature"
+                }
+              ],
+              "covered": 0,
+              "leaves": 8,
+              "title": "Curvature"
+            }
+          ],
+          "covered": 0,
+          "leaves": 8,
+          "title": "Curvature"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Applications of Calculus > Monotonicity > Explore regions where a curve is increasing, decreasing or flat",
+              "title": "Explore regions where a curve is increasing, decreasing or flat"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Applications of Calculus > Monotonicity > Determine whether a function is increasing at a specific point",
+              "title": "Determine whether a function is increasing at a specific point"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Applications of Calculus > Monotonicity > Determine the concavity of a function on an interval",
+              "title": "Determine the concavity of a function on an interval"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Monotonicity"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Applications of Calculus > Concavity & Convexity > Find the intervals where a curve is concave up, concave down and straight",
+              "title": "Find the intervals where a curve is concave up, concave down and straight"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Applications of Calculus > Concavity & Convexity > Determine the concavity of a function at a specific point",
+              "title": "Determine the concavity of a function at a specific point"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Applications of Calculus > Concavity & Convexity > Determine the concavity of a function on an interval",
+              "title": "Determine the concavity of a function on an interval"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Concavity & Convexity"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "checked": false,
+              "children": [
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Saddle Points > Saddle Points > Locate the saddle points of a function",
+                  "title": "Locate the saddle points of a function"
+                },
+                {
+                  "cases": [],
+                  "checked": false,
+                  "id": "Calculus & Analysis > Applications of Calculus > Saddle Points > Saddle Points > Find the saddle point nearest to a specified point",
+                  "title": "Find the saddle point nearest to a specified point"
+                }
+              ],
+              "covered": 0,
+              "leaves": 2,
+              "title": "Saddle Points"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Saddle Points"
+        }
+      ],
+      "covered": 0,
+      "leaves": 55,
+      "title": "Applications of Calculus"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Vector Analysis > Gradient > Compute the gradient of a function",
+              "title": "Compute the gradient of a function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Vector Analysis > Gradient > Compute the gradient of a function specified in polar coordinates",
+              "title": "Compute the gradient of a function specified in polar coordinates"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Gradient"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Vector Analysis > Divergence > Compute the divergence of a vector field",
+              "title": "Compute the divergence of a vector field"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Divergence"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Vector Analysis > Curl > Compute the curl (rotor) of a vector field",
+              "title": "Compute the curl (rotor) of a vector field"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Curl"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Vector Analysis > Laplacian > Compute the Laplacian of a function",
+              "title": "Compute the Laplacian of a function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Laplacian"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Vector Analysis > Jacobian > Compute a Jacobian determinant",
+              "title": "Compute a Jacobian determinant"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Vector Analysis > Jacobian > Compute a Jacobian matrix",
+              "title": "Compute a Jacobian matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Jacobian"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Vector Analysis > Hessian > Compute a Hessian determinant",
+              "title": "Compute a Hessian determinant"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Vector Analysis > Hessian > Compute a Hessian matrix",
+              "title": "Compute a Hessian matrix"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Hessian"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Vector Analysis > Vector Analysis Identities > Calculate alternate forms of a vector analysis expression",
+              "title": "Calculate alternate forms of a vector analysis expression"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Vector Analysis Identities"
+        }
+      ],
+      "covered": 0,
+      "leaves": 10,
+      "title": "Vector Analysis"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integral Transforms > Fourier Transforms > Compute a Fourier transform",
+              "title": "Compute a Fourier transform"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integral Transforms > Fourier Transforms > Compute an inverse Fourier transform",
+              "title": "Compute an inverse Fourier transform"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Fourier Transforms"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integral Transforms > Laplace Transforms > Compute a Laplace transform",
+              "title": "Compute a Laplace transform"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integral Transforms > Laplace Transforms > Compute an inverse Laplace transform",
+              "title": "Compute an inverse Laplace transform"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Laplace Transforms"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integral Transforms > Mellin Transforms > Compute a Mellin transform",
+              "title": "Compute a Mellin transform"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Mellin Transforms"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integral Transforms > Z-Transforms > Compute the Z-transform of a sequence",
+              "title": "Compute the Z-transform of a sequence"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Integral Transforms > Z-Transforms > Compute the inverse Z-transform of a function",
+              "title": "Compute the inverse Z-transform of a function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Z-Transforms"
+        }
+      ],
+      "covered": 0,
+      "leaves": 7,
+      "title": "Integral Transforms"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Domain & Range > Domain & Range > Compute the domain of a function",
+              "title": "Compute the domain of a function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Domain & Range > Domain & Range > Compute the range of a function",
+              "title": "Compute the range of a function"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Domain & Range > Domain & Range > Specify a restriction on the independent variable",
+              "title": "Specify a restriction on the independent variable"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Domain & Range > Domain & Range > Compute both domain and range",
+              "title": "Compute both domain and range"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Domain & Range > Domain & Range > Compute domain and range of a function of several variables",
+              "title": "Compute domain and range of a function of several variables"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Domain & Range"
+        }
+      ],
+      "covered": 0,
+      "leaves": 5,
+      "title": "Domain & Range"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Continuity > Continuity > Determine whether a function is continuous",
+              "title": "Determine whether a function is continuous"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Continuity > Continuity > Determine continuity at a given point",
+              "title": "Determine continuity at a given point"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Continuity"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Calculus & Analysis > Continuity > Discontinuities > Locate discontinuities of a function",
+              "title": "Locate discontinuities of a function"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Discontinuities"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Continuity"
+    }
+  ],
+  "percent": 1.34,
+  "reindexed": false,
+  "slug": "calculus-and-analysis",
+  "title": "Calculus & Analysis"
+}

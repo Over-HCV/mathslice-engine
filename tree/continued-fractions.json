@@ -1,0 +1,118 @@
+{
+  "covered": 0,
+  "leaves": 10,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Continued Fractions > Numbers > Find the continued fraction representation of a number",
+          "title": "Find the continued fraction representation of a number"
+        }
+      ],
+      "covered": 0,
+      "leaves": 1,
+      "title": "Numbers"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Continued Fractions > Functions > Find continued fraction representations for a function",
+          "title": "Find continued fraction representations for a function"
+        }
+      ],
+      "covered": 0,
+      "leaves": 1,
+      "title": "Functions"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Continued Fractions > Definitions of Terms > Find definitions for continued fraction terminology",
+          "title": "Find definitions for continued fraction terminology"
+        }
+      ],
+      "covered": 0,
+      "leaves": 1,
+      "title": "Definitions of Terms"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Continued Fractions > Theorems > Get information about a continued fraction theorem",
+          "title": "Get information about a continued fraction theorem"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Continued Fractions > Theorems > Find theorems that apply to a specified expression",
+          "title": "Find theorems that apply to a specified expression"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Continued Fractions > Theorems > Find theorems by application",
+          "title": "Find theorems by application"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Continued Fractions > Theorems > Find theorems by prover",
+          "title": "Find theorems by prover"
+        }
+      ],
+      "covered": 0,
+      "leaves": 4,
+      "title": "Theorems"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Continued Fractions > Algorithms > Get information about a continued fraction algorithm",
+          "title": "Get information about a continued fraction algorithm"
+        }
+      ],
+      "covered": 0,
+      "leaves": 1,
+      "title": "Algorithms"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Continued Fractions > Literature > Find continued fraction papers by author",
+          "title": "Find continued fraction papers by author"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Continued Fractions > Literature > Find continued fraction papers by publication",
+          "title": "Find continued fraction papers by publication"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "Literature"
+    }
+  ],
+  "percent": 0.0,
+  "reindexed": false,
+  "slug": "continued-fractions",
+  "title": "Continued Fractions"
+}

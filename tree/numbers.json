@@ -1,0 +1,833 @@
+{
+  "covered": 11,
+  "leaves": 58,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "12",
+                  "name": "hechos-de-un-entero-compuesto",
+                  "result_latex": "12",
+                  "stage": "E1"
+                },
+                {
+                  "error": null,
+                  "latex": "-12",
+                  "name": "hechos-de-un-entero-negativo",
+                  "result_latex": "-12",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Numbers > Integers > Integers > Compute properties of an integer",
+              "title": "Compute properties of an integer"
+            }
+          ],
+          "covered": 1,
+          "leaves": 1,
+          "title": "Integers"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\frac{4}{1}+\\frac{2}{1}",
+                  "name": "suma-de-enteros-escritos-como-fraccion",
+                  "result_latex": "6",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Numbers > Integers > Integer Arithmetic > Do exact arithmetic with integers",
+              "title": "Do exact arithmetic with integers"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Integers > Integer Arithmetic > Compute the last digit of a large integer",
+              "title": "Compute the last digit of a large integer"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Integers > Integer Arithmetic > Compute the last nonzero digit",
+              "title": "Compute the last nonzero digit"
+            }
+          ],
+          "covered": 1,
+          "leaves": 3,
+          "title": "Integer Arithmetic"
+        }
+      ],
+      "covered": 2,
+      "leaves": 4,
+      "title": "Integers"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "0.1+0.2",
+                  "name": "decimales-que-un-float-no-suma-bien",
+                  "result_latex": "\\frac{3}{10}",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Numbers > Rational Numbers > Rational Numbers > Compute properties of a rational number",
+              "title": "Compute properties of a rational number"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "0.75",
+                  "name": "un-decimal-es-una-fraccion",
+                  "result_latex": "\\frac{3}{4}",
+                  "stage": "E1"
+                },
+                {
+                  "error": null,
+                  "latex": "0.75+\\frac{1}{4}",
+                  "name": "decimal-mas-fraccion",
+                  "result_latex": "1",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Numbers > Rational Numbers > Rational Numbers > Do exact arithmetic on rational numbers",
+              "title": "Do exact arithmetic on rational numbers"
+            }
+          ],
+          "covered": 2,
+          "leaves": 2,
+          "title": "Rational Numbers"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Rational Numbers > Identification of Rationals > Determine whether a number is rational",
+              "title": "Determine whether a number is rational"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Identification of Rationals"
+        },
+        {
+          "checked": true,
+          "children": [
+            {
+              "checked": true,
+              "children": [
+                {
+                  "cases": [
+                    {
+                      "error": null,
+                      "latex": "0.\\overline{3}",
+                      "name": "un-periodico-es-el-periodo-sobre-nueves",
+                      "result_latex": "\\frac{1}{3}",
+                      "stage": "E1"
+                    }
+                  ],
+                  "checked": true,
+                  "id": "Numbers > Rational Numbers > Repeating Decimals > Repeating Decimals > Compute the exact value of a repeating decimal",
+                  "title": "Compute the exact value of a repeating decimal"
+                },
+                {
+                  "cases": [
+                    {
+                      "error": null,
+                      "latex": "0.1\\overline{6}",
+                      "name": "periodico-con-cifras-antes-del-periodo",
+                      "result_latex": "\\frac{1}{6}",
+                      "stage": "E1"
+                    }
+                  ],
+                  "checked": true,
+                  "id": "Numbers > Rational Numbers > Repeating Decimals > Repeating Decimals > Specify the digits to repeat",
+                  "title": "Specify the digits to repeat"
+                },
+                {
+                  "cases": [
+                    {
+                      "error": null,
+                      "latex": "\\operatorname{redondear}\\left(\\frac{1}{3}, 4\\right)",
+                      "name": "redondear-un-periodico-lo-vuelve-finito",
+                      "result_latex": "\\frac{3333}{10000}",
+                      "stage": "E1"
+                    },
+                    {
+                      "error": null,
+                      "latex": "0.\\overline{142857}",
+                      "name": "el-periodo-de-un-septimo-vuelve-a-su-fraccion",
+                      "result_latex": "\\frac{1}{7}",
+                      "stage": "E1"
+                    }
+                  ],
+                  "checked": true,
+                  "id": "Numbers > Rational Numbers > Repeating Decimals > Repeating Decimals > Do calculations with repeating decimals",
+                  "title": "Do calculations with repeating decimals"
+                }
+              ],
+              "covered": 3,
+              "leaves": 3,
+              "title": "Repeating Decimals"
+            }
+          ],
+          "covered": 3,
+          "leaves": 3,
+          "title": "Repeating Decimals"
+        }
+      ],
+      "covered": 5,
+      "leaves": 6,
+      "title": "Rational Numbers"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Irrational Numbers > Irrational Numbers > Compute the properties of an irrational number",
+              "title": "Compute the properties of an irrational number"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Irrational Numbers"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Irrational Numbers > Identification of Irrationals > Determine whether a number is irrational",
+              "title": "Determine whether a number is irrational"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Identification of Irrationals"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "Irrational Numbers"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Algebraic Numbers > Algebraic Numbers > Compute properties of an algebraic number",
+              "title": "Compute properties of an algebraic number"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Algebraic Numbers > Algebraic Numbers > Do exact arithmetic on algebraic numbers",
+              "title": "Do exact arithmetic on algebraic numbers"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Algebraic Numbers"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Algebraic Numbers > Identification of Algebraics > Determine whether a number is algebraic",
+              "title": "Determine whether a number is algebraic"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Identification of Algebraics"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Algebraic Numbers > Algebraic Integers > Identify algebraic integers and units",
+              "title": "Identify algebraic integers and units"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Algebraic Integers"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Algebraic Numbers > Minimal Polynomials > Compute the minimal polynomial of an algebraic number",
+              "title": "Compute the minimal polynomial of an algebraic number"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Minimal Polynomials"
+        }
+      ],
+      "covered": 0,
+      "leaves": 5,
+      "title": "Algebraic Numbers"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Transcendental Numbers > Identification of Transcendentals > Determine whether a number is transcendental",
+              "title": "Determine whether a number is transcendental"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Identification of Transcendentals"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Transcendental Numbers > Notable Transcendentals > Get information about a transcendental number",
+              "title": "Get information about a transcendental number"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Notable Transcendentals"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "Transcendental Numbers"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Complex Numbers > Complex Numbers > Do basic arithmetic on complex numbers",
+              "title": "Do basic arithmetic on complex numbers"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Complex Numbers > Complex Numbers > Find roots of complex numbers",
+              "title": "Find roots of complex numbers"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Complex Numbers > Complex Numbers > Find all complex nth roots of a number",
+              "title": "Find all complex nth roots of a number"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Complex Numbers > Complex Numbers > Apply functions to complex numbers",
+              "title": "Apply functions to complex numbers"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Complex Numbers > Complex Numbers > Do computations that give complex numbers as a result",
+              "title": "Do computations that give complex numbers as a result"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Complex Numbers > Complex Numbers > Convert complex numbers to and from different representational forms",
+              "title": "Convert complex numbers to and from different representational forms"
+            }
+          ],
+          "covered": 0,
+          "leaves": 6,
+          "title": "Complex Numbers"
+        }
+      ],
+      "covered": 0,
+      "leaves": 6,
+      "title": "Complex Numbers"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": true,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "2^{100}",
+                  "name": "potencia-entera-sobre-bignum",
+                  "result_latex": "1267650600228229401496703205376",
+                  "stage": "E0"
+                }
+              ],
+              "checked": true,
+              "id": "Numbers > Arbitrary Precision > Large Integer Arithmetic > Do exact arithmetic with large numbers",
+              "title": "Do exact arithmetic with large numbers"
+            }
+          ],
+          "covered": 1,
+          "leaves": 1,
+          "title": "Large Integer Arithmetic"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Arbitrary Precision > High-Precision Decimals > Find a decimal approximation",
+              "title": "Find a decimal approximation"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Arbitrary Precision > High-Precision Decimals > Compute a decimal approximation to a specified number of digits",
+              "title": "Compute a decimal approximation to a specified number of digits"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "High-Precision Decimals"
+        }
+      ],
+      "covered": 1,
+      "leaves": 3,
+      "title": "Arbitrary Precision"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Mathematical Constants > Constants > Compute the value of a mathematical constant",
+              "title": "Compute the value of a mathematical constant"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Constants"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Mathematical Constants > Decimal Approximations > Compute the value of a constant to a specified number of digits",
+              "title": "Compute the value of a constant to a specified number of digits"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Decimal Approximations"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Mathematical Constants > Calculations with Constants > Do computations involving constants",
+              "title": "Do computations involving constants"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Calculations with Constants"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Mathematical Constants > Representations of Constants > Find representations of mathematical constants",
+              "title": "Find representations of mathematical constants"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Representations of Constants"
+        }
+      ],
+      "covered": 0,
+      "leaves": 4,
+      "title": "Mathematical Constants"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Number Recognition > Number Recognition > Find possible closed forms for an approximate number",
+              "title": "Find possible closed forms for an approximate number"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Number Recognition > Number Recognition > Represent an approximate number in terms of specified constants",
+              "title": "Represent an approximate number in terms of specified constants"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Number Recognition"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "Number Recognition"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\operatorname{enBase}(16, 255)",
+                  "name": "escribir-un-entero-en-hexadecimal",
+                  "result_latex": "255",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Numbers > Base Conversions > Base Conversions > Convert a decimal number to another base",
+              "title": "Convert a decimal number to another base"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "1011_{2}",
+                  "name": "numero-en-base-dos",
+                  "result_latex": "11",
+                  "stage": "E1"
+                },
+                {
+                  "error": null,
+                  "latex": "ff_{16}",
+                  "name": "numero-en-hexadecimal",
+                  "result_latex": "255",
+                  "stage": "E1"
+                },
+                {
+                  "error": null,
+                  "latex": "1011_{2}+1_{2}",
+                  "name": "suma-de-numeros-en-base-dos",
+                  "result_latex": "12",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Numbers > Base Conversions > Base Conversions > Convert a number in a given base to decimal",
+              "title": "Convert a number in a given base to decimal"
+            },
+            {
+              "cases": [
+                {
+                  "error": null,
+                  "latex": "\\operatorname{enBase}(2, 1011_{2}+1_{2})",
+                  "name": "escribir-un-resultado-en-base-dos",
+                  "result_latex": "12",
+                  "stage": "E1"
+                }
+              ],
+              "checked": true,
+              "id": "Numbers > Base Conversions > Base Conversions > Convert a number from one base to another",
+              "title": "Convert a number from one base to another"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Base Conversions > Base Conversions > Convert C-notation hexadecimal numbers to decimal",
+              "title": "Convert C-notation hexadecimal numbers to decimal"
+            }
+          ],
+          "covered": 3,
+          "leaves": 4,
+          "title": "Base Conversions"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Base Conversions > Computations > Do computations with numbers in a given base",
+              "title": "Do computations with numbers in a given base"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Base Conversions > Computations > Do mixed-base computations",
+              "title": "Do mixed-base computations"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Base Conversions > Computations > Compare numbers in different bases",
+              "title": "Compare numbers in different bases"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Base Conversions > Computations > Represent bases using programming-language notation",
+              "title": "Represent bases using programming-language notation"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Computations"
+        }
+      ],
+      "covered": 3,
+      "leaves": 8,
+      "title": "Base Conversions"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Historical Numbers > Roman Numerals > Convert Roman numerals to standard number notation",
+              "title": "Convert Roman numerals to standard number notation"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Historical Numbers > Roman Numerals > Convert a decimal number to Roman numerals",
+              "title": "Convert a decimal number to Roman numerals"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Historical Numbers > Roman Numerals > Do computations with Roman numerals",
+              "title": "Do computations with Roman numerals"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Historical Numbers > Roman Numerals > Do mixed-notation computations",
+              "title": "Do mixed-notation computations"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Roman Numerals"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Historical Numbers > Greek Numerals > Convert a decimal number to Greek numerals",
+              "title": "Convert a decimal number to Greek numerals"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Greek Numerals"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Historical Numbers > Mayan Numerals > Convert a decimal number to Mayan numerals",
+              "title": "Convert a decimal number to Mayan numerals"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Mayan Numerals"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Historical Numbers > Babylonian Numerals > Convert a decimal number to Babylonian numerals",
+              "title": "Convert a decimal number to Babylonian numerals"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Historical Numbers > Babylonian Numerals > Convert from one historical numeral system to another",
+              "title": "Convert from one historical numeral system to another"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Babylonian Numerals"
+        }
+      ],
+      "covered": 0,
+      "leaves": 8,
+      "title": "Historical Numbers"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Number Names > Number Names > Find the English name for a number",
+              "title": "Find the English name for a number"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Number Names > Number Names > Specify a number by name",
+              "title": "Specify a number by name"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Number Names > Number Names > Mix words and numerals",
+              "title": "Mix words and numerals"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Number Names > Number Names > Get number names in a given language",
+              "title": "Get number names in a given language"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Number Names"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Number Names > Word Problems > Specify math problems in words",
+              "title": "Specify math problems in words"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Word Problems"
+        }
+      ],
+      "covered": 0,
+      "leaves": 5,
+      "title": "Number Names"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Number Type Arithmetic > Number Type Arithmetic > Determine parity",
+              "title": "Determine parity"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Number Type Arithmetic > Number Type Arithmetic > Determine sign",
+              "title": "Determine sign"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Numbers > Number Type Arithmetic > Number Type Arithmetic > Determine number type",
+              "title": "Determine number type"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Number Type Arithmetic"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Number Type Arithmetic"
+    }
+  ],
+  "percent": 18.97,
+  "reindexed": false,
+  "slug": "numbers",
+  "title": "Numbers"
+}

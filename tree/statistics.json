@@ -1,0 +1,302 @@
+{
+  "covered": 0,
+  "leaves": 30,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Descriptive Statistics > Summary Statistics > Calculate basic descriptive statistics for a dataset",
+              "title": "Calculate basic descriptive statistics for a dataset"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Summary Statistics"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Descriptive Statistics > Measures of Central Tendency > Compute the mean of a dataset",
+              "title": "Compute the mean of a dataset"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Descriptive Statistics > Measures of Central Tendency > Compute the median",
+              "title": "Compute the median"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Descriptive Statistics > Measures of Central Tendency > Compute the geometric mean",
+              "title": "Compute the geometric mean"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Descriptive Statistics > Measures of Central Tendency > Determine the mode or harmonic mean",
+              "title": "Determine the mode or harmonic mean"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Measures of Central Tendency"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Descriptive Statistics > Measures of Dispersion > Compute the variance",
+              "title": "Compute the variance"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Descriptive Statistics > Measures of Dispersion > Compute the standard deviation",
+              "title": "Compute the standard deviation"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Measures of Dispersion"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Descriptive Statistics > Other Descriptive Statistics > Compute the skewness",
+              "title": "Compute the skewness"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Descriptive Statistics > Other Descriptive Statistics > Compute the kurtosis",
+              "title": "Compute the kurtosis"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Descriptive Statistics > Other Descriptive Statistics > Determine the outliers for a dataset",
+              "title": "Determine the outliers for a dataset"
+            }
+          ],
+          "covered": 0,
+          "leaves": 3,
+          "title": "Other Descriptive Statistics"
+        }
+      ],
+      "covered": 0,
+      "leaves": 10,
+      "title": "Descriptive Statistics"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Statistical Inference > Sample Size Determination > Find the sample size needed to estimate a binomial parameter",
+              "title": "Find the sample size needed to estimate a binomial parameter"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Statistical Inference > Sample Size Determination > Find the sample size needed to estimate a population mean",
+              "title": "Find the sample size needed to estimate a population mean"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Sample Size Determination"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Statistical Inference > Confidence Intervals > Compute a confidence interval for a binomial parameter",
+              "title": "Compute a confidence interval for a binomial parameter"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Statistical Inference > Confidence Intervals > Find a confidence interval for the difference between binomial parameters",
+              "title": "Find a confidence interval for the difference between binomial parameters"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Statistical Inference > Confidence Intervals > Compute a confidence interval for a population mean",
+              "title": "Compute a confidence interval for a population mean"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Statistical Inference > Confidence Intervals > Find a confidence interval for the difference between population means",
+              "title": "Find a confidence interval for the difference between population means"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Statistical Inference > Confidence Intervals > Find a confidence interval for the standard deviation of a normal population",
+              "title": "Find a confidence interval for the standard deviation of a normal population"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Statistical Inference > Confidence Intervals > Find a confidence interval for the variance of a normal population",
+              "title": "Find a confidence interval for the variance of a normal population"
+            }
+          ],
+          "covered": 0,
+          "leaves": 6,
+          "title": "Confidence Intervals"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Statistical Inference > Hypothesis Testing > Test for a binomial parameter",
+              "title": "Test for a binomial parameter"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Statistical Inference > Hypothesis Testing > Test for the difference between binomial parameters",
+              "title": "Test for the difference between binomial parameters"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Statistical Inference > Hypothesis Testing > Test for a population mean",
+              "title": "Test for a population mean"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Statistical Inference > Hypothesis Testing > Test for the difference between population means",
+              "title": "Test for the difference between population means"
+            }
+          ],
+          "covered": 0,
+          "leaves": 4,
+          "title": "Hypothesis Testing"
+        }
+      ],
+      "covered": 0,
+      "leaves": 12,
+      "title": "Statistical Inference"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Regression Analysis > Regression > Fit a line to two-dimensional data",
+              "title": "Fit a line to two-dimensional data"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Regression Analysis > Regression > Fit a line to sequential data",
+              "title": "Fit a line to sequential data"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Regression Analysis > Regression > Fit a polynomial to given data",
+              "title": "Fit a polynomial to given data"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Regression Analysis > Regression > Fit an exponential model to given data",
+              "title": "Fit an exponential model to given data"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Regression Analysis > Regression > Fit a logarithmic model to given data",
+              "title": "Fit a logarithmic model to given data"
+            }
+          ],
+          "covered": 0,
+          "leaves": 5,
+          "title": "Regression"
+        }
+      ],
+      "covered": 0,
+      "leaves": 5,
+      "title": "Regression Analysis"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Random Variables > Expected Value > Compute the expected value of a random variable",
+              "title": "Compute the expected value of a random variable"
+            }
+          ],
+          "covered": 0,
+          "leaves": 1,
+          "title": "Expected Value"
+        },
+        {
+          "checked": false,
+          "children": [
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Random Variables > Probability Computations > Compute the probability of an event",
+              "title": "Compute the probability of an event"
+            },
+            {
+              "cases": [],
+              "checked": false,
+              "id": "Statistics > Random Variables > Probability Computations > Compute a conditional probability",
+              "title": "Compute a conditional probability"
+            }
+          ],
+          "covered": 0,
+          "leaves": 2,
+          "title": "Probability Computations"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Random Variables"
+    }
+  ],
+  "percent": 0.0,
+  "reindexed": false,
+  "slug": "statistics",
+  "title": "Statistics"
+}

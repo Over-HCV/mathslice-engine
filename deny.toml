@@ -1,0 +1,119 @@
+# La regla de dependencias de 02-architecture.md §2 no es un acuerdo entre
+# personas: es este archivo corriendo en CI (01-rust-principles.md §11).
+
+[graph]
+targets = [
+  { triple = "wasm32-unknown-unknown" },
+  { triple = "aarch64-apple-darwin" },
+]
+
+[advisories]
+yanked = "deny"
+
+[licenses]
+# Todo lo que se enlaza estáticamente en el .wasm que se envía al navegador.
+# Nada de copyleft: por eso ms-num usa num-bigint y no malachite (LGPL-3.0).
+allow = [
+  "MIT",
+  "Apache-2.0",
+  "Apache-2.0 WITH LLVM-exception",
+  "BSD-2-Clause",
+  "BSD-3-Clause",
+  "ISC",
+  "Unicode-3.0",
+  "Zlib",
+]
+confidence-threshold = 0.93
+
+[bans]
+multiple-versions = "warn"
+# Una dependencia externa sin versión fijada es una vía de entrada silenciosa.
+wildcards = "deny"
+# Los crates ms-* se referencian por `path` y por eso no llevan versión. El
+# workspace no se publica, así que ahí el comodín no significa nada.
+allow-wildcard-paths = true
+
+# Cada entrada dice QUIÉN puede depender de este crate. Un `wrappers` que no
+# incluye a un crate significa que esa arista rompe el build.
+#
+# ms-core y ms-num no aparecen como dependientes de ningún crate del workspace:
+# ese es exactamente el punto — no dependen de nada.
+[[bans.deny]]
+name = "ms-core"
+wrappers = ["ms-assume", "ms-verify", "ms-rules", "ms-parse", "ms-serialize", "ms-wasm", "ms-alg", "ms-diff", "ms-solve"]
+
+[[bans.deny]]
+name = "ms-num"
+wrappers = ["ms-parse", "ms-rules", "ms-verify", "ms-serialize", "ms-wasm", "ms-facts", "ms-alg", "ms-diff", "ms-solve"]
+
+# El contexto de suposiciones lo consumen las reglas, que es quien tiene
+# condiciones laterales que comprobar, y la frontera, que es quien lo construye.
+[[bans.deny]]
+name = "ms-assume"
+wrappers = ["ms-rules", "ms-wasm"]
+
+# ms-verify NO aparece como dependencia de ms-rules, y es deliberado: verificar
+# un resultado con el mismo código que lo produjo no verifica nada. El camino
+# independiente es lo único que hace que la comprobación signifique algo
+# (03-lean-verification.md).
+[[bans.deny]]
+name = "ms-verify"
+wrappers = ["ms-wasm"]
+
+[[bans.deny]]
+name = "ms-rules"
+wrappers = ["ms-wasm"]
+
+# Los hechos de un resultado los consume la frontera, que es quien monta el
+# documento de salida. ms-serialize NO aparece: describe la forma del documento y
+# no sabe quién produce los hechos, igual que no sabe quién verifica.
+[[bans.deny]]
+name = "ms-facts"
+wrappers = ["ms-wasm"]
+
+# El álgebra la consumen las reglas, que son quienes reescriben un polinomio
+# con un paso a la vista. ms-verify NO aparece, por lo mismo que no ve ms-rules:
+# comprobar una factorización con el código que la produjo no comprueba nada.
+[[bans.deny]]
+name = "ms-alg"
+wrappers = ["ms-rules", "ms-solve", "ms-wasm"]
+
+# Derivar es reescribir, así que quien consume ms-diff son las reglas.
+#
+# **ms-verify NO aparece, y es la arista que más importa de este archivo.** El
+# nivel 0 de una derivada se comprueba con números duales, que derivan
+# evaluando y no reescribiendo; si el verificador pudiera llamar a ms-diff,
+# comprobaría la derivada con el mismo código que la calculó y el sello dejaría
+# de significar nada.
+[[bans.deny]]
+name = "ms-diff"
+wrappers = ["ms-rules", "ms-wasm"]
+
+# Resolver una ecuación es reescribirla, así que quien consume ms-solve son las
+# reglas. ms-verify NO aparece: comprobar unas raíces con el código que las
+# encontró no comprueba nada, y la sustitución del nivel 1 es su propio camino.
+[[bans.deny]]
+name = "ms-solve"
+wrappers = ["ms-rules", "ms-wasm"]
+
+# ms-alg aparece aquí sólo como dev-dependency, igual que ms-parse bajo
+# ms-serialize: el puente Expr↔Poly se comprueba entrando por LaTeX, que es por
+# donde entra el usuario. Ningún build de producción usa esta arista.
+[[bans.deny]]
+name = "ms-parse"
+wrappers = ["ms-wasm", "ms-alg", "ms-diff", "ms-rules", "ms-solve"]
+
+[[bans.deny]]
+name = "ms-serialize"
+# ms-parse aparece aquí sólo como dev-dependency: la propiedad más importante del
+# proyecto es parse(latex(e)) == e (05-testing.md §3), y comprobarla exige tener
+# los dos lados a la vez. Ningún build de producción usa esta arista.
+wrappers = ["ms-wasm", "ms-parse", "ms-alg", "ms-diff", "ms-rules", "ms-solve"]
+
+[[bans.deny]]
+name = "ms-rules-macro"
+wrappers = ["ms-rules"]
+
+[sources]
+unknown-registry = "deny"
+unknown-git = "deny"

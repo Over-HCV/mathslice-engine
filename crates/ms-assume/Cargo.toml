@@ -1,0 +1,19 @@
+[package]
+name = "ms-assume"
+description = "Contexto de suposiciones. Ninguna regla se dispara sin él: es lo que hace que las condiciones laterales sean explícitas."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+# ms-num no aparece a propósito: aquí no se calcula nada, sólo se pregunta si un
+# nodo es literalmente cero. Para eso basta el trait de num-traits, y así la
+# arista ms-num -> ms-assume no llega a existir (02-architecture.md §2).
+[dependencies]
+ms-core.workspace = true
+num-traits.workspace = true
+rustc-hash.workspace = true
+
+[lints]
+workspace = true

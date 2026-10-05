@@ -1,0 +1,22 @@
+[package]
+name = "ms-parse"
+description = "LaTeX -> Expr. Solo LaTeX: el unicode matemático lo dibuja la interfaz, no entra aquí."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[dependencies]
+ms-core.workspace = true
+ms-num.workspace = true
+num-bigint.workspace = true
+# Sólo por `Pow`: la potencia de diez de un decimal (`0.75` → `\frac{75}{100}`).
+num-traits.workspace = true
+
+[dev-dependencies]
+ms-serialize.workspace = true
+proptest.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,19 @@
+[package]
+name = "ms-cli"
+description = "Herramienta de desarrollo: extrae las capacidades de docs/ y calcula la cobertura del corpus."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+# No depende de ningún crate del motor, y es a propósito: cuenta lo que hay
+# escrito en `docs/` y en `corpus/`, no lo que el motor sabe hacer. Una métrica
+# que se calculara preguntándole al motor mediría el motor contra sí mismo.
+#
+# Tampoco entra en el .wasm: es un binario de escritorio y nadie lo enlaza.
+[dependencies]
+serde_json.workspace = true
+
+[lints]
+workspace = true

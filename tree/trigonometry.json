@@ -1,0 +1,154 @@
+{
+  "covered": 0,
+  "leaves": 16,
+  "nodes": [
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Calculations > Compute values of trigonometric functions",
+          "title": "Compute values of trigonometric functions"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Calculations > Compute values of inverse trigonometric functions",
+          "title": "Compute values of inverse trigonometric functions"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "Trigonometric Calculations"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Functions > Compute properties of a trigonometric function",
+          "title": "Compute properties of a trigonometric function"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Functions > Compute properties of an inverse trigonometric function",
+          "title": "Compute properties of an inverse trigonometric function"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Functions > Plot a trigonometric function",
+          "title": "Plot a trigonometric function"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Functions > Analyze a trigonometric function of a complex variable",
+          "title": "Analyze a trigonometric function of a complex variable"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Functions > Analyze a trigonometric polynomial",
+          "title": "Analyze a trigonometric polynomial"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Functions > Generate a table of special values of a function",
+          "title": "Generate a table of special values of a function"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Functions > Compute the root mean square of a periodic function",
+          "title": "Compute the root mean square of a periodic function"
+        }
+      ],
+      "covered": 0,
+      "leaves": 7,
+      "title": "Trigonometric Functions"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Identities > Find multiple-angle formulas",
+          "title": "Find multiple-angle formulas"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Identities > Find addition formulas",
+          "title": "Find addition formulas"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Identities > Find other trig identities",
+          "title": "Find other trig identities"
+        }
+      ],
+      "covered": 0,
+      "leaves": 3,
+      "title": "Trigonometric Identities"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Equations > Solve a trigonometric equation",
+          "title": "Solve a trigonometric equation"
+        }
+      ],
+      "covered": 0,
+      "leaves": 1,
+      "title": "Trigonometric Equations"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Theorems > Apply a trigonometric theorem",
+          "title": "Apply a trigonometric theorem"
+        },
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Trigonometric Theorems > Apply the Pythagorean theorem",
+          "title": "Apply the Pythagorean theorem"
+        }
+      ],
+      "covered": 0,
+      "leaves": 2,
+      "title": "Trigonometric Theorems"
+    },
+    {
+      "checked": false,
+      "children": [
+        {
+          "cases": [],
+          "checked": false,
+          "id": "Trigonometry > Spherical Trigonometry > Apply a theorem of spherical trigonometry",
+          "title": "Apply a theorem of spherical trigonometry"
+        }
+      ],
+      "covered": 0,
+      "leaves": 1,
+      "title": "Spherical Trigonometry"
+    }
+  ],
+  "percent": 0.0,
+  "reindexed": false,
+  "slug": "trigonometry",
+  "title": "Trigonometry"
+}

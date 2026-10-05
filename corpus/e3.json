@@ -1,0 +1,168 @@
+{
+  "stage": "E3",
+  "note": "Cálculo diferencial. La derivada se pide con \\frac{d}{dx} o con \\operatorname{derivar}(f, x), que son la misma expresión. Se derivan sumas, productos y potencias de exponente entero, y sus composiciones por la regla de la cadena; lo que queda fuera lo dice un error en vez de devolver la pregunta. El sello es nivel 0 por derivación automática: la derivada se comprueba evaluando en números duales, que no reescriben nada.",
+  "cases": [
+    {
+      "name": "criterio-de-salida",
+      "latex": "\\frac{d}{dx}\\left(\\left(x^{2}+1\\right)^{3}\\right)",
+      "result_latex": "6x\\left(x^{2} + 1\\right)^{2}",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "derivative-chain",
+        "derivative-sum",
+        "derivative-constant",
+        "derivative-power"
+      ],
+      "error": null,
+      "verification": "verified",
+      "capability": "Calculus & Analysis > Derivatives > Derivatives > Calculate the derivative of a function"
+    },
+    {
+      "name": "la-potencia-de-la-variable",
+      "latex": "\\frac{d}{dx}\\left(x^{5}\\right)",
+      "result_latex": "5x^{4}",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "derivative-power"
+      ],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "la-derivada-de-la-variable-es-uno",
+      "latex": "\\frac{d}{dx}\\left(x\\right)",
+      "result_latex": "1",
+      "kind": "number",
+      "approx": 1.0,
+      "steps": [
+        "derivative-variable"
+      ],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "la-derivada-de-una-constante-es-cero",
+      "latex": "\\frac{d}{dx}\\left(7\\right)",
+      "result_latex": "0",
+      "kind": "number",
+      "approx": 0.0,
+      "steps": [
+        "derivative-constant"
+      ],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "otra-letra-es-una-constante",
+      "latex": "\\frac{d}{dx}\\left(y\\right)",
+      "result_latex": "0",
+      "kind": "number",
+      "approx": 0.0,
+      "steps": [
+        "derivative-constant"
+      ],
+      "error": null,
+      "verification": "unverified"
+    },
+    {
+      "name": "la-constante-sale-fuera",
+      "latex": "\\frac{d}{dx}\\left(3x^{2}\\right)",
+      "result_latex": "6x",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "derivative-constant-multiple",
+        "derivative-power"
+      ],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "un-polinomio-termino-a-termino",
+      "latex": "\\frac{d}{dx}\\left(x^{3}+2x^{2}-5x+7\\right)",
+      "result_latex": "3x^{2} + 4x - 5",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "derivative-sum",
+        "derivative-constant",
+        "derivative-constant-multiple",
+        "derivative-variable",
+        "derivative-constant-multiple",
+        "derivative-power",
+        "derivative-power"
+      ],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "la-regla-del-producto",
+      "latex": "\\frac{d}{dx}\\left(x\\left(x+1\\right)\\right)",
+      "result_latex": "2x + 1",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "derivative-product",
+        "derivative-sum",
+        "derivative-constant",
+        "derivative-variable",
+        "derivative-variable",
+        "like-terms"
+      ],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "la-segunda-derivada-es-la-derivada-de-la-derivada",
+      "latex": "\\frac{d}{dx}\\left(\\frac{d}{dx}\\left(x^{3}\\right)\\right)",
+      "result_latex": "6x",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "derivative-power",
+        "derivative-constant-multiple",
+        "derivative-power"
+      ],
+      "error": null,
+      "verification": "unverified",
+      "capability": "Calculus & Analysis > Derivatives > Higher-Order Derivatives > Compute higher-order derivatives",
+      "note": "Sin verificar a propósito: los números duales de primer orden llevan una sola derivada, así que la de dentro no tiene con qué comprobarse. Verificar una derivada segunda exige jets de orden 2."
+    },
+    {
+      "name": "el-exponente-negativo-se-deriva-igual",
+      "latex": "\\frac{d}{dx}\\left(x^{-2}\\right)",
+      "result_latex": "-2x^{-3}",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "derivative-power"
+      ],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "la-llamada-con-nombre-es-la-misma-derivada",
+      "latex": "\\operatorname{derivar}(x^{2}, x)",
+      "result_latex": "2x",
+      "kind": "expression",
+      "approx": null,
+      "steps": [
+        "derivative-power"
+      ],
+      "error": null,
+      "verification": "verified"
+    },
+    {
+      "name": "lo-que-no-se-sabe-derivar-se-dice",
+      "latex": "\\frac{d}{dx}\\left(x^{\\frac{1}{2}}\\right)",
+      "result_latex": null,
+      "kind": null,
+      "approx": null,
+      "steps": [],
+      "error": "unsupported-derivative",
+      "verification": "unverified"
+    }
+  ]
+}

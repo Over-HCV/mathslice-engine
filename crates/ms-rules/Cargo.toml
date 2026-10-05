@@ -1,0 +1,43 @@
+[package]
+name = "ms-rules"
+description = "Reglas de reescritura con traza. Toda regla pasa por `rules!`; ninguna se escribe a mano."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[dependencies]
+ms-assume.workspace = true
+ms-alg.workspace = true
+ms-core.workspace = true
+ms-diff.workspace = true
+ms-num.workspace = true
+ms-rules-macro.workspace = true
+ms-solve.workspace = true
+num-bigint.workspace = true
+num-integer.workspace = true
+num-rational.workspace = true
+num-traits.workspace = true
+rustc-hash.workspace = true
+
+# ms-parse y ms-serialize entran **sólo aquí**, igual que bajo ms-alg y
+# ms-solve: una regla que produce pasos se comprueba entrando por LaTeX y
+# saliendo por LaTeX, que es por donde pasa el usuario. Comprobarla contra
+# árboles escritos a mano probaría la regla contra una expresión que nadie
+# construye así, y el orden de lectura —que es la mitad de lo que E3 entrega— no
+# se vería. Ningún build de producción usa estas aristas.
+[dev-dependencies]
+criterion.workspace = true
+ms-parse.workspace = true
+ms-serialize.workspace = true
+proptest.workspace = true
+
+# El matcher es lo que se degrada en silencio conforme crece el rule set. Se mide
+# desde E0, no al final (01-rust-principles.md §10).
+[[bench]]
+name = "matcher"
+harness = false
+
+[lints]
+workspace = true
